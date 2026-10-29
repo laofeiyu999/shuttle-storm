@@ -1,0 +1,39 @@
+
+{
+    "shapeData" : [
+        {
+            "startHeight" : 1000,
+            "startVelocity" : 434,
+            "gravity"       : 6.18,
+            "shapeId"       : 5000,
+            "name"          : "\u91CD\u529B\u9668\u77F3",
+            "tipsPointFromLast" : 0,
+            "isShowTrail"       : false,
+            "trailPrefabPath"   : "Badminton/Trails/TW_trail_2100006",
+            "isHitEffect"       : false,
+            "hitEffectPrefabPath" : "Effects/Skill/2100006/Efx_skill_2100006_3",
+            "trailGlowPrefabPath" : "",
+            "dropAnimationPath"   : "Animations/Others/badminton_1001/badminton_1001_land_high01_anim.anim",
+            "dropAnimationAngle"  : 0,
+            "dropAnimationSpeed"  : 1.0,
+            "dropId"              : 1002,
+            "aiHitData"           : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        }
+    ]
+}

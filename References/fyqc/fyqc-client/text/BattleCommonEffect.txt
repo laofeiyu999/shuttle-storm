@@ -1,0 +1,169 @@
+
+[
+    {
+        "effectType" : 35,
+        "resPath"    : "Sound/Music/bgm_settle_mvp",
+        "transitionTime" : 0.5,
+        "triggerKey"     : 2012,
+        "stopTriggerKey" : -1
+    },
+  {
+
+    "effectType": 35,
+    "resPath": "Sound/Music/bgm_settle_victory_loop",
+    "transitionTime": 0.5,
+    "triggerKey": 2014,
+    "stopTriggerKey": -1
+  },
+    {
+        "effectType" : 35,
+        "resPath"    : "Sound/Music/bgm_settle_fail_loop",
+        "transitionTime" : 0.5,
+        "triggerKey"     : 2015,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 43,
+        "singleBnks" : [
+            "action_role_1p",
+            "action_role_3p",
+            "ball_flight_path",
+            "ball_related_1p",
+            "ball_related_3p",
+            "battle_role_action",
+            "battle_ui",
+            "footstep_role_1p",
+            "footstep_role_3p",
+            "skill_role_1p",
+            "skill_role_3p",
+            "strike_1p",
+            "strike_3p",
+            "voice_1p",
+            "voice_3p"
+        ],
+        "doubleBnks" : [
+            "action_role_1p",
+            "action_role_2p",
+            "action_role_3p",
+            "ball_flight_path",
+            "ball_related_1p",
+            "ball_related_2p",
+            "ball_related_3p",
+            "battle_role_action",
+            "battle_ui",
+            "footstep_role_1p",
+            "footstep_role_2p",
+            "footstep_role_3p",
+            "skill_role_1p",
+            "skill_role_2p",
+            "skill_role_3p",
+            "strike_1p",
+            "strike_2p",
+            "strike_3p",
+            "voice_1p",
+            "voice_2p",
+            "voice_3p"
+        ],
+        "triggerKey" : 3000,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_ui_battle_tips_gamestart",
+        "unitEvent"  : false,
+        "triggerKey" : 2001,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_1p_battle_tips_smash",
+        "unitEvent"  : false,
+        "triggerKey" : 2031,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_ui_battle_tips_roundend",
+        "unitEvent"  : false,
+        "triggerKey" : 2011,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_ui_battle_tips_victory",
+        "unitEvent"  : false,
+        "triggerKey" : 2002,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_ui_battle_tips_fail",
+        "unitEvent"  : false,
+        "triggerKey" : 2003,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_ui_battle_tips_secondrun",
+        "unitEvent"  : false,
+        "triggerKey" : 2008,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_ui_battle_tips_finalrun",
+        "unitEvent"  : false,
+        "triggerKey" : 2009,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_ui_settle_victory",
+        "unitEvent"  : false,
+        "triggerKey" : 2014,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 41,
+        "eventName"  : "play_ui_settle_fail",
+        "unitEvent"  : false,
+        "triggerKey" : 2015,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 42,
+        "groupName"  : "interface_status",
+        "stateName"  : "summary",
+        "triggerKey" : 2012,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 42,
+        "groupName"  : "interface_status",
+        "stateName"  : "in_battle",
+        "triggerKey" : 2000,
+        "stopTriggerKey" : 2005
+    },
+    {
+        "effectType" : 42,
+        "groupName"  : "battle_status",
+        "stateName"  : "best_player",
+        "triggerKey" : 2012,
+        "stopTriggerKey" : -1
+    },
+    {
+        "effectType" : 42,
+        "groupName"  : "battle_status",
+        "stateName"  : "fail",
+        "triggerKey" : 2015,
+        "stopTriggerKey" : -1
+    },
+  {
+    "effectType": 42,
+    "groupName": "battle_status",
+    "stateName": "victory",
+    "triggerKey": 2014,
+    "stopTriggerKey": -1
+  }
+
+]

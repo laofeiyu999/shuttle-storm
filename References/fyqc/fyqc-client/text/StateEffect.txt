@@ -1,0 +1,5024 @@
+
+[
+    {
+        "id" : 1003,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100003/Efx_skill_2100003_03",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 0.5,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 1,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 1001,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 36,
+                "hitEffctPath" : null,
+                "DownEffctPath" : "",
+                "downAudioSwitch" : "ball_falldown_skill_2100003",
+                "order"           : 0,
+                "triggerKey"      : 1001,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 1006,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1007,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1010,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1012,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1011",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1013,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100006/Efx_skill_2100006_4",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 1,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 1001,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100006/Efx_skill_2100006_5",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_210006_2_fly",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 36,
+                "hitEffctPath" : null,
+                "DownEffctPath" : "",
+                "downAudioSwitch" : "ball_falldown_skill_2100006",
+                "order"           : 0,
+                "triggerKey"      : 1001,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 1014,
+        "effects" : [
+            {
+                "effectType" : 32,
+                "gemEffectResPath" : "Effects/Skill/2200025/Efx_skill_2200025.prefab",
+                "rotateSpeed"      : 0,
+                "order"            : 0,
+                "triggerKey"       : 100,
+                "stopTriggerKey"   : -1
+            }
+        ]
+    },
+    {
+        "id" : 1015,
+        "effects" : [
+            {
+                "effectType" : 32,
+                "gemEffectResPath" : "Effects/Skill/2200026/Efx_skill_2200026.prefab",
+                "rotateSpeed"      : 0,
+                "order"            : 0,
+                "triggerKey"       : 100,
+                "stopTriggerKey"   : -1
+            }
+        ]
+    },
+    {
+        "id" : 1016,
+        "effects" : [
+            {
+                "effectType" : 32,
+                "gemEffectResPath" : "Effects/Skill/2200027/Efx_skill_2200027.prefab",
+                "rotateSpeed"      : 0,
+                "order"            : 0,
+                "triggerKey"       : 100,
+                "stopTriggerKey"   : -1
+            }
+        ]
+    },
+    {
+        "id" : 1017,
+        "effects" : [
+            {
+                "effectType" : 32,
+                "gemEffectResPath" : "Effects/Skill/2200028/Efx_skill_2200028.prefab",
+                "rotateSpeed"      : 0,
+                "order"            : 0,
+                "triggerKey"       : 100,
+                "stopTriggerKey"   : -1
+            }
+        ]
+    },
+    {
+        "id" : 1021,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Test/Efx_test_lianxisheng",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_debuff",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1023,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1004",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1024,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1004",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1025,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1004",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1026,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100007_start",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : 101
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100007_end",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 101,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100007/Efx_skill_2100007_R_weapon",
+                "delayTime"  : 0.2,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u53F3\u624B",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : 101
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100007",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 1000,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1027,
+        "effects" : [
+            {
+                "effectType" : 36,
+                "hitEffctPath" : "Effects/Skill/2100007/Efx_skill_2100007_hit",
+                "DownEffctPath" : null,
+                "downAudioSwitch" : null,
+                "order"           : 0,
+                "triggerKey"      : 100,
+                "stopTriggerKey"  : 101
+            }
+        ]
+    },
+    {
+        "id" : 1034,
+        "effects" : [
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 3,
+                "resPath"    : "Materials/fresnel_01",
+                "phantomLife" : 0.15,
+                "interval"    : 0.05,
+                "effectLife"  : 0.3,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2300002/Efx_skill_2300002",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2300002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1040,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200005/Efx_skill_2200005_Normal",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2200005",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1043,
+        "effects" : [
+            {
+                "effectType" : 31,
+                "inTime"     : 0.125,
+                "keepTime"   : -1.0,
+                "outTime"    : 0.125,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1045,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200006/Efx_skill_2200006",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u8EAB\u4F53",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1047,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1048,
+        "effects" : [
+            {
+                "effectType" : 20,
+                "duringTime" : 0.7,
+                "rotateVspeed" : 30.0,
+                "rotateHspeed" : 10.0,
+                "order"        : 0,
+                "triggerKey"   : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 27,
+                "resPath"    : "Badminton/Trails/TW_trail_2100005",
+                "forceRemove" : true,
+                "effectOrder" : {
+                },
+                "order"       : 1,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1051,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1011",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200020",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1053,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1010",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1054,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1010_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1055,
+        "effects" : [
+            {
+                "effectType" : 36,
+                "hitEffctPath" : null,
+                "DownEffctPath" : "",
+                "downAudioSwitch" : "ball_falldown_skill_2100028",
+                "order"           : 0,
+                "triggerKey"      : 1001,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 1058,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1003",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200018_start",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : 101
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200018_end",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 101,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1061,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200022/Efx_skill_2200022",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "\u8EAB\u4F53",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_curse",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1063,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1005",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1066,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200011/Efx_skill_2200011_Normal",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1068,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100018/Efx_skill_2100018_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "\u8EAB\u4F53",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_debuff",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1071,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100017/Efx_skill_2100017_0",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1073,
+        "effects" : [
+            {
+                "effectType" : 3,
+                "resPath"    : "Materials/fresnel_01",
+                "phantomLife" : 0.3,
+                "interval"    : 0.15,
+                "effectLife"  : 0.5,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Test/Efx_test_hit_zhanshufanshen",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 0.5,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1075,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100012/Efx_skill_2100012_2",
+                "delayTime"  : 0.16,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : true,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 36,
+                "hitEffctPath" : null,
+                "DownEffctPath" : "",
+                "downAudioSwitch" : "ball_falldown_skill_2100012",
+                "order"           : 0,
+                "triggerKey"      : 1001,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 1077,
+        "effects" : [
+            {
+                "effectType" : 4,
+                "active"     : false,
+                "showDropProjecter" : true,
+                "order"             : 0,
+                "triggerKey"        : 100,
+                "stopTriggerKey"    : -1
+            },
+            {
+                "effectType" : 27,
+                "resPath"    : "Badminton/Trails/TW_trail_2200023",
+                "forceRemove" : true,
+                "effectOrder" : {
+                },
+                "order"       : 99,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1079,
+        "effects" : [
+            {
+                "effectType" : 27,
+                "resPath"    : "Badminton/Trails/TW_trail_2300007",
+                "forceRemove" : true,
+                "effectOrder" : {
+                },
+                "order"       : 10,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1080,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100022/Efx_skill_2100022_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_burn",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1083,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100021/Efx_skill_2100021",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 24,
+                "resPath"    : "Materials/Skill_2100021_Hologram_1",
+                "teamVisible" : true,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1084,
+        "effects" : [
+            {
+                "effectType" : 25,
+                "enemyVisible" : true,
+                "order"        : 0,
+                "triggerKey"   : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100021/Efx_skill_2100021",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100021/Efx_skill_2100021",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : 101
+            },
+            {
+                "effectType" : 26,
+                "alpha"      : 0.6,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : 101
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100021_2",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 101,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_1p_battle_skill_2100021_1",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1085,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100022/Efx_skill_2100022_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u7403\u62CD",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 23,
+                "flag"       : 4096,
+                "matPath"    : "Effects/Skill/2100022/Fire",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1086,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100022/Efx_skill_2100022_ball",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1087,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100022/Efx_skill_2100022_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_burn",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1089,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Test/Efx_test_pibeidiaoqiu",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1090,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6013/Efx_property_6013_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u7403\u62CD",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1091,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6013/Efx_property_6013_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1093,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1094,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1095,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2400001/Efx_skill_2400001_02",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u7403\u62CD",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 23,
+                "flag"       : 4096,
+                "matPath"    : "Effects/Skill/2100022/Fire",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1096,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2400001/Efx_skill_2400001_ball",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : 101
+            }
+        ]
+    },
+    {
+        "id" : 1097,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2400001/Efx_skill_2400001_03",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_burn",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1098,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100022/Efx_skill_2100022_ball",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1099,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100022/Efx_skill_2100022_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_burn",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1101,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Test/Efx_test_lianxisheng",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1102,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100020/Efx_skill_2100020",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1106,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1006",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_passout_1p",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1107,
+        "effects" : [
+            {
+                "effectType" : 0,
+                "resPath"    : "Animations/Skill/Boy/B_Skill_2007_1_anim",
+                "boyResPath" : "Animations/Skill/Boy/B_Skill_2007_1_anim",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1126,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100016/Efx_skill_2100016_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u7403\u62CD",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 23,
+                "flag"       : 4096,
+                "matPath"    : "Effects/Skill/2100016/Ice",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1127,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100016/Efx_skill_2100016_ball",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1128,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100016/Efx_skill_2100016_ball",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1129,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100016/Efx_skill_2100016_ball",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1130,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100016/Efx_skill_2100016_3_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 29,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : 101
+            },
+            {
+                "effectType" : 24,
+                "resPath"    : "Effects/Skill/2100016/Ice",
+                "teamVisible" : false,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100016_freeze",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1131,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100016/Efx_skill_2100016_3_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100016_slowdown_2",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1132,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100016/Efx_skill_2100016_3_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100016_slowdown_1",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1138,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1012_2",
+                "delayTime"  : 0.2,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1012_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1012_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200007_1",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200007_2",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 101,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1142,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_test",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 0,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1144,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_1p_battle_skill_2200010",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 48,
+                "resPath"    : "Effects/UI/UI_tx0003",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1151,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200031/Efx_buff_test_2200031_0",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1152,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200031/Efx_buff_test_2200031_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1153,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200031/Efx_buff_test_2200031_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1154,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200031/Efx_buff_test_2200031_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1155,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200031/Efx_buff_test_2200031_4",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1156,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200031/Efx_buff_test_2200031_5",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : true,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1157,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1158,
+        "effects" : [
+            {
+                "effectType" : 31,
+                "inTime"     : 0.125,
+                "keepTime"   : -1.0,
+                "outTime"    : 0.125,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100009/Efx_buff_test_2100009_1",
+                "delayTime"  : 0.125,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1159,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1004",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1160,
+        "effects" : [
+            {
+                "effectType" : 23,
+                "flag"       : 4096,
+                "matPath"    : "Effects/Skill/2100010/test_fresnel_04",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1161,
+        "effects" : [
+            {
+                "effectType" : 3,
+                "resPath"    : "Effects/Skill/2100010/test_fresnel_04",
+                "phantomLife" : 0.3,
+                "interval"    : 0.15,
+                "effectLife"  : 0.5,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1164,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6013/Efx_property_6013_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u7403\u62CD",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1165,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6013/Efx_property_6013_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1166,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1004",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 1817,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1820,
+        "effects" : [
+            {
+                "effectType" : 49,
+                "delayTime"  : 0.5,
+                "durtionTime" : 1.0,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 2001,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1009",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_forbid",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 2002,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1006",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_passout_other",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 2003,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100022/Efx_skill_2100022_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_burn",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 2992,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2400002/Efx_buff_CJTest",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3103,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3104,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100017/Efx_skill_2100017_0",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3900,
+        "effects" : [
+            {
+                "effectType" : 3,
+                "resPath"    : "Materials/fresnel_03",
+                "phantomLife" : 0.15,
+                "interval"    : 0.07,
+                "effectLife"  : 0.22,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100002/Efx_skill_2100002_01",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : true,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 44,
+                "lifeTime"   : 1.0,
+                "effectAffectType" : 2,
+                "useStandRim"      : true,
+                "gradient"         : {
+                    "colorKeys" : [
+                        {
+                            "color" : {
+                                "grayscale" : 0.7679216,
+                                "maxColorComponent" : 1.0,
+                                "r"                 : 0.2392157,
+                                "g"                 : 0.9921569,
+                                "b"                 : 1.0,
+                                "a"                 : 1.0
+                            },
+                            "time"  : 0.0
+                        },
+                        {
+                            "color" : {
+                                "grayscale" : 0.5524746,
+                                "maxColorComponent" : 0.8196079,
+                                "r"                 : 0.172549,
+                                "g"                 : 0.6941177,
+                                "b"                 : 0.8196079,
+                                "a"                 : 1.0
+                            },
+                            "time"  : 0.08000305
+                        },
+                        {
+                            "color" : {
+                                "grayscale" : 0.3514588,
+                                "maxColorComponent" : 0.6431373,
+                                "r"                 : 0.1372549,
+                                "g"                 : 0.4039216,
+                                "b"                 : 0.6431373,
+                                "a"                 : 1.0
+                            },
+                            "time"  : 0.2
+                        },
+                        {
+                            "color" : {
+                                "grayscale" : 0.09066667,
+                                "maxColorComponent" : 0.3686275,
+                                "r"                 : 0.05490196,
+                                "g"                 : 0.05490196,
+                                "b"                 : 0.3686275,
+                                "a"                 : 1.0
+                            },
+                            "time"  : 0.6500038
+                        }
+                    ],
+                    "alphaKeys" : [
+                        {
+                            "alpha" : 1.0,
+                            "time"  : 0.0
+                        },
+                        {
+                            "alpha" : 1.0,
+                            "time"  : 1.0
+                        }
+                    ],
+                    "mode"      : 0
+                },
+                "rimPower"         : 0.5,
+                "hdr"              : 4.0,
+                "curve"            : {
+                    "keys" : [
+                        {
+                            "time" : -7.18981E-07,
+                            "value" : 0.4915009,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 0.1252042,
+                            "value" : 0.9972562,
+                            "inTangent" : 0.07361362,
+                            "outTangent" : 0.07361362,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.08210083,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 0.9999824,
+                            "value" : 0.001744062,
+                            "inTangent" : -1.752721,
+                            "outTangent" : -1.752721,
+                            "inWeight"   : 0.05707178,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        }
+                    ],
+                    "length" : 3,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "order"            : 0,
+                "triggerKey"       : 100,
+                "stopTriggerKey"   : -1
+            }
+        ]
+    },
+    {
+        "id" : 3901,
+        "effects" : [
+            {
+                "effectType" : 3,
+                "resPath"    : "Materials/fresnel_05",
+                "phantomLife" : 0.15,
+                "interval"    : 0.07,
+                "effectLife"  : 0.22,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100002/Efx_skill_2100002_01_max",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : true,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 44,
+                "lifeTime"   : 1.0,
+                "effectAffectType" : 2,
+                "useStandRim"      : true,
+                "gradient"         : {
+                    "colorKeys" : [
+                        {
+                            "color" : {
+                                "grayscale" : 0.8234941,
+                                "maxColorComponent" : 1.0,
+                                "r"                 : 1.0,
+                                "g"                 : 0.8470588,
+                                "b"                 : 0.2392157,
+                                "a"                 : 1.0
+                            },
+                            "time"  : 0.0
+                        },
+                        {
+                            "color" : {
+                                "grayscale" : 0.6606706,
+                                "maxColorComponent" : 0.8196079,
+                                "r"                 : 0.8196079,
+                                "g"                 : 0.6745098,
+                                "b"                 : 0.172549,
+                                "a"                 : 1.0
+                            },
+                            "time"  : 0.08000305
+                        },
+                        {
+                            "color" : {
+                                "grayscale" : 0.4726706,
+                                "maxColorComponent" : 0.6431373,
+                                "r"                 : 0.6431373,
+                                "g"                 : 0.4509804,
+                                "b"                 : 0.1372549,
+                                "a"                 : 1.0
+                            },
+                            "time"  : 0.2
+                        },
+                        {
+                            "color" : {
+                                "grayscale" : 0.2177647,
+                                "maxColorComponent" : 0.3686275,
+                                "r"                 : 0.3686275,
+                                "g"                 : 0.172549,
+                                "b"                 : 0.05490196,
+                                "a"                 : 1.0
+                            },
+                            "time"  : 0.6500038
+                        }
+                    ],
+                    "alphaKeys" : [
+                        {
+                            "alpha" : 1.0,
+                            "time"  : 0.0
+                        },
+                        {
+                            "alpha" : 1.0,
+                            "time"  : 1.0
+                        }
+                    ],
+                    "mode"      : 0
+                },
+                "rimPower"         : 0.5,
+                "hdr"              : 4.0,
+                "curve"            : {
+                    "keys" : [
+                        {
+                            "time" : -7.18981E-07,
+                            "value" : 0.4915009,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 0.1252042,
+                            "value" : 0.9972562,
+                            "inTangent" : 0.07361362,
+                            "outTangent" : 0.07361362,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.08210083,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 0.9999824,
+                            "value" : 0.001744062,
+                            "inTangent" : -1.752721,
+                            "outTangent" : -1.752721,
+                            "inWeight"   : 0.05707178,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        }
+                    ],
+                    "length" : 3,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "order"            : 0,
+                "triggerKey"       : 100,
+                "stopTriggerKey"   : -1
+            }
+        ]
+    },
+    {
+        "id" : 3902,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100004/Efx_skill_2100004",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 10.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 30,
+                "doneKey"    : 101,
+                "blackInTime" : 3.0,
+                "blackOutTime" : 0.0,
+                "maskScale"    : 0.6,
+                "maskScaleCurve" : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        },
+                        {
+                            "time" : 1.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        }
+                    ],
+                    "length" : 2,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "strength"       : 5.0,
+                "strengthCurve"  : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : -1.938824,
+                            "outTangent" : -1.938824,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.3333333,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        },
+                        {
+                            "time" : 0.163324,
+                            "value" : 0.6833435,
+                            "inTangent" : -1.938824,
+                            "outTangent" : -0.2191332,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.3333333,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 69
+                        },
+                        {
+                            "time" : 1.0,
+                            "value" : 0.5,
+                            "inTangent" : -0.2191332,
+                            "outTangent" : -0.2191332,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        }
+                    ],
+                    "length" : 3,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "sampleDist"     : 0.3,
+                "sampleDistCurve" : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.001312,
+                            "inTangent" : -0.05297816,
+                            "outTangent" : -0.05297816,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.05776881,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 0.3617428,
+                            "value" : 0.3657872,
+                            "inTangent" : -1.517791,
+                            "outTangent" : -1.517791,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.3333333,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 1.000907,
+                            "value" : -0.00404634,
+                            "inTangent" : 0.09624828,
+                            "outTangent" : 0.09624828,
+                            "inWeight"   : 0.1174288,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        }
+                    ],
+                    "length" : 3,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "order"           : 0,
+                "triggerKey"      : 0,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 3903,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100004/Efx_skill_2100004_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 10.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 30,
+                "doneKey"    : 101,
+                "blackInTime" : 3.0,
+                "blackOutTime" : 0.0,
+                "maskScale"    : 0.6,
+                "maskScaleCurve" : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        },
+                        {
+                            "time" : 1.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        }
+                    ],
+                    "length" : 2,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "strength"       : 5.0,
+                "strengthCurve"  : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : -1.938824,
+                            "outTangent" : -1.938824,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.3333333,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        },
+                        {
+                            "time" : 0.163324,
+                            "value" : 0.6833435,
+                            "inTangent" : -1.938824,
+                            "outTangent" : -0.2191332,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.3333333,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 69
+                        },
+                        {
+                            "time" : 1.0,
+                            "value" : 0.5,
+                            "inTangent" : -0.2191332,
+                            "outTangent" : -0.2191332,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        }
+                    ],
+                    "length" : 3,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "sampleDist"     : 0.3,
+                "sampleDistCurve" : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.001312,
+                            "inTangent" : -0.05297816,
+                            "outTangent" : -0.05297816,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.05776881,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 0.3617428,
+                            "value" : 0.3657872,
+                            "inTangent" : -1.517791,
+                            "outTangent" : -1.517791,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.3333333,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 1.000907,
+                            "value" : -0.00404634,
+                            "inTangent" : 0.09624828,
+                            "outTangent" : 0.09624828,
+                            "inWeight"   : 0.1174288,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        }
+                    ],
+                    "length" : 3,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "order"           : 0,
+                "triggerKey"      : 100,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 3904,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100012/Efx_skill_2100012_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100012/Efx_skill_2100012_3",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 1,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 30,
+                "doneKey"    : 3,
+                "blackInTime" : 0.5,
+                "blackOutTime" : 0.0,
+                "maskScale"    : 0.6,
+                "maskScaleCurve" : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        },
+                        {
+                            "time" : 1.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        }
+                    ],
+                    "length" : 2,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "strength"       : 3.0,
+                "strengthCurve"  : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        },
+                        {
+                            "time" : 1.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        }
+                    ],
+                    "length" : 2,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "sampleDist"     : 0.25,
+                "sampleDistCurve" : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : -0.3564814,
+                            "outTangent" : -0.3564814,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.09090859,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 0.3062505,
+                            "value" : 0.4807685,
+                            "inTangent" : -1.447551,
+                            "outTangent" : -1.447551,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.07535601,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 1.000005,
+                            "value" : 0.004628062,
+                            "inTangent" : -0.1915138,
+                            "outTangent" : -0.1915138,
+                            "inWeight"   : 0.1450506,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        }
+                    ],
+                    "length" : 3,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "order"           : 0,
+                "triggerKey"      : 100,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 3905,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100012/Efx_skill_2100012_1_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100012/Efx_skill_2100012_3_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 1,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 30,
+                "doneKey"    : 3,
+                "blackInTime" : 0.5,
+                "blackOutTime" : 0.0,
+                "maskScale"    : 0.6,
+                "maskScaleCurve" : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        },
+                        {
+                            "time" : 1.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        }
+                    ],
+                    "length" : 2,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "strength"       : 3.0,
+                "strengthCurve"  : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        },
+                        {
+                            "time" : 1.0,
+                            "value" : 1.0,
+                            "inTangent" : 0.0,
+                            "outTangent" : 0.0,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 34
+                        }
+                    ],
+                    "length" : 2,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "sampleDist"     : 0.25,
+                "sampleDistCurve" : {
+                    "keys" : [
+                        {
+                            "time" : 0.0,
+                            "value" : 1.0,
+                            "inTangent" : -0.3564814,
+                            "outTangent" : -0.3564814,
+                            "inWeight"   : 0.0,
+                            "outWeight"  : 0.09090859,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 0.3062505,
+                            "value" : 0.4807685,
+                            "inTangent" : -1.447551,
+                            "outTangent" : -1.447551,
+                            "inWeight"   : 0.3333333,
+                            "outWeight"  : 0.07535601,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        },
+                        {
+                            "time" : 1.000005,
+                            "value" : 0.004628062,
+                            "inTangent" : -0.1915138,
+                            "outTangent" : -0.1915138,
+                            "inWeight"   : 0.1450506,
+                            "outWeight"  : 0.0,
+                            "weightedMode" : 0,
+                            "tangentMode"  : 0
+                        }
+                    ],
+                    "length" : 3,
+                    "preWrapMode" : 8,
+                    "postWrapMode" : 8
+                },
+                "order"           : 0,
+                "triggerKey"      : 100,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 3906,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100012/Efx_skill_2100012_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3907,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100012/Efx_skill_2100012_1_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3908,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100012/Efx_skill_2100012_2_MAX",
+                "delayTime"  : 0.16,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : true,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 36,
+                "hitEffctPath" : null,
+                "DownEffctPath" : "",
+                "downAudioSwitch" : "ball_falldown_skill_2100012",
+                "order"           : 0,
+                "triggerKey"      : 1001,
+                "stopTriggerKey"  : -1
+            }
+        ]
+    },
+    {
+        "id" : 3909,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100015/Efx_skill_2100015",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : "\u6839\u8282\u70B9",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3910,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100015/Efx_skill_2100015_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : "\u6839\u8282\u70B9",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3911,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1005_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3912,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100018/Efx_skill_2100018_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u53F3\u624B",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100018/Efx_skill_2100018_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : true,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u53F3\u624B",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3913,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100018/Efx_skill_2100018_1_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u53F3\u624B",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100018/Efx_skill_2100018_2_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : true,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u53F3\u624B",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3914,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100018/Efx_skill_2100018_3_MAX",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 3.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "\u8EAB\u4F53",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_common_debuff",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 3915,
+        "effects" : [
+            {
+                "effectType" : 10,
+                "active"     : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 3,
+                "resPath"    : "Materials/fresnel_01",
+                "phantomLife" : 0.15,
+                "interval"    : 0.05,
+                "effectLife"  : 0.3,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2300002/Efx_skill_2300002_max",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2300002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 3916,
+        "effects" : [
+            {
+                "effectType" : 3,
+                "resPath"    : "Materials/fresnel_01",
+                "phantomLife" : 0.5,
+                "interval"    : 0.1,
+                "effectLife"  : 0.5,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 3917,
+        "effects" : [
+            {
+                "effectType" : 3,
+                "resPath"    : "Materials/fresnel_01_Max",
+                "phantomLife" : 0.5,
+                "interval"    : 0.1,
+                "effectLife"  : 0.5,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 3918,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200005/Efx_skill_2200005_Max",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2200005",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 3919,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200005/Efx_hit_2001_Normal",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.25,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3920,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200005/Efx_hit_2001_Max",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.25,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : true,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3921,
+        "effects" : [
+            {
+                "effectType" : 3,
+                "resPath"    : "Materials/fresnel_01_Max",
+                "phantomLife" : 0.3,
+                "interval"    : 0.15,
+                "effectLife"  : 0.5,
+                "order"       : 0,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Test/Efx_test_hit_zhanshufanshen_Max",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 0.5,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3922,
+        "effects" : [
+            {
+                "effectType" : 36,
+                "hitEffctPath" : "Effects/Battle/Efx_hit_1077_max",
+                "DownEffctPath" : null,
+                "downAudioSwitch" : null,
+                "order"           : 0,
+                "triggerKey"      : 100,
+                "stopTriggerKey"  : 101
+            }
+        ]
+    },
+    {
+        "id" : 3923,
+        "effects" : [
+            {
+                "effectType" : 20,
+                "duringTime" : 0.7,
+                "rotateVspeed" : 30.0,
+                "rotateHspeed" : 10.0,
+                "order"        : 0,
+                "triggerKey"   : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 27,
+                "resPath"    : "Badminton/Trails/TW_trail_2100005_max",
+                "forceRemove" : true,
+                "effectOrder" : {
+                },
+                "order"       : 1,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 3924,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200011/Efx_skill_2200011_Max",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 3927,
+        "effects" : [
+            {
+                "effectType" : 36,
+                "hitEffctPath" : "Effects/Battle/Efx_hit_3915_max",
+                "DownEffctPath" : null,
+                "downAudioSwitch" : null,
+                "order"           : 0,
+                "triggerKey"      : 100,
+                "stopTriggerKey"  : 101
+            }
+        ]
+    },
+    {
+        "id" : 3928,
+        "effects" : [
+            {
+                "effectType" : 4,
+                "active"     : false,
+                "showDropProjecter" : true,
+                "order"             : 0,
+                "triggerKey"        : 100,
+                "stopTriggerKey"    : -1
+            },
+            {
+                "effectType" : 27,
+                "resPath"    : "Badminton/Trails/TW_trail_2200023_max",
+                "forceRemove" : true,
+                "effectOrder" : {
+                },
+                "order"       : 99,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 4009,
+        "effects" : [
+            {
+                "effectType" : 45,
+                "simpleVector3" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "resPath"       : "Effects/Guidance/Efx_guidance4",
+                "order"         : 0,
+                "triggerKey"    : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 4010,
+        "effects" : [
+            {
+                "effectType" : 46,
+                "resPath"    : "Effects/Guidance/Efx_guidance_disposable",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_ui_battle_test_return_sp",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 4013,
+        "effects" : [
+            {
+                "effectType" : 47,
+                "resPath"    : "Effects/Guidance/Efx_exam_ball_ring",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : 101
+            }
+        ]
+    },
+    {
+        "id" : 5001,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Battle/Efx_ground_1001",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 0.5,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 1,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 1001,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 5012,
+        "effects" : [
+            {
+                "effectType" : 27,
+                "resPath"    : "Effects/Others/badminton_1002/Efx_bomb_fire_tail_stage_1",
+                "forceRemove" : false,
+                "effectOrder" : {
+                },
+                "order"       : 20,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : 101
+            }
+        ]
+    },
+    {
+        "id" : 5013,
+        "effects" : [
+            {
+                "effectType" : 27,
+                "resPath"    : "Effects/Others/badminton_1002/Efx_bomb_fire_tail_stage_2",
+                "forceRemove" : false,
+                "effectOrder" : {
+                },
+                "order"       : 21,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : 101
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Others/badminton_1002/Efx_bomb_fire_head",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 1,
+                "hook"                    : "hangPoint",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : 101
+            }
+        ]
+    },
+    {
+        "id" : 5014,
+        "effects" : [
+            {
+                "effectType" : 27,
+                "resPath"    : "Effects/Others/badminton_1002/Efx_bomb_fire_tail_stage_3",
+                "forceRemove" : false,
+                "effectOrder" : {
+                },
+                "order"       : 22,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : 101
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Others/badminton_1002/Efx_bomb_fire_head",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 1,
+                "hook"                    : "hangPoint",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : 101
+            }
+        ]
+    },
+    {
+        "id" : 5015,
+        "effects" : [
+            {
+                "effectType" : 27,
+                "resPath"    : "Effects/Others/badminton_1002/Efx_bomb_fire_tail_stage_4",
+                "forceRemove" : false,
+                "effectOrder" : {
+                },
+                "order"       : 23,
+                "triggerKey"  : 100,
+                "stopTriggerKey" : 101
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Others/badminton_1002/Efx_bomb_fire_head",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 1,
+                "hook"                    : "hangPoint",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : 101
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Others/badminton_1002/Efx_bomb_blink_stage_4",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 1,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : 101
+            }
+        ]
+    },
+    {
+        "id" : 5018,
+        "effects" : [
+            {
+                "effectType" : 47,
+                "resPath"    : "Effects/Guidance/Efx_exam_ball_ring",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : 101
+            }
+        ]
+    },
+    {
+        "id" : 5101,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100016/Efx_skill_2100016_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u7403\u62CD",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 23,
+                "flag"       : 4096,
+                "matPath"    : "Effects/Skill/2100016/Ice",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 5102,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100022/Efx_skill_2100022_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u7403\u62CD",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 23,
+                "flag"       : 4096,
+                "matPath"    : "Effects/Skill/2100022/Fire",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 5105,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2100006/Efx_skill_2100006_5_bomb",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_210006_2_fly",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6001,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/2900002/Efx_property_2900002_birth",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/2900002/Efx_property_2900002_loop",
+                "delayTime"  : 1.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/2900002/Efx_property_2900002_death",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 101,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 6002,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/2900002/Efx_property_2900002_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_2900002_2",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6004,
+        "effects" : [
+            {
+                "effectType" : 18,
+                "maxScale"   : 1.6,
+                "growTime"   : 0.5,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6026/Efx_property_6026",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_6026",
+                "unitEvent"  : true,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6005,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Skill/2200005/Efx_skill_2200005",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 6011,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/2900003/Efx_property_2900003",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 6012,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6014/Efx_property_6014_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_6014_2",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6014,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6014/Efx_property_6014_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_6014_1",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6015,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Buff/Efx_buff_1001_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : true,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2200002",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6016,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/2900006/Efx_property_2900006_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 0.5,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_2900006",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6017,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/2900006/Efx_property_2900006_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 6018,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6013/Efx_property_6013_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u53F3\u624B",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 6019,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6013/Efx_property_6013_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 6020,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6015/Efx_property_6015_1",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 1.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : "\u53F3\u624B",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            }
+        ]
+    },
+    {
+        "id" : 6021,
+        "effects" : [
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6015/Efx_property_6015_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 5.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_6015",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6026,
+        "effects" : [
+            {
+                "effectType" : 18,
+                "maxScale"   : 1.5,
+                "growTime"   : 0.5,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6026/Efx_property_6026",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : "",
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_6026",
+                "unitEvent"  : true,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 6027,
+        "effects" : [
+            {
+                "effectType" : 18,
+                "maxScale"   : 0.5,
+                "growTime"   : 0.5,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Property/6026/Efx_property_6026",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 2,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_6027",
+                "unitEvent"  : true,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 7004,
+        "effects" : [
+            {
+                "effectType" : 22,
+                "resPath"    : "Model/Monster/7001_1",
+                "addOnPointName" : "Bip001 L Foot",
+                "pos"            : {
+                    "x" : 0.143,
+                    "y" : -0.162,
+                    "z" : -0.046
+                },
+                "rot"            : {
+                    "x" : 56.588,
+                    "y" : -294.497,
+                    "z" : -296.714
+                },
+                "order"          : 0,
+                "triggerKey"     : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 0,
+                "resPath"    : "Animations/Skill/Girl/G_Skill_crabTrap_anim",
+                "boyResPath" : "Animations/Skill/Boy/B_Skill_crabTrap_anim",
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : 101
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Scene/Efx_A5CJ1002_px_2",
+                "delayTime"  : 0.0,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : true,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 1,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_scenesplay_pangxie2",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 7008,
+        "effects" : [
+            {
+                "effectType" : 0,
+                "resPath"    : "Animations/CourtPlay/A5CJ_1002/pangxie/A5CJ_1002_pangxie_up_anim.anim",
+                "boyResPath" : null,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Scene/Efx_A5CJ1002_px_1",
+                "delayTime"  : 0.5,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_scenesplay_pangxie1",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 7009,
+        "effects" : [
+            {
+                "effectType" : 0,
+                "resPath"    : "Animations/CourtPlay/A5CJ_1002/pangxie/A5CJ_1002_pangxie_down_anim.anim",
+                "boyResPath" : null,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 1,
+                "resPath"    : "Effects/Scene/Efx_A5CJ1002_px_1",
+                "delayTime"  : 0.5,
+                "lifeTime"   : 2.0,
+                "flowEffectLife" : false,
+                "playPosFollowSelfInTime" : false,
+                "needColorTex"            : false,
+                "teamVisible"             : false,
+                "keepLookNet"             : false,
+                "changeWayByRocker"       : false,
+                "forbidRotate"            : false,
+                "space"                   : 0,
+                "target"                  : 0,
+                "hook"                    : null,
+                "order"                   : 0,
+                "triggerKey"              : 100,
+                "stopTriggerKey"          : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_scenesplay_pangxie3",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8101,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2100022_2_fly",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8102,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2100016_2_fly",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8103,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2200023",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8104,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_scenesplay_pangxie1",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 101,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8105,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_scenesplay_pangxie3",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 101,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8106,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2200004",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8107,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_skill_2300008",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8108,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100012_2",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_skill_2100012_3",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 101,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 8109,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_property_6013",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 9990,
+        "effects" : [
+            {
+                "effectType" : 41,
+                "eventName"  : "play_$P$_battle_energy_tips_1",
+                "unitEvent"  : false,
+                "order"      : 0,
+                "triggerKey" : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 10107,
+        "effects" : [
+            {
+                "effectType" : 45,
+                "simpleVector3" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "resPath"       : "Effects/Guidance/Efx_guidance4",
+                "order"         : 0,
+                "triggerKey"    : 100,
+                "stopTriggerKey" : -1
+            }
+        ]
+    }
+]

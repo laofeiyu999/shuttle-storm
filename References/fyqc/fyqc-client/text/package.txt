@@ -1,0 +1,94 @@
+{
+    "name": "com.duoyi.verification",
+    "display_name": "Verification",
+    "version": "1.1.24",
+    "tag": 0,
+    "author_id": 54910,
+    "description": "提供实名认证服务",
+    "min_unity": "",
+    "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.verification/com.duoyi.verification(1.1.24).zip",
+    "usage_url": "https://kms.duoyioa.com/#/article/5d54fea60f39ca003cee5eba",
+    "version_ctrl_url": "",
+    "svnHeadVersion": 73510,
+    "version_info": "修复实名认证非大陆身份证判断逻辑",
+    "search_keywords": "",
+    "category_value": 3,
+    "keep_ori_path_list": [],
+    "dependency": [
+        {
+            "name": "com.duoyi.baselogic",
+            "display_name": "BaseLogic",
+            "version": "0.3.16",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.baselogic/com.duoyi.baselogic(0.1.0).zip"
+        },
+        {
+            "name": "com.duoyi.baseui",
+            "display_name": "BaseUi",
+            "version": "1.0.10",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.baseui/com.duoyi.baseui(0.0.3).zip"
+        },
+        {
+            "name": "com.duoyi.pubabloader",
+            "display_name": "PubABLoader",
+            "version": "1.0.5",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.pubabloader/com.duoyi.pubabloader(0.1.7).zip"
+        },
+        {
+            "name": "com.duoyi.bigdatastatistics",
+            "display_name": "BigDataStatistics",
+            "version": "1.0.3",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.bigdatastatistics/com.duoyi.bigdatastatistics(0.3.8).zip"
+        },
+        {
+            "name": "com.duoyi.interfaces",
+            "display_name": "interfaces",
+            "version": "0.1.3",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.interfaces/com.duoyi.interfaces(0.1.1).zip"
+        },
+        {
+            "name": "com.duoyi.zmsdk",
+            "display_name": "ZMSDK",
+            "version": "0.19.2",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.zmsdk/com.duoyi.zmsdk(0.11.3).zip"
+        },
+        {
+            "name": "com.duoyi.gz.netverification",
+            "display_name": "gznetverification",
+            "version": "1.1.12",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.gz.netverification/com.duoyi.gz.netverification(1.1.5).zip"
+        },
+        {
+            "name": "com.duoyi.dyui",
+            "display_name": "DYUI",
+            "version": "0.0.5",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.dyui/com.duoyi.dyui(0.0.5).zip"
+        },
+        {
+            "name": "com.duoyi.synctime",
+            "display_name": "SyncTime",
+            "version": "0.0.1",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.synctime/com.duoyi.synctime(0.0.1).zip"
+        },
+        {
+            "name": "com.duoyi.gz.commoninteraction",
+            "display_name": "commoninteraction",
+            "version": "0.1.4",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.gz.commoninteraction/com.duoyi.gz.commoninteraction(0.1.4).zip"
+        },
+        {
+            "name": "com.duoyi.dykeychain",
+            "display_name": "DYKeychain",
+            "version": "1.3.2",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.dykeychain/com.duoyi.dykeychain(1.3.2).zip"
+        },
+        {
+            "name": "com.duoyi.customerservice",
+            "display_name": "CustomerService",
+            "version": "0.2.5",
+            "download_url": "http://unity.duoyioa.com//dypackages//com.duoyi.customerservice/com.duoyi.customerservice(0.2.4).zip"
+        }
+    ],
+    "android_permission": [],
+    "ios_permission": [],
+    "http_desc": []
+}

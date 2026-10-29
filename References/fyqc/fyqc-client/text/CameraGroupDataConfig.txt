@@ -1,0 +1,21 @@
+
+{
+    "badmintonGroupData" : {
+        "weight" : 1.0,
+        "radius" : 0.0
+    },
+    "myGroupData"        : {
+        "weight" : 4.0,
+        "radius" : 2.0
+    },
+    "otherPlayerGroupData" : {
+        "weight" : 2.0,
+        "radius" : 0.0
+    },
+    "dropPosGroupData"     : {
+        "weight" : 3.0,
+        "radius" : 1.8
+    },
+    "dropPosLerpSpeed"     : 10.0,
+    "mainCamHSpeed"        : 6.0
+}

@@ -1,0 +1,69 @@
+
+{
+    "timeGap" : {
+        "magnitude" : 11.18034,
+        "sqrMagnitude" : 125.0,
+        "x"            : 5.0,
+        "y"            : 10.0
+    },
+    "animData" : [
+        {
+            "hasAttachWeapon" : true,
+            "triggerAudio"    : "Play_bgse_main_1002_action",
+            "weaponPointName" : "L_weapon",
+            "positionOffset"  : {
+                "magnitude" : 0.133,
+                "sqrMagnitude" : 0.017689,
+                "x"            : 0.133,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "rotation"        : {
+                "magnitude" : 90.0,
+                "sqrMagnitude" : 8100.0,
+                "x"            : 0.0,
+                "y"            : 90.0,
+                "z"            : 0.0
+            },
+            "scale"           : {
+                "magnitude" : 1.385641,
+                "sqrMagnitude" : 1.92,
+                "x"            : 0.8,
+                "y"            : 0.8,
+                "z"            : 0.8
+            },
+            "animClipPath"    : "Animations/Show/Girl/G_show_hall_1_anim",
+            "triggerAudioPath" : "",
+            "weaponPointPath"  : "Model/Badminton/9001"
+        },
+        {
+            "hasAttachWeapon" : false,
+            "triggerAudio"    : null,
+            "weaponPointName" : "",
+            "positionOffset"  : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "rotation"        : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "scale"           : {
+                "magnitude" : 1.732051,
+                "sqrMagnitude" : 3.0,
+                "x"            : 1.0,
+                "y"            : 1.0,
+                "z"            : 1.0
+            },
+            "animClipPath"    : "Animations/Show/Girl/G_show_hall_2_anim",
+            "triggerAudioPath" : "",
+            "weaponPointPath"  : ""
+        }
+    ]
+}

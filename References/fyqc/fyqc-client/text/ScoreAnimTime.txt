@@ -1,0 +1,8 @@
+
+{
+    "scoreAnimTimeData" : {
+        "minWaitTime" : 0.0,
+        "waitTime"    : 1.5,
+        "fragmentCount" : 6
+    }
+}

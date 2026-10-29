@@ -1,0 +1,1253 @@
+
+{
+    "shapeData" : [
+        {
+            "angle" : 10,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 14,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 17,
+            "shapeId"              : 1000,
+            "name"                 : "\u5E73\u8FD1_\u5185_0",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_low",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 0.91,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 10,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 12,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 15,
+            "shapeId"              : 1001,
+            "name"                 : "\u5E73\u8FD1_\u5185_1",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 0.97,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 10,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 9,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 13,
+            "shapeId"              : 1002,
+            "name"                 : "\u5E73\u8FD1_\u5185_2",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 1.04,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 25,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 8,
+            "speedLerpFactor"      : 45,
+            "lastHalfSegmentTime"  : 20,
+            "shapeId"              : 1003,
+            "name"                 : "\u9AD8\u4F4D\u540A\u540E_0",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0002_low",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1002",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_high01_anim.anim",
+            "dropAnimationAngle"   : 180,
+            "dropAnimationSpeed"   : 0.85,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 25,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 4,
+            "speedLerpFactor"      : 41,
+            "lastHalfSegmentTime"  : 19,
+            "shapeId"              : 1004,
+            "name"                 : "\u9AD8\u4F4D\u540A\u540E_1",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0002_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1002",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_high01_anim.anim",
+            "dropAnimationAngle"   : 180,
+            "dropAnimationSpeed"   : 0.87,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 25,
+            "crossNetFix" : true,
+            "fixAmplitude" : 75,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 4,
+            "speedLerpFactor"      : 31,
+            "lastHalfSegmentTime"  : 17,
+            "shapeId"              : 1005,
+            "name"                 : "\u9AD8\u4F4D\u540A\u540E_2",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0002_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1002",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_high01_anim.anim",
+            "dropAnimationAngle"   : 180,
+            "dropAnimationSpeed"   : 0.89,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 14,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 18,
+            "shapeId"              : 1006,
+            "name"                 : "\u5E73\u8FD1_\u4E2D_0",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_low",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 0.89,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 13,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 14,
+            "shapeId"              : 1007,
+            "name"                 : "\u5E73\u8FD1_\u4E2D_1",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 1.0,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 10,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 12,
+            "shapeId"              : 1008,
+            "name"                 : "\u5E73\u8FD1_\u4E2D_2",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 1.08,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 16,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 16,
+            "shapeId"              : 1009,
+            "name"                 : "\u5E73\u8FD1_\u5916_0",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_low",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 0.94,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 13,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 14,
+            "shapeId"              : 1010,
+            "name"                 : "\u5E73\u8FD1_\u5916_1",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 1.0,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 80,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 10,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 12,
+            "shapeId"              : 1011,
+            "name"                 : "\u5E73\u8FD1_\u5916_2",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 1.08,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 25,
+            "crossNetFix" : true,
+            "fixAmplitude" : 90,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 3,
+            "speedLerpFactor"      : 92,
+            "lastHalfSegmentTime"  : 20,
+            "shapeId"              : 1012,
+            "name"                 : "\u53D1\u7403",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0002_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1002",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_high01_anim.anim",
+            "dropAnimationAngle"   : 100,
+            "dropAnimationSpeed"   : 0.85,
+            "dropId"               : 1003,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 5,
+            "crossNetFix" : true,
+            "fixAmplitude" : 30,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 12,
+            "speedLerpFactor"      : 70,
+            "lastHalfSegmentTime"  : 24,
+            "shapeId"              : 1013,
+            "name"                 : "\u5E73\u8FDC_\u5185_0",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_low",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 0.79,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 30,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 12,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 22,
+            "shapeId"              : 1014,
+            "name"                 : "\u5E73\u8FDC_\u5185_1",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 0.82,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 30,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 10,
+            "speedLerpFactor"      : 44,
+            "lastHalfSegmentTime"  : 16,
+            "shapeId"              : 1015,
+            "name"                 : "\u5E73\u8FDC_\u5185_2",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 0.94,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 5,
+            "crossNetFix" : true,
+            "fixAmplitude" : 40,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 14,
+            "speedLerpFactor"      : 70,
+            "lastHalfSegmentTime"  : 22,
+            "shapeId"              : 1016,
+            "name"                 : "\u5E73\u8FDC_\u4E2D_0",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_low",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 0.82,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 40,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 14,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 18,
+            "shapeId"              : 1017,
+            "name"                 : "\u5E73\u8FDC_\u4E2D_1",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 0.89,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 40,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 10,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 13,
+            "shapeId"              : 1018,
+            "name"                 : "\u5E73\u8FDC_\u4E2D_2",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 1.04,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 10,
+            "crossNetFix" : true,
+            "fixAmplitude" : 50,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 16,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 20,
+            "shapeId"              : 1019,
+            "name"                 : "\u5E73\u8FDC_\u5916_0",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_low",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 0.85,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 50,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 16,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 18,
+            "shapeId"              : 1020,
+            "name"                 : "\u5E73\u8FDC_\u5916_1",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 0.89,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 50,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 13,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 14,
+            "shapeId"              : 1021,
+            "name"                 : "\u5E73\u8FDC_\u5916_2",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 1.0,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 25,
+            "crossNetFix" : true,
+            "fixAmplitude" : 90,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 10,
+            "speedLerpFactor"      : 60,
+            "lastHalfSegmentTime"  : 20,
+            "shapeId"              : 1022,
+            "name"                 : "\u89E6\u53D1\u661F\u6807\u7684\u7403\u8DEF",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_bad",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1002",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_high01_anim.anim",
+            "dropAnimationAngle"   : 180,
+            "dropAnimationSpeed"   : 0.85,
+            "dropId"               : 1005,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 25,
+            "crossNetFix" : true,
+            "fixAmplitude" : 90,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 10,
+            "speedLerpFactor"      : 60,
+            "lastHalfSegmentTime"  : 20,
+            "shapeId"              : 1023,
+            "name"                 : "\u89E6\u53D1\u661F\u6807\u7684\u7403\u8DEF-2",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_bad",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1002",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_high01_anim.anim",
+            "dropAnimationAngle"   : 180,
+            "dropAnimationSpeed"   : 0.85,
+            "dropId"               : 1006,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : -30,
+            "crossNetFix" : true,
+            "fixAmplitude" : 30,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 4,
+            "firstHalfSegmentTime" : 12,
+            "speedLerpFactor"      : 25,
+            "lastHalfSegmentTime"  : 12,
+            "shapeId"              : 1024,
+            "name"                 : "\u5E7B\u5F71\u6251\u7403",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_high01_anim.anim",
+            "dropAnimationAngle"   : 180,
+            "dropAnimationSpeed"   : 1.08,
+            "dropId"               : 1001,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 60,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 9,
+            "speedLerpFactor"      : 29,
+            "lastHalfSegmentTime"  : 11,
+            "shapeId"              : 1025,
+            "name"                 : "\u65CB\u98CE\u5E73\u62BD-\u8FD1",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 1.14,
+            "dropId"               : 1001,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 50,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 11,
+            "speedLerpFactor"      : 32,
+            "lastHalfSegmentTime"  : 14,
+            "shapeId"              : 1026,
+            "name"                 : "\u65CB\u98CE\u5E73\u62BD-\u8FDC",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 1.0,
+            "dropId"               : 1001,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 65,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 11,
+            "speedLerpFactor"      : 10,
+            "lastHalfSegmentTime"  : 13,
+            "shapeId"              : 1027,
+            "name"                 : "\u52FE\u5BF9\u89D2-\u5411\u5DE6",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 100,
+            "dropAnimationSpeed"   : 1.04,
+            "dropId"               : 1008,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 65,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 11,
+            "speedLerpFactor"      : 10,
+            "lastHalfSegmentTime"  : 13,
+            "shapeId"              : 1028,
+            "name"                 : "\u52FE\u5BF9\u89D2-\u5411\u53F3",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 100,
+            "dropAnimationSpeed"   : 1.04,
+            "dropId"               : 1009,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 30,
+            "crossNetFix" : false,
+            "fixAmplitude" : 0,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 7,
+            "speedLerpFactor"      : 10,
+            "lastHalfSegmentTime"  : 11,
+            "shapeId"              : 1029,
+            "name"                 : "\u51CC\u7A7A\u5288\u540A",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 1.14,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 60,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 0,
+            "firstHalfSegmentTime" : 3,
+            "speedLerpFactor"      : 92,
+            "lastHalfSegmentTime"  : 18,
+            "shapeId"              : 1030,
+            "name"                 : "\u53D1\u7403-\u8FD1",
+            "tipsPointFromLast"    : 0,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0001_middle",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1001",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_front01_anim.anim",
+            "dropAnimationAngle"   : 60,
+            "dropAnimationSpeed"   : 0.89,
+            "dropId"               : 1003,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        },
+        {
+            "angle" : 0,
+            "crossNetFix" : true,
+            "fixAmplitude" : 50,
+            "specialSpeed" : true,
+            "minChangeThreshold" : 1,
+            "firstHalfSegmentTime" : 13,
+            "speedLerpFactor"      : 50,
+            "lastHalfSegmentTime"  : 15,
+            "shapeId"              : 1031,
+            "name"                 : "\u795E\u9F99\u6446\u5C3E",
+            "tipsPointFromLast"    : 15,
+            "isShowTrail"          : false,
+            "trailPrefabPath"      : "Badminton/Trails/TW_trail_0003_high",
+            "isHitEffect"          : false,
+            "hitEffectPrefabPath"  : "Effects/Battle/Efx_hit_1003",
+            "trailGlowPrefabPath"  : "",
+            "dropAnimationPath"    : "Animations/Others/badminton_1001/badminton_1001_land_back01_anim.anim",
+            "dropAnimationAngle"   : 30,
+            "dropAnimationSpeed"   : 0.97,
+            "dropId"               : 1002,
+            "aiHitData"            : {
+                "lowPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "midPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                },
+                "highPos" : {
+                    "x" : 0.0,
+                    "y" : 0.0,
+                    "z" : 0.0
+                }
+            }
+        }
+    ]
+}

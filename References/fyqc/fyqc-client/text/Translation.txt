@@ -1,0 +1,2396 @@
+{
+  "验证码已发送到战盟，请注意查收": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码已发送到战盟，请注意查收",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(10000)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(10000)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码已过期，请重新获取验证码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码已过期，请重新获取验证码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(19905)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(19905)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "发送失败，请重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "发送失败，请重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(-93)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(-93)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入验证码": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入验证码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入正确的验证码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入正确的验证码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你需要通过帐号双重认证后才能登录游戏": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你需要通过帐号双重认证后才能登录游戏",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号双重认证失败": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号双重认证失败",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码发送成功，请注意查收": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码发送成功，请注意查收",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(20)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(20)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(22)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(22)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号不存在": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号不存在",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(250)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(250)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "该关联手机未生效": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "该关联手机未生效",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(252)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(252)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(10001)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(10001)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码发送失败，请重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码发送失败，请重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "错误的手机号格式": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "错误的手机号格式",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码发送失败，请重新获取": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码发送失败，请重新获取",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请先获取验证码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请先获取验证码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(207)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(207)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "该设备不存在认证信息": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "该设备不存在认证信息",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误(10750)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误(10750)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "修改设备名称失败，请重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "修改设备名称失败，请重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入新的设备名称": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入新的设备名称",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "新的设备名称过长，请缩短新名称": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "新的设备名称过长，请缩短新名称",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "新名称包含不合法字符，请修改后重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "新名称包含不合法字符，请修改后重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "认证失败，请重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "认证失败，请重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "删除该设备认证失败，请重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "删除该设备认证失败，请重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "语音验证码已发送，{0}秒后可重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "语音验证码已发送，{0}秒后可重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "当前战盟帐号尚未绑定手机号，请绑定手机号后再申请启用帐号双重认证": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "当前战盟帐号尚未绑定手机号，请绑定手机号后再申请启用帐号双重认证",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "{0}秒后重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "{0}秒后重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "网络连接超时，请重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "网络连接超时，请重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "发送延时协议": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "发送延时协议",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "发送取消关服协议": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "发送取消关服协议",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "服务器将关闭，倒计时{0}": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "服务器将关闭，倒计时{0}",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "上传语音文件失败": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "上传语音文件失败",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "语音下载超时，请点击语音条重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "语音下载超时，请点击语音条重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "网络异常": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "网络异常",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "连接Facebook服务器失败，请检查网络": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "连接Facebook服务器失败，请检查网络",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你取消了Facebook授权登录": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你取消了Facebook授权登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "网络已断开": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "网络已断开",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "根据防沉迷规则，您今日还可继续游戏的时长仅剩余{0}分钟，届时将被强制下线。请合理安排游戏时间": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "根据防沉迷规则，您今日还可继续游戏的时长仅剩余{0}分钟，届时将被强制下线。请合理安排游戏时间",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "根据防沉迷规则，您今日累计游戏时长已达上限，无法继续游戏。请合理安排游戏时间，注意休息": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "根据防沉迷规则，您今日累计游戏时长已达上限，无法继续游戏。请合理安排游戏时间，注意休息",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "根据防沉迷规则，未成年人帐号22:00-次日8:00不能进行游戏。请合理安排游戏时间，享受健康生活": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "根据防沉迷规则，未成年人帐号22:00-次日8:00不能进行游戏。请合理安排游戏时间，享受健康生活",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "服务器已满": {
+    "Type": "Text",
+    "SimplifiedChinese": "服务器已满",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你现在的排队位置是：{0}（预计等待{1}秒）": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你现在的排队位置是：{0}（预计等待{1}秒）",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "已设置": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "已设置",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "缺少必须参数": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "缺少必须参数",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "参数内容不合法": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "参数内容不合法",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知系统错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知系统错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "数据库未知异常": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "数据库未知异常",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未设置支付密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未设置支付密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "第三方系统内部错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "第三方系统内部错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "成功": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "成功",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "失败": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "失败",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号格式错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号格式错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "短信字数小于1或超过200": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "短信字数小于1或超过200",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "短信类型错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "短信类型错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "手机号数量不能小于1或超过100个": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "手机号数量不能小于1或超过100个",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "语音验证码格式错误，只能是字母+数字": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "语音验证码格式错误，只能是字母+数字",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码短信不能群发": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码短信不能群发",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "手机号格式错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "手机号格式错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码格式错误，只能是字母+数字": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码格式错误，只能是字母+数字",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "营销短信内容必须包含_回N退订": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "营销短信内容必须包含_回N退订",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "黑名单号码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "黑名单号码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "包含屏蔽关键字": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "包含屏蔽关键字",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "超过每小时发送数量": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "超过每小时发送数量",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "超过每天发送数量": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "超过每天发送数量",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "产品代号不在白名单": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "产品代号不在白名单",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "找不到扩展端口": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "找不到扩展端口",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "互动短信无可用的子端口": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "互动短信无可用的子端口",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "互动短信无可用的端口": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "互动短信无可用的端口",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "远程通道异常": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "远程通道异常",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "操作太频繁": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "操作太频繁",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号与手机号不匹配": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号与手机号不匹配",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请重新获取短信验证码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请重新获取短信验证码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "短信验证码错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "短信验证码错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "不能修改为原有密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "不能修改为原有密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "不能和登录密码一致": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "不能和登录密码一致",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "操作太频繁(一分钟只能操作3次)": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "操作太频繁(一分钟只能操作3次)",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "余额不足": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "余额不足",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "剩余点数大于等于1000时，最少要拨1000点；剩余点数小于1000时，必须一次性拨完": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "剩余点数大于等于1000时，最少要拨1000点；剩余点数小于1000时，必须一次性拨完",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "交易流水号重复": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "交易流水号重复",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "支付密码尝试次数超限（3小时内只能尝试5次）": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "支付密码尝试次数超限（3小时内只能尝试5次）",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "支付密码错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "支付密码错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号与手机号不匹配（即输入的手机号并非改战盟帐号的绑定手机号/关联手机号）": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号与手机号不匹配（即输入的手机号并非改战盟帐号的绑定手机号/关联手机号）",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "密码必须为6位数字": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "密码必须为6位数字",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "密码输入不正确": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "密码输入不正确",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "密码输入不正确，您还剩两次机会": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "密码输入不正确，您还剩两次机会",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "您的支付密码已被锁定，请重新设定密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "您的支付密码已被锁定，请重新设定密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "获取验证码": {
+    "Type": "Text",
+    "SimplifiedChinese": "获取验证码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "两次输入的密码不一致": {
+    "Type": "Text",
+    "SimplifiedChinese": "两次输入的密码不一致",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号或密码错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号或密码错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号使用中": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号使用中",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "服务器满员": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "服务器满员",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "登录失败": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "登录失败",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "创建失败": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "创建失败",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "版本不匹配": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "版本不匹配",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "名字包含不合法字符": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "名字包含不合法字符",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号或ip因密码错误次数过多被锁定": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号或ip因密码错误次数过多被锁定",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号已注销": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号已注销",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号被冻结": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号被冻结",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "服务器繁忙": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "服务器繁忙",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "角色ID创建失败": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "角色ID创建失败",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "数据库异常": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "数据库异常",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "该帐号不存在": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "该帐号不存在",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "过期的连接": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "过期的连接",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "服务器重启中": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "服务器重启中",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "执行移民中": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "执行移民中",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "服务器维护中": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "服务器维护中",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "角色信息错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "角色信息错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "角色创建中，请稍后重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "角色创建中，请稍后重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "返回码错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "返回码错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "网络错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "网络错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "account格式不正确,必须为邮箱格式": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "account格式不正确,必须为邮箱格式",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "战盟昵称不存在": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "战盟昵称不存在",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "其他-不允许登录": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "其他-不允许登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号未激活": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号未激活",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "发生错误（100），请联系客服": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "发生错误（100），请联系客服",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "根据防沉迷规则，未成年人帐号22:00-次日8:00不可以进行游戏。请合理安排游戏时间，享受健康生活！": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "根据防沉迷规则，未成年人帐号22:00-次日8:00不可以进行游戏。请合理安排游戏时间，享受健康生活！",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "游客登录功能已关闭，请使用帐号登录": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "游客登录功能已关闭，请使用帐号登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "该帐号正在注销中，如需使用，请前往撤销注销（多益战盟官网-帮助中心-帐号相关-取消注销）": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "该帐号正在注销中，如需使用，请前往撤销注销（多益战盟官网-帮助中心-帐号相关-取消注销）",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "第3方帐号登录失败,accont=xxxxxxx@token模式时": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "第3方帐号登录失败,accont=xxxxxxx@token模式时",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "手机注册帐号,且未设置字母帐号，请先登录2980邮箱设置字母帐号": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "手机注册帐号,且未设置字母帐号，请先登录2980邮箱设置字母帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "多益通网站密码已停用,请使用游戏密码登录": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "多益通网站密码已停用,请使用游戏密码登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号处于风险状态，请强制让玩家修改密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "帐号处于风险状态，请强制让玩家修改密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "战盟帐号密码修改导致设备密码变动": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "战盟帐号密码修改导致设备密码变动",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "多益通行证错误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "多益通行证错误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知错误码：{0}": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知错误码：{0}",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未知错误码:{0}": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未知错误码:{0}",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "DGW鉴权码验证不通过": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "DGW鉴权码验证不通过",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "提示": {
+    "Type": "Text",
+    "SimplifiedChinese": "提示",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "取消": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "取消",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "前往下载": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "前往下载",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "本次修改名字需要<color=#3883f8ff>{0}个钻石</color>": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "本次修改名字需要<color=#3883f8ff>{0}个钻石</color>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "本次修改名字<color=#3883f8ff>完全免费</color>": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "本次修改名字<color=#3883f8ff>完全免费</color>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你的名字<color=#3883f8ff>{0}</color>与其他角色重名\\n需要修改名字后才能进入游戏": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你的名字<color=#3883f8ff>{0}</color>与其他角色重名\\n需要修改名字后才能进入游戏",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "{0}≤等级<{1}时可免费改名一次": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "{0}≤等级<{1}时可免费改名一次",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "确定改名": {
+    "Type": "Text",
+    "SimplifiedChinese": "确定改名",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你确定要将名字改为<color=#3883f8ff>{0}</color>吗？\\n本次改名完全免费": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你确定要将名字改为<color=#3883f8ff>{0}</color>吗？\\n本次改名完全免费",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你确定要将名字改为<color=#3883f8ff>{0}</color>吗？\\n本次改名需要{1}个钻石": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你确定要将名字改为<color=#3883f8ff>{0}</color>吗？\\n本次改名需要{1}个钻石",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "取消改名": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "取消改名",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "您已经{0}级，{1}级以下可以免费改名，\\n确定要取消改名吗？": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "您已经{0}级，{1}级以下可以免费改名，\\n确定要取消改名吗？",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入2-7个字范围的名字": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入2-7个字范围的名字",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "名字必须含有汉字或字母": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "名字必须含有汉字或字母",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "名字含有敏感字符": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "名字含有敏感字符",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "名字开头不能为“＃”或“※”": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "名字开头不能为“＃”或“※”",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "{0}({1})": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "{0}({1})",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "获取角色数据失败，请重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "获取角色数据失败，请重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请先选择举报原因": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请先选择举报原因",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "举报证据不能为空,请勾选被举报人的不良发言证据": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "举报证据不能为空,请勾选被举报人的不良发言证据",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "最多选择{0}条举报原因": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "最多选择{0}条举报原因",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "最多只能添加5个附件": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "最多只能添加5个附件",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请填写你的联系邮箱": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请填写你的联系邮箱",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入正确的联系邮箱": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入正确的联系邮箱",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "问题描述不能为空": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "问题描述不能为空",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "不能超过40个字符": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "不能超过40个字符",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "字数超出上限": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "字数超出上限",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "每个附件最大不能超过20M": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "每个附件最大不能超过20M",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "提交失败，请重新提交": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "提交失败，请重新提交",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "提交成功，感谢你的反馈，我们将以邮件的形式进行回复，请耐心等待": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "提交成功，感谢你的反馈，我们将以邮件的形式进行回复，请耐心等待",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "战盟分享": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "战盟分享",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "确定": {
+    "Type": "Text",
+    "SimplifiedChinese": "确定",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "分享": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "分享",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "有敏感词汇，请修改后再提交": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "有敏感词汇，请修改后再提交",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "名字中包含敏感字符，请修改后再提交": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "名字中包含敏感字符，请修改后再提交",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "�ύʧ�ܣ��������ύ": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "�ύʧ�ܣ��������ύ",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "�ύ�ɹ�����л��ķ��������ǽ����ʼ�����ʽ���лظ��������ĵȴ�": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "�ύ�ɹ�����л��ķ��������ǽ����ʼ�����ʽ���лظ��������ĵȴ�",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "身份证号码必须为18位，请检查确认": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "身份证号码必须为18位，请检查确认",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "身份证号码只允许输入数字及X字母": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "身份证号码只允许输入数字及X字母",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "身份证号码无效，请检查确认": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "身份证号码无效，请检查确认",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置实名失败，请联系客服进行实名": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "设置实名失败，请联系客服进行实名",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入年满{0}岁的有效身份证号码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入年满{0}岁的有效身份证号码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "未满{0}岁，请使用符合年龄要求的身份证": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "未满{0}岁，请使用符合年龄要求的身份证",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "证件号码不能为空": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "证件号码不能为空",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "证件号码长度过长。请检查确认": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "证件号码长度过长。请检查确认",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "姓名不能为空": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "姓名不能为空",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "姓名只能输入2~6个汉字。请检查确认": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "姓名只能输入2~6个汉字。请检查确认",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "姓名长度过长。请检查确认": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "姓名长度过长。请检查确认",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "中国大陆": {
+    "Type": "Text",
+    "SimplifiedChinese": "中国大陆",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "关闭": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "关闭",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "根据国家相关政策法规要求，请先进行实名认证\\n系统会自动同步在多益产品下已登记的实名信息": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "根据国家相关政策法规要求，请先进行实名认证\\n系统会自动同步在多益产品下已登记的实名信息",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你的实名信息未通过认证，为保障你的帐号安全\\n请再次填写实名信息，后续我们将帮你再次申请认证": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你的实名信息未通过认证，为保障你的帐号安全\\n请再次填写实名信息，后续我们将帮你再次申请认证",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "当前实名信息已填写，若非本人操作，请及时修改为本人身份证信息并修改帐号密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "当前实名信息已填写，若非本人操作，请及时修改为本人身份证信息并修改帐号密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "有效证件": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "有效证件",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入你的有效证件号": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入你的有效证件号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "身份证": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "身份证",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入你的身份证号码": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入你的身份证号码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "当前是离线状态，请连接网络后再提交实名信息": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "当前是离线状态，请连接网络后再提交实名信息",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "中国香港": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "中国香港",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "中国澳门": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "中国澳门",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "中国台湾": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "中国台湾",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "其他地区": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "其他地区",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "姓名不能输入简体中文以外的字符": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "姓名不能输入简体中文以外的字符",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "登录错误,每天最多只能切换三个帐号": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "登录错误,每天最多只能切换三个帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "发生错误（{0}）": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "发生错误（{0}）",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "已发送": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "已发送",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "{0}秒后可重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "{0}秒后可重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入邮箱": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入邮箱",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入正确帐号": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入正确帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "邮件发送成功，请注意查收": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "邮件发送成功，请注意查收",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码已发送,{0}秒后可重试": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证码已发送,{0}秒后可重试",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "战盟授权成功": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "战盟授权成功",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你取消了战盟授权登录": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你取消了战盟授权登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "该邮箱帐号未激活": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "该邮箱帐号未激活",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你输入的2980邮箱帐号不存在": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你输入的2980邮箱帐号不存在",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入手机号": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入手机号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入正确的手机号": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入正确的手机号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "没有找到游客角色": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "没有找到游客角色",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "打开": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "打开",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "确认正确": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "确认正确",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "输入有误": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "输入有误",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你正在注册帐号<color=#D93C2FFF>{0}</color>\\n请为你的帐号添加绑定手机，该手机可用于修改密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你正在注册帐号<color=#D93C2FFF>{0}</color>\\n请为你的帐号添加绑定手机，该手机可用于修改密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你正在注册帐号<color=#D93C2FFF>{0}</color>请为你的帐号设置密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你正在注册帐号<color=#D93C2FFF>{0}</color>请为你的帐号设置密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你的战盟帐号已经绑定手机{0},": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你的战盟帐号已经绑定手机{0},",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "抱歉!未找到对应的邮箱登录地址，请自己登录邮箱查看邮件！": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "抱歉!未找到对应的邮箱登录地址，请自己登录邮箱查看邮件！",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证邮件已经发送,请登录邮箱查看": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "验证邮件已经发送,请登录邮箱查看",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "{0}注册成功！": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "{0}注册成功！",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "注册成功！": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "注册成功！",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "该手机号可登录游戏": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "该手机号可登录游戏",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "该手机号可登录游戏和2980邮箱": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "该手机号可登录游戏和2980邮箱",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "我们已向你的邮箱{0}": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "我们已向你的邮箱{0}",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "绑定成功！": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "绑定成功！",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "{0}{1}": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "{0}{1}",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "可在【系统】图标->【帐号管理】中找回≥10级的游客角色": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "可在【系统】图标->【帐号管理】中找回≥10级的游客角色",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请确认该邮箱地址是否正确": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请确认该邮箱地址是否正确",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "<color=#D93C2FFF>{0}</color>\\n<color=#323232FF>{1}</color>": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "<color=#D93C2FFF>{0}</color>\\n<color=#323232FF>{1}</color>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你正在为帐号<color=#D93C2FFF>{0}</color>找回密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你正在为帐号<color=#D93C2FFF>{0}</color>找回密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你正在为帐号<color=#D93C2FFF>{0}</color>设置新密码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "你正在为帐号<color=#D93C2FFF>{0}</color>设置新密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入2980邮箱帐号{0}或绑定手机{1}找回": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入2980邮箱帐号{0}或绑定手机{1}找回",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入手机号/邮箱/战盟帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入手机号/邮箱/战盟帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入邮箱/战盟帐号": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入邮箱/战盟帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入邮箱进行绑定": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "请输入邮箱进行绑定",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入手机号/邮箱/战盟帐号进行绑定": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入手机号/邮箱/战盟帐号进行绑定",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "登录成功": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "登录成功",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "激活码已被使用": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "激活码已被使用",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "无效激活码": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "无效激活码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "被顶号登录": {
+    "Type": "Scripts",
+    "SimplifiedChinese": "被顶号登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "提交建议": {
+    "Type": "Text",
+    "SimplifiedChinese": "提交建议",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "欢迎留下您对游戏宝贵的建议": {
+    "Type": "Text",
+    "SimplifiedChinese": "欢迎留下您对游戏宝贵的建议",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "仅做建议收集，如需反馈问题请访问客服中心": {
+    "Type": "Text",
+    "SimplifiedChinese": "仅做建议收集，如需反馈问题请访问客服中心",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "查询回复": {
+    "Type": "Text",
+    "SimplifiedChinese": "查询回复",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "我的建议": {
+    "Type": "Text",
+    "SimplifiedChinese": "我的建议",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "副科级好可怜附件哈伦裤交罚款\n老客服海沸江翻开了后六块腹肌发电量客家话了开发计划六块腹肌老地方记录和家乐福卡": {
+    "Type": "Text",
+    "SimplifiedChinese": "副科级好可怜附件哈伦裤交罚款\n老客服海沸江翻开了后六块腹肌发电量客家话了开发计划六块腹肌老地方记录和家乐福卡",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "客服回复   2020-12-03 15:09\n": {
+    "Type": "Text",
+    "SimplifiedChinese": "客服回复   2020-12-03 15:09\n",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "<b>神武手游现在不能在商店买...</b>": {
+    "Type": "Text",
+    "SimplifiedChinese": "<b>神武手游现在不能在商店买...</b>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "十分感谢您的建议，我...": {
+    "Type": "Text",
+    "SimplifiedChinese": "十分感谢您的建议，我...",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "已回复": {
+    "Type": "Text",
+    "SimplifiedChinese": "已回复",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "连接超时": {
+    "Type": "Text",
+    "SimplifiedChinese": "连接超时",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "根据防沉迷规则，你今日累计游戏时长已达上限，无法继续游戏。请合理安排游戏时间，注意休息！": {
+    "Type": "Text",
+    "SimplifiedChinese": "根据防沉迷规则，你今日累计游戏时长已达上限，无法继续游戏。请合理安排游戏时间，注意休息！",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "退出游戏": {
+    "Type": "Text",
+    "SimplifiedChinese": "退出游戏",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "更换帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "更换帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "退出帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "退出帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "测试提示测试提示": {
+    "Type": "Text",
+    "SimplifiedChinese": "测试提示测试提示",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "#B%s#n 正在申请换绑手机号到 #B%s#n 该换绑操作将于 #C(255, 60, 47)%s#n 正式生效": {
+    "Type": "Text",
+    "SimplifiedChinese": "<color=#0000FF>%s </color>正在申请换绑手机号到 <color=#0000FF>%s </color>\n该换绑操作将于<color=#D93C2FFF> %s </color>正式生效",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "今天不再提醒": {
+    "Type": "Text",
+    "SimplifiedChinese": "今天不再提醒",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "如非本人操作，<color=#0000FF>请点击这里查看取消流程</color>": {
+    "Type": "Text",
+    "SimplifiedChinese": "如非本人操作，<color=#0000FF>请点击这里查看取消流程</color>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "延时5分钟": {
+    "Type": "Text",
+    "SimplifiedChinese": "延时5分钟",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "取消关服": {
+    "Type": "Text",
+    "SimplifiedChinese": "取消关服",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "服务器将关闭，倒计时$time": {
+    "Type": "Text",
+    "SimplifiedChinese": "服务器将关闭，倒计时$time",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "Button": {
+    "Type": "Text",
+    "SimplifiedChinese": "Button",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "Option A": {
+    "Type": "Text",
+    "SimplifiedChinese": "Option A",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "Enter text...": {
+    "Type": "Text",
+    "SimplifiedChinese": "Enter text...",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "Toggle": {
+    "Type": "Text",
+    "SimplifiedChinese": "Toggle",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "获得权限": {
+    "Type": "Text",
+    "SimplifiedChinese": "获得权限",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "GM指令": {
+    "Type": "Text",
+    "SimplifiedChinese": "GM指令",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请点击输入指令": {
+    "Type": "Text",
+    "SimplifiedChinese": "请点击输入指令",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "执 行": {
+    "Type": "Text",
+    "SimplifiedChinese": "执 行",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "指令": {
+    "Type": "Text",
+    "SimplifiedChinese": "指令",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "指令效果": {
+    "Type": "Text",
+    "SimplifiedChinese": "指令效果",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "最近": {
+    "Type": "Text",
+    "SimplifiedChinese": "最近",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "确认框标题": {
+    "Type": "Text",
+    "SimplifiedChinese": "确认框标题",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "描述确认内容": {
+    "Type": "Text",
+    "SimplifiedChinese": "描述确认内容",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "确 定": {
+    "Type": "Text",
+    "SimplifiedChinese": "确 定",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "取 消": {
+    "Type": "Text",
+    "SimplifiedChinese": "取 消",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "退出游戏后将放弃本次排队，确定退出吗？\t": {
+    "Type": "Text",
+    "SimplifiedChinese": "退出游戏后将放弃本次排队，确定退出吗？\t",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你现在的排队位置是：100（大约需要等待10分钟）": {
+    "Type": "Text",
+    "SimplifiedChinese": "你现在的排队位置是：100（大约需要等待10分钟）",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "退  出": {
+    "Type": "Text",
+    "SimplifiedChinese": "退  出",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "战盟点支付": {
+    "Type": "Text",
+    "SimplifiedChinese": "战盟点支付",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "当前战盟点点数不足够支付，请选择其他支付方式": {
+    "Type": "Text",
+    "SimplifiedChinese": "当前战盟点点数不足够支付，请选择其他支付方式",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请使用其他方式支付": {
+    "Type": "Text",
+    "SimplifiedChinese": "请使用其他方式支付",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "支付成功": {
+    "Type": "Text",
+    "SimplifiedChinese": "支付成功",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "支付成功！": {
+    "Type": "Text",
+    "SimplifiedChinese": "支付成功！",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "确认支付": {
+    "Type": "Text",
+    "SimplifiedChinese": "确认支付",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "战盟点余额：": {
+    "Type": "Text",
+    "SimplifiedChinese": "战盟点余额：",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "100": {
+    "Type": "Text",
+    "SimplifiedChinese": "100",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "支付：": {
+    "Type": "Text",
+    "SimplifiedChinese": "支付：",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "支付密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "支付密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "输入战盟拨点密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "输入战盟拨点密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入支付密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入支付密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "忘记支付密码？": {
+    "Type": "Text",
+    "SimplifiedChinese": "忘记支付密码？",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置支付密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置支付密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "您正在为                            设置密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "您正在为                            设置密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "绑定手机为：": {
+    "Type": "Text",
+    "SimplifiedChinese": "绑定手机为：",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "*****1234": {
+    "Type": "Text",
+    "SimplifiedChinese": "*****1234",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证码：": {
+    "Type": "Text",
+    "SimplifiedChinese": "验证码：",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "****1@2980.com": {
+    "Type": "Text",
+    "SimplifiedChinese": "****1@2980.com",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置密码：": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置密码：",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "确认密码：": {
+    "Type": "Text",
+    "SimplifiedChinese": "确认密码：",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "返回上一界面": {
+    "Type": "Text",
+    "SimplifiedChinese": "返回上一界面",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "继续设置": {
+    "Type": "Text",
+    "SimplifiedChinese": "继续设置",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "绑定手机校验（*****1234）": {
+    "Type": "Text",
+    "SimplifiedChinese": "",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "价格：": {
+    "Type": "Text",
+    "SimplifiedChinese": "价格：",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "100战盟点": {
+    "Type": "Text",
+    "SimplifiedChinese": "100战盟点",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "取消支付": {
+    "Type": "Text",
+    "SimplifiedChinese": "取消支付",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "切换帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "切换帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "检测到你已登录新的CC号，是否切换到对应帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "检测到你已登录新的CC号，是否切换到对应帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "使用<color=#3389DB><a=url:https://dygame.duoyi.com/>多益战盟移动端</a></color>扫码登录": {
+    "Type": "Text",
+    "SimplifiedChinese": "使用<color=#3389DB><a=url:https://dygame.duoyi.com/>多益战盟移动端</a></color>扫码登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "使用<color=#3389DB><a=url:https://dygame.duoyi.com/>游戏名</a></color>移动端，在xxx界面使用扫一扫功能": {
+    "Type": "Text",
+    "SimplifiedChinese": "使用<color=#3389DB><a=url:https://dygame.duoyi.com/>游戏名</a></color>移动端，在xxx界面使用扫一扫功能",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "战盟帐号登录": {
+    "Type": "Text",
+    "SimplifiedChinese": "战盟帐号登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "注册帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "注册帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "角色起名": {
+    "Type": "Text",
+    "SimplifiedChinese": "角色起名",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入你的名字": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入你的名字",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你确定要将名字改为<color=#3883f8ff>xxx</color>吗？\n本次改名完全免费": {
+    "Type": "Text",
+    "SimplifiedChinese": "你确定要将名字改为<color=#3883f8ff>xxx</color>吗？\n本次改名完全免费",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "返 回": {
+    "Type": "Text",
+    "SimplifiedChinese": "返 回",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "不良信息举报": {
+    "Type": "Text",
+    "SimplifiedChinese": "不良信息举报",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "基本信息": {
+    "Type": "Text",
+    "SimplifiedChinese": "基本信息",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "被举报人": {
+    "Type": "Text",
+    "SimplifiedChinese": "被举报人",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "被举报人ID": {
+    "Type": "Text",
+    "SimplifiedChinese": "被举报人ID",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "举报原因": {
+    "Type": "Text",
+    "SimplifiedChinese": "举报原因",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "违法违规": {
+    "Type": "Text",
+    "SimplifiedChinese": "违法违规",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "线下交易": {
+    "Type": "Text",
+    "SimplifiedChinese": "线下交易",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "发布广告": {
+    "Type": "Text",
+    "SimplifiedChinese": "发布广告",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "严重侮辱": {
+    "Type": "Text",
+    "SimplifiedChinese": "严重侮辱",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "名字违规": {
+    "Type": "Text",
+    "SimplifiedChinese": "名字违规",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "举报证据": {
+    "Type": "Text",
+    "SimplifiedChinese": "举报证据",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请勾选发言记录作为证据": {
+    "Type": "Text",
+    "SimplifiedChinese": "请勾选发言记录作为证据",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "举报说明": {
+    "Type": "Text",
+    "SimplifiedChinese": "举报说明",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你可以详细描述对方的不良发言": {
+    "Type": "Text",
+    "SimplifiedChinese": "你可以详细描述对方的不良发言",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "提 交": {
+    "Type": "Text",
+    "SimplifiedChinese": "提 交",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "提醒": {
+    "Type": "Text",
+    "SimplifiedChinese": "提醒",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "#B%s#n 已重新设置实名信息为 真实姓名：#B**名#n 身份证：#B44********#n 该重置操作将于#B%s#n 生效 若非本人操作，": {
+    "Type": "Text",
+    "SimplifiedChinese": "当前帐号 <color=#0000FF>q*123@vip.qq.com</color>  已重新设置实名信息为\r\n真实姓名：**名\n身份证：********\n该重置操作将于<color=#D93C2FFF> %s </color>生效\r\n",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "若非本人操作，<u><color=#0000FF>请点击这里进行修改</color></u>": {
+    "Type": "Text",
+    "SimplifiedChinese": "若非本人操作，<u><color=#0000FF>请点击这里进行修改</color></u>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "成功绑定并实名认证后，你将获得以下奖励：": {
+    "Type": "Text",
+    "SimplifiedChinese": "成功绑定并实名认证后，你将获得以下奖励：",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "根据国家相关政策法规要求，游客模式体验时长不得超过<color=red>1小时</color>。当前体验时间已达<color=red>30分钟</color>，请尽快绑定帐号并完成实名认证。": {
+    "Type": "Text",
+    "SimplifiedChinese": "根据国家相关政策法规要求，游客模式体验时长不得超过<color=red>1小时</color>。当前体验时间已达<color=red>30分钟</color>，请尽快绑定帐号并完成实名认证。",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "绑定": {
+    "Type": "Text",
+    "SimplifiedChinese": "绑定",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "暂不": {
+    "Type": "Text",
+    "SimplifiedChinese": "暂不",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "实名认证": {
+    "Type": "Text",
+    "SimplifiedChinese": "实名认证",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "根据国家相关政策法规要求，请先进行实名认证系统会自动同步在多益产品下已登记的实名信息": {
+    "Type": "Text",
+    "SimplifiedChinese": "根据国家相关政策法规要求，请先进行实名认证系统会自动同步在多益产品下已登记的实名信息",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "地区": {
+    "Type": "Text",
+    "SimplifiedChinese": "地区",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入你的真实姓名": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入你的真实姓名",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "确 定 ": {
+    "Type": "Text",
+    "SimplifiedChinese": "确 定 ",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "遇到问题？": {
+    "Type": "Text",
+    "SimplifiedChinese": "遇到问题？",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请确保你填写的信息准确无误，确认提交后不能修改": {
+    "Type": "Text",
+    "SimplifiedChinese": "请确保你填写的信息准确无误，确认提交后不能修改",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "下一步": {
+    "Type": "Text",
+    "SimplifiedChinese": "下一步",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "当前为游客帐号，为防止发生帐号丢失的情况，请你绑定战盟帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "当前为游客帐号，为防止发生帐号丢失的情况，请你绑定战盟帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "绑定手机": {
+    "Type": "Text",
+    "SimplifiedChinese": "绑定手机",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "绑定后可通过手机号找回密码，1个手机号可绑定3个战盟帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "绑定后可通过手机号找回密码，1个手机号可绑定3个战盟帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入你的手机号": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入你的手机号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入战盟帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入战盟帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入你的密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入你的密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "忘记密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "忘记密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "找回游客角色": {
+    "Type": "Text",
+    "SimplifiedChinese": "找回游客角色",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "帐号登录": {
+    "Type": "Text",
+    "SimplifiedChinese": "帐号登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "登 录": {
+    "Type": "Text",
+    "SimplifiedChinese": "登 录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "绑定帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "绑定帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "输入正确的战盟密码即可将当前游戏进度绑定到战盟帐号上": {
+    "Type": "Text",
+    "SimplifiedChinese": "输入正确的战盟密码即可将当前游戏进度绑定到战盟帐号上",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入战盟密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入战盟密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "已详细阅读并同意游戏": {
+    "Type": "Text",
+    "SimplifiedChinese": "已详细阅读并同意游戏",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "<color=#D93C2FFF>使用许可及服务协议</color>": {
+    "Type": "Text",
+    "SimplifiedChinese": "<color=#D93C2FFF>使用许可及服务协议</color>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "和": {
+    "Type": "Text",
+    "SimplifiedChinese": "和",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "<color=#D93C2FFF>隐私政策</color>": {
+    "Type": "Text",
+    "SimplifiedChinese": "<color=#D93C2FFF>隐私政策</color>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "游客登录": {
+    "Type": "Text",
+    "SimplifiedChinese": "游客登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "通过Apple登录": {
+    "Type": "Text",
+    "SimplifiedChinese": "通过Apple登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "Facebook登录": {
+    "Type": "Text",
+    "SimplifiedChinese": "Facebook登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "已详细阅读并同意游戏<color=#D93C2FFF><a=url:https://id.duoyi.com/html/xieyi.html>使用许可及服务协议</a></color>和<color=#D93C2FFF><a=url:https://id.duoyi.com/html/privacy.html>隐私政策</a></color>": {
+    "Type": "Text",
+    "SimplifiedChinese": "已详细阅读并同意游戏<color=#D93C2FFF><a=url:https://id.duoyi.com/html/xieyi.html>使用许可及服务协议</a></color>和<color=#D93C2FFF><a=url:https://id.duoyi.com/html/privacy.html>隐私政策</a></color>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "多益游戏许可及服务协议和隐私政策": {
+    "Type": "Text",
+    "SimplifiedChinese": "多益游戏许可及服务协议和隐私政策",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "同意": {
+    "Type": "Text",
+    "SimplifiedChinese": "同意",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "拒绝": {
+    "Type": "Text",
+    "SimplifiedChinese": "拒绝",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "验证帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你的帐号<color=#D93C2FFF>{0}</color>存在异常，为了保障帐号安全，请重新输入密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "你的帐号<color=#D93C2FFF>{0}</color>存在异常，为了保障帐号安全，请重新登录",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请您使用本游戏前仔细阅读并同意《多益游戏许可及服务协议》及《隐私政策》，如您拒绝，将无法进入游戏。": {
+    "Type": "Text",
+    "SimplifiedChinese": "请您使用本游戏前仔细阅读并同意《多益游戏许可及服务协议》及《隐私政策》，如您拒绝，将无法进入游戏。",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "点击查看<color=#D93C2F>《多益游戏许可及服务协议》</color>和<color=#D93C2F>《隐私政策》</color>": {
+    "Type": "Text",
+    "SimplifiedChinese": "点击查看<color=#D93C2F>《多益游戏许可及服务协议》</color>和<color=#D93C2F>《隐私政策》</color>",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "注册邮箱帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "注册邮箱帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "重发验证邮件": {
+    "Type": "Text",
+    "SimplifiedChinese": "重发验证邮件",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请填写你注册时使用的邮箱": {
+    "Type": "Text",
+    "SimplifiedChinese": "请填写你注册时使用的邮箱",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "验证邮件可能被放入“<color=#000000ff>订阅邮件</color>”或“<color=#000000ff>其他邮件分类</color>”中\n（可用邮箱搜索“<color=#000000ff>多益</color>”查找）": {
+    "Type": "Text",
+    "SimplifiedChinese": "验证邮件可能被放入“<color=#000000ff>订阅邮件</color>”或“<color=#000000ff>其他邮件分类</color>”中\n（可用邮箱搜索“<color=#000000ff>多益</color>”查找）",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "发 送": {
+    "Type": "Text",
+    "SimplifiedChinese": "发 送",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "修改密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "修改密码",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "请输入需要修改密码的帐号": {
+    "Type": "Text",
+    "SimplifiedChinese": "请输入需要修改密码的帐号",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "服务协议": {
+    "Type": "Text",
+    "SimplifiedChinese": "服务协议",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "拒 绝": {
+    "Type": "Text",
+    "SimplifiedChinese": "拒 绝",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "同 意": {
+    "Type": "Text",
+    "SimplifiedChinese": "同 意",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "你的帐号存在异常，为了保障帐号安全，请重新输入密码": {
+    "Type": "Text",
+    "SimplifiedChinese": "你的帐号存在异常，为了保障帐号安全，请重新输入密码",
+    "TraditionalChinese": "你的帳號存在異常，為了保障帳號安全，請重新輸入密碼",
+    "English": ""
+  },
+  "话真多": {
+    "Type": "Text",
+    "SimplifiedChinese": "话真多",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "不确定 ": {
+    "Type": "Text",
+    "SimplifiedChinese": "不确定\n",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "点旁边那个": {
+    "Type": "Text",
+    "SimplifiedChinese": "点旁边那个",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "渐音：开": {
+    "Type": "Text",
+    "SimplifiedChinese": "渐音：开",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置1": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置1",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置4": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置4",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置2": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置2",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置6": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置6",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置5": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置5",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置",
+    "TraditionalChinese": "",
+    "English": ""
+  },
+  "设置3": {
+    "Type": "Text",
+    "SimplifiedChinese": "设置3",
+    "TraditionalChinese": "",
+    "English": ""
+  }
+}

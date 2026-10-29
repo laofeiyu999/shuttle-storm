@@ -1,0 +1,544 @@
+
+[
+    {
+        "id" : 1001,
+        "effects" : [
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "trainingground",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2005
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "Material",
+                "stateName"  : "rubber",
+                "triggerKey" : 4,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "trainingground",
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1002,
+        "effects" : [
+            {
+                "effectType" : 43,
+                "singleBnks" : [
+                    "sce_3d_sandbeach"
+                ],
+                "doubleBnks" : [
+                    "sce_3d_sandbeach"
+                ],
+                "triggerKey" : 3000,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "sandbeach",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2005
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "Material",
+                "stateName"  : "sand",
+                "triggerKey" : 4,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "sandbeach",
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1003,
+        "effects" : [
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "bamboo",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2005
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "Material",
+                "stateName"  : "stone",
+                "triggerKey" : 4,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "bamboo",
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 1004,
+        "effects" : [
+            {
+                "effectType" : 43,
+                "singleBnks" : [
+                    "sce_2d_arena"
+                ],
+                "doubleBnks" : [
+                    "sce_2d_arena"
+                ],
+                "triggerKey" : 3000,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 13,
+                "key"        : "REcheer",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2001
+            },
+            {
+                "effectType" : 13,
+                "key"        : "cheer",
+                "triggerKey" : 2020,
+                "stopTriggerKey" : 2010
+            },
+            {
+                "effectType" : 14,
+                "resPath"    : "skin",
+                "triggerName" : "Left",
+                "triggerKey"  : 2022,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 14,
+                "resPath"    : "skin",
+                "triggerName" : "Right",
+                "triggerKey"  : 2023,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 17,
+                "scoreBoards" : [
+                    {
+                        "sceneLinkName" : "HostScoreBoard_HostScore",
+                        "team"          : 1
+                    },
+                    {
+                        "sceneLinkName" : "HostScoreBoard_GuestScore",
+                        "team"          : 2
+                    },
+                    {
+                        "sceneLinkName" : "GuestHostScoreBoard_HostScore",
+                        "team"          : 1
+                    },
+                    {
+                        "sceneLinkName" : "GuestHostScoreBoard_GuestScore",
+                        "team"          : 2
+                    }
+                ],
+                "triggerKey"  : 2011,
+                "stopTriggerKey" : 2010
+            },
+            {
+                "effectType" : 16,
+                "targetRenderName" : "Neon/A5CJ_1004_box_03_007/A5CJ_1004_box_03_002",
+                "speedArgsName"    : "_Speed_Lerp",
+                "speed"            : 0.0,
+                "triggerKey"       : 2011,
+                "stopTriggerKey"   : 2010
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "arena",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2005
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_crowd_score_1",
+                "unitEvent"  : false,
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_crowd_saveball_1",
+                "unitEvent"  : false,
+                "triggerKey" : 1007,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_crowd_bastplayer",
+                "unitEvent"  : false,
+                "triggerKey" : 2012,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "Material",
+                "stateName"  : "rubber",
+                "triggerKey" : 4,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "arena",
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 17,
+                "scoreBoards" : [
+                    {
+                        "sceneLinkName" : "HostScoreBoard_HostScore",
+                        "team"          : 1
+                    },
+                    {
+                        "sceneLinkName" : "HostScoreBoard_GuestScore",
+                        "team"          : 2
+                    },
+                    {
+                        "sceneLinkName" : "GuestHostScoreBoard_HostScore",
+                        "team"          : 1
+                    },
+                    {
+                        "sceneLinkName" : "GuestHostScoreBoard_GuestScore",
+                        "team"          : 2
+                    }
+                ],
+                "triggerKey"  : 100,
+                "stopTriggerKey" : 2020
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "battle_status",
+                "stateName"  : "final_set",
+                "triggerKey" : 2009,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "Play_battle_crowd_energy_1",
+                "unitEvent"  : false,
+                "triggerKey" : 1002,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "Play_battle_crowd_energy_3",
+                "unitEvent"  : false,
+                "triggerKey" : 1004,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 2001,
+        "effects" : [
+            {
+                "effectType" : 43,
+                "singleBnks" : [
+                    "property_role_1p",
+                    "property_role_3p"
+                ],
+                "doubleBnks" : [
+                    "property_role_1p",
+                    "property_role_2p",
+                    "property_role_3p"
+                ],
+                "triggerKey" : 3000,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "trainingground",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2005
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "Material",
+                "stateName"  : "rubber",
+                "triggerKey" : 4,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "trainingground",
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 2002,
+        "effects" : [
+            {
+                "effectType" : 43,
+                "singleBnks" : [
+                    "property_role_1p",
+                    "property_role_3p",
+                    "sce_3d_sandbeach"
+                ],
+                "doubleBnks" : [
+                    "property_role_1p",
+                    "property_role_2p",
+                    "property_role_3p",
+                    "sce_3d_sandbeach"
+                ],
+                "triggerKey" : 3000,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "sandbeach",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2005
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "Material",
+                "stateName"  : "sand",
+                "triggerKey" : 4,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "sandbeach",
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 2003,
+        "effects" : [
+            {
+                "effectType" : 43,
+                "singleBnks" : [
+                    "property_role_1p",
+                    "property_role_3p"
+                ],
+                "doubleBnks" : [
+                    "property_role_1p",
+                    "property_role_2p",
+                    "property_role_3p"
+                ],
+                "triggerKey" : 3000,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "bamboo",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2005
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "Material",
+                "stateName"  : "stone",
+                "triggerKey" : 4,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "bamboo",
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            }
+        ]
+    },
+    {
+        "id" : 2004,
+        "effects" : [
+            {
+                "effectType" : 43,
+                "singleBnks" : [
+                    "property_role_1p",
+                    "property_role_3p",
+                    "sce_2d_arena"
+                ],
+                "doubleBnks" : [
+                    "property_role_1p",
+                    "property_role_2p",
+                    "property_role_3p",
+                    "sce_2d_arena"
+                ],
+                "triggerKey" : 3000,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 13,
+                "key"        : "REcheer",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2001
+            },
+            {
+                "effectType" : 13,
+                "key"        : "cheer",
+                "triggerKey" : 2020,
+                "stopTriggerKey" : 2010
+            },
+            {
+                "effectType" : 14,
+                "resPath"    : "skin",
+                "triggerName" : "Left",
+                "triggerKey"  : 2022,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 14,
+                "resPath"    : "skin",
+                "triggerName" : "Right",
+                "triggerKey"  : 2023,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 17,
+                "scoreBoards" : [
+                    {
+                        "sceneLinkName" : "HostScoreBoard_HostScore",
+                        "team"          : 1
+                    },
+                    {
+                        "sceneLinkName" : "HostScoreBoard_GuestScore",
+                        "team"          : 2
+                    },
+                    {
+                        "sceneLinkName" : "GuestHostScoreBoard_HostScore",
+                        "team"          : 1
+                    },
+                    {
+                        "sceneLinkName" : "GuestHostScoreBoard_GuestScore",
+                        "team"          : 2
+                    }
+                ],
+                "triggerKey"  : 2011,
+                "stopTriggerKey" : 2010
+            },
+            {
+                "effectType" : 16,
+                "targetRenderName" : "Neon/A5CJ_1004_box_03_007/A5CJ_1004_box_03_002",
+                "speedArgsName"    : "_Speed_Lerp",
+                "speed"            : 0.0,
+                "triggerKey"       : 2011,
+                "stopTriggerKey"   : 2010
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "arena",
+                "triggerKey" : 2000,
+                "stopTriggerKey" : 2005
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_crowd_score_1",
+                "unitEvent"  : false,
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_crowd_saveball_1",
+                "unitEvent"  : false,
+                "triggerKey" : 1007,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "Play_battle_crowd_energy_1",
+                "unitEvent"  : false,
+                "triggerKey" : 1002,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "Play_battle_crowd_energy_3",
+                "unitEvent"  : false,
+                "triggerKey" : 1004,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "Material",
+                "stateName"  : "rubber",
+                "triggerKey" : 4,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 41,
+                "eventName"  : "play_battle_crowd_bastplayer",
+                "unitEvent"  : false,
+                "triggerKey" : 2012,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "scene",
+                "stateName"  : "arena",
+                "triggerKey" : 1001,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 17,
+                "scoreBoards" : [
+                    {
+                        "sceneLinkName" : "HostScoreBoard_HostScore",
+                        "team"          : 1
+                    },
+                    {
+                        "sceneLinkName" : "HostScoreBoard_GuestScore",
+                        "team"          : 2
+                    },
+                    {
+                        "sceneLinkName" : "GuestHostScoreBoard_HostScore",
+                        "team"          : 1
+                    },
+                    {
+                        "sceneLinkName" : "GuestHostScoreBoard_GuestScore",
+                        "team"          : 2
+                    }
+                ],
+                "triggerKey"  : 100,
+                "stopTriggerKey" : 2007
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "battle_status",
+                "stateName"  : "final_set",
+                "triggerKey" : 2009,
+                "stopTriggerKey" : -1
+            },
+            {
+                "effectType" : 42,
+                "groupName"  : "battle_status",
+                "stateName"  : "final_set",
+                "triggerKey" : 2009,
+                "stopTriggerKey" : -1
+            }
+        ]
+    }
+]

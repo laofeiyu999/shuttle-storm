@@ -1,0 +1,20 @@
+[
+    {
+        "goods":4000007,
+        "iconPath":"Language_store/UI_store_boxticket1",
+        "id":5000000,
+        "intro":"\u53ef\u4ee5\u7528\u6765\u5151\u6362\u521d\u7ea7\u6280\u80fd\u5305\uff0c\u4ece\u5546\u57ce\u5904\u8d2d\u4e70\u793c\u5305\u83b7\u5f97\u3002"
+    },
+    {
+        "goods":4000008,
+        "iconPath":"Language_store/UI_store_boxticket2",
+        "id":5000001,
+        "intro":"\u53ef\u4ee5\u7528\u6765\u5151\u6362\u8fdb\u9636\u6280\u80fd\u5305\uff0c\u4ece\u5546\u57ce\u5904\u8d2d\u4e70\u793c\u5305\u83b7\u5f97\u3002"
+    },
+    {
+        "goods":4000009,
+        "iconPath":"Language_store/UI_store_boxticket3",
+        "id":5000002,
+        "intro":"\u53ef\u4ee5\u7528\u6765\u5151\u6362\u968f\u673a\u5feb\u4e50\u5305\uff0c\u4ece\u5546\u57ce\u5904\u8d2d\u4e70\u793c\u5305\u83b7\u5f97\u3002"
+    }
+]

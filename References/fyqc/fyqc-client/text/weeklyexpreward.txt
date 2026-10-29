@@ -1,0 +1,13 @@
+[
+    {
+        "advancedRewards":{
+            "count":120,
+            "id":6
+        },
+        "id":1001,
+        "normalRewards":{
+            "count":40,
+            "id":6
+        }
+    }
+]

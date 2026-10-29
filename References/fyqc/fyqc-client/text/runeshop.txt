@@ -1,0 +1,14 @@
+[
+    {
+        "currencyNum":50,
+        "currencyType":1,
+        "iconPath":"common/UI_com_icon_cur_coin",
+        "id":1001
+    },
+    {
+        "currencyNum":80,
+        "currencyType":2,
+        "iconPath":"common/UI_com_icon_cur_coupon",
+        "id":1002
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "appleproductID":0,
+        "costRMB":0.0,
+        "desc":0,
+        "giftBagID":0,
+        "giftGold":0,
+        "gold":0,
+        "googleproductID":0,
+        "id":1001,
+        "isRecommend":false,
+        "name":0,
+        "pcproductID":0,
+        "resPath":0
+    },
+    {
+        "appleproductID":0,
+        "costRMB":0.0,
+        "desc":0,
+        "giftBagID":0,
+        "giftGold":0,
+        "gold":0,
+        "googleproductID":0,
+        "id":1002,
+        "isRecommend":false,
+        "name":0,
+        "pcproductID":0,
+        "resPath":0
+    }
+]

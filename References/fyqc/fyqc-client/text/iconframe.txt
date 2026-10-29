@@ -1,0 +1,30 @@
+[
+    {
+        "canUse":true,
+        "id":3400001,
+        "name":"\u6700\u4f73\u7403\u5458",
+        "path":"headpic/UI_avatarframe_topplayer",
+        "unlockDesc":"\u8d5b\u5b63\u7ed3\u7b97\u65f6\uff0c\u83b7\u5f97\u5355\u4eba\u6392\u4f4d\u6392\u884c\u699c\u5168\u670d\u524d50\u540d\u3002"
+    },
+    {
+        "canUse":true,
+        "id":3400002,
+        "name":"\u6700\u4f73\u62cd\u6863",
+        "path":"headpic/UI_avatarframe_bestpartner",
+        "unlockDesc":"\u8d5b\u5b63\u7ed3\u7b97\u65f6\uff0c\u83b7\u5f97\u6700\u4f73\u62cd\u6863\u6392\u884c\u699c\u5168\u670d\u524d50\u540d\u3002"
+    },
+    {
+        "canUse":true,
+        "id":3400003,
+        "name":"\u62cd\u6863\u79ef\u5206",
+        "path":"headpic/UI_avatarframe_partnerpoints",
+        "unlockDesc":"\u8d5b\u5b63\u7ed3\u7b97\u65f6\uff0c\u83b7\u5f97\u62cd\u6863\u79ef\u5206\u6392\u884c\u699c\u5168\u670d\u524d50\u540d\u3002"
+    },
+    {
+        "canUse":true,
+        "id":3400004,
+        "name":"\u51fb\u7403\u4f20\u82b1",
+        "path":"headpic/UI_avatarframe_bombmode",
+        "unlockDesc":"\u8d5b\u5b63\u7ed3\u7b97\u65f6\uff0c\u83b7\u5f97\u51fb\u7403\u4f20\u82b1\u6392\u884c\u699c\u5168\u670d\u524d50\u540d\u3002"
+    }
+]

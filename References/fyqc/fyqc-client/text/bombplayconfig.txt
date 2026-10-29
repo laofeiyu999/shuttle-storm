@@ -1,0 +1,12 @@
+[
+    {
+        "battleMode":1,
+        "id":1001,
+        "initHp":100
+    },
+    {
+        "battleMode":2,
+        "id":1002,
+        "initHp":200
+    }
+]

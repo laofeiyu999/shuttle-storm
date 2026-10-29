@@ -1,0 +1,18 @@
+{
+    "dualCourtSize":{
+        "length":6.1,
+        "width":13.4
+    },
+    "forbidDropWidth":0.6,
+    "frontBackLine":3.35,
+    "frontServeLine":1.9,
+    "moveableCourtSize":{
+        "length":9.0,
+        "width":16.4
+    },
+    "netHeight":1.5,
+    "singleCourtSize":{
+        "length":5.2,
+        "width":13.4
+    }
+}

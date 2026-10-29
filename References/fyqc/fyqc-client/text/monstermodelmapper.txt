@@ -1,0 +1,7 @@
+
+[
+    {
+        "modelId" : 7001,
+        "monsterType" : 1
+    }
+]

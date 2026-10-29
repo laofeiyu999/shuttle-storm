@@ -1,0 +1,7 @@
+
+{
+    "yOffsetMax" : -0.1,
+    "yOffsetMin" : -1.2,
+    "zOffsetMax" : 3.5,
+    "zOffsetMin" : -3.5
+}

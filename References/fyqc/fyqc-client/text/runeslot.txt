@@ -1,0 +1,27 @@
+[
+    {
+        "currencyNum":0,
+        "currencyType":0,
+        "id":1001
+    },
+    {
+        "currencyNum":50,
+        "currencyType":2,
+        "id":1002
+    },
+    {
+        "currencyNum":150,
+        "currencyType":2,
+        "id":1003
+    },
+    {
+        "currencyNum":300,
+        "currencyType":2,
+        "id":1004
+    },
+    {
+        "currencyNum":500,
+        "currencyType":2,
+        "id":1005
+    }
+]

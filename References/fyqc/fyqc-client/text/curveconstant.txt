@@ -1,0 +1,16 @@
+{
+    "1000":{
+        "airFriction":0.24,
+        "gravity":-5.0,
+        "name":"\u5e38\u89c4\u578b\u7403\u8def",
+        "netFixH":0.08,
+        "timeGap":0.016
+    },
+    "2000":{
+        "airFriction":0.0,
+        "gravity":-0.0,
+        "name":"\u629b\u7269\u7ebf\u4e0b\u538b\u7403\u8def",
+        "netFixH":0.05,
+        "timeGap":0.02
+    }
+}

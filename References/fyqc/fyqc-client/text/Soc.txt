@@ -1,0 +1,24 @@
+机型档位	CPU参数（不限大小写）	GPU参数（不限大小写）	SOC型号（提示用）
+3		Adreno 640	Qualcomm Snapdragon 855
+3		Adreno 630	Qualcomm Snapdragon 845
+3	Exynos 9820		
+3	Exynos 9810		Samsung Exynos 9?9810
+3	Kirin 980		Huawei HiSilicon KIRIN 980
+2		Adreno 618	Qualcomm Snapdragon 730
+2		Adreno 615	Qualcomm Snapdragon 670
+2	MSM8976 Plus	Adreno 512	Qualcomm Snapdragon 660 MSM8976 Plus
+2		Adreno 509	Qualcomm Snapdragon 636
+2	MSM8998	Adreno 540	Qualcomm Snapdragon 835?MSM8998
+2	MSM8996	Adreno 530	Qualcomm Snapdragon 820 MSM8996|Qualcomm Snapdragon 820 MSM8996 Pro
+2	Exynos 8890	Mali-T880	Samsung Exynos 8 Octa?8890
+2	Exynos 8895	Mali-G71	Samsung Exynos 9 Octa 8895
+2	MT6799		MediaTek Helio X30 (MT6799)
+2	MT6771	Mali-G72	MediaTek Helio P60 (MT6771)
+2	MT6771V		
+2	MT6797X	Mali-T880	MediaTek Helio X27 (MT6797X)
+2	kirin 970	Mali-G72	Huawei HiSilicon KIRIN 970
+2	kirin 960	Mali-G71	Huawei HiSilicon KIRIN 960
+2	kirin 710	Mali-G51	Huawei HiSilicon KIRIN 710
+2	kirin 710F	Mali-T830	Samsung Exynos 7 Octa 7870
+2	kirin 955	Mali-T880	Huawei HiSilicon KIRIN 955
+2	kirin 950	Mali-T880	Huawei HiSilicon KIRIN 950

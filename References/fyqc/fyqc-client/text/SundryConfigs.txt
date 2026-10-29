@@ -1,0 +1,739 @@
+
+{
+    "sundryConfig" : {
+        "moveAudioCD" : 1.0,
+        "enumyAudioScale" : 0.6,
+        "homeIntro"       : "",
+        "homeBGM"         : "Sound/Music/bgm_main_home_loop",
+        "loginBGM"        : "Sound/Music/bgm_login_interface",
+        "loginEnvAudios"  : [
+        ],
+        "maxAnimationSpeed" : 2.0,
+        "maxSpeed"          : 700.0
+    },
+    "apparelToggles" : [
+        {
+            "cnName" : "\u53D1\u578B",
+            "flag"   : 1,
+            "isSuit" : false
+        },
+        {
+            "cnName" : "\u8033\u9970",
+            "flag"   : 4,
+            "isSuit" : false
+        },
+        {
+            "cnName" : "\u8868\u60C5",
+            "flag"   : 8,
+            "isSuit" : false
+        },
+        {
+            "cnName" : "\u773C\u955C",
+            "flag"   : 16,
+            "isSuit" : false
+        },
+        {
+            "cnName" : "\u4E0A\u88C5",
+            "flag"   : 64,
+            "isSuit" : false
+        }
+    ],
+    "emoteSetDataList" : [
+        {
+            "id" : "#0",
+            "isDynamicEmote" : true,
+            "startId"        : 0,
+            "endId"          : 10,
+            "height"         : 100,
+            "width"          : 100
+        },
+        {
+            "id" : "#1",
+            "isDynamicEmote" : true,
+            "startId"        : 11,
+            "endId"          : 27,
+            "height"         : 0,
+            "width"          : 0
+        },
+        {
+            "id" : "#2",
+            "isDynamicEmote" : true,
+            "startId"        : 28,
+            "endId"          : 35,
+            "height"         : 0,
+            "width"          : 0
+        }
+    ],
+    "redPointStructs"  : [
+        {
+            "redEnum" : 1000,
+            "childNodes" : [
+                {
+                    "redEnum" : 1001,
+                    "childNodes" : [
+                    ]
+                }
+            ]
+        },
+        {
+            "redEnum" : 2000,
+            "childNodes" : [
+            ]
+        },
+        {
+            "redEnum" : 3000,
+            "childNodes" : [
+            ]
+        },
+        {
+            "redEnum" : 4000,
+            "childNodes" : [
+            ]
+        },
+        {
+            "redEnum" : 7000,
+            "childNodes" : [
+                {
+                    "redEnum" : 7100,
+                    "childNodes" : [
+                    ]
+                },
+                {
+                    "redEnum" : 7500,
+                    "childNodes" : [
+                    ]
+                },
+                {
+                    "redEnum" : 7600,
+                    "childNodes" : [
+                    ]
+                }
+            ]
+        },
+        {
+            "redEnum" : 9000,
+            "childNodes" : [
+            ]
+        },
+        {
+            "redEnum" : 8000,
+            "childNodes" : [
+                {
+                    "redEnum" : 8100,
+                    "childNodes" : [
+                    ]
+                },
+                {
+                    "redEnum" : 8200,
+                    "childNodes" : [
+                    ]
+                },
+                {
+                    "redEnum" : 8300,
+                    "childNodes" : [
+                    ]
+                },
+                {
+                    "redEnum" : 8400,
+                    "childNodes" : [
+                    ]
+                }
+            ]
+        },
+        {
+            "redEnum" : 10000,
+            "childNodes" : [
+                {
+                    "redEnum" : 10001,
+                    "childNodes" : [
+                    ]
+                },
+                {
+                    "redEnum" : 10002,
+                    "childNodes" : [
+                    ]
+                }
+            ]
+        },
+        {
+            "redEnum" : 13001,
+            "childNodes" : [
+            ]
+        },
+        {
+            "redEnum" : 12200,
+            "childNodes" : [
+            ]
+        },
+        {
+            "redEnum" : 15001,
+            "childNodes" : [
+                {
+                    "redEnum" : 15003,
+                    "childNodes" : [
+                    ]
+                },
+                {
+                    "redEnum" : 15002,
+                    "childNodes" : [
+                        {
+                            "redEnum" : 15005,
+                            "childNodes" : [
+                            ]
+                        },
+                        {
+                            "redEnum" : 15004,
+                            "childNodes" : [
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "redEnum" : 17000,
+            "childNodes" : [
+                {
+                    "redEnum" : 17100,
+                    "childNodes" : [
+                    ]
+                },
+                {
+                    "redEnum" : 17200,
+                    "childNodes" : [
+                    ]
+                }
+            ]
+        },
+        {
+            "redEnum" : 19000,
+            "childNodes" : [
+            ]
+        }
+    ],
+    "apparelChooseTypes" : [
+        {
+            "cnName" : "\u5168\u90E8",
+            "showIconPath" : "Store/options/quanbu1",
+            "closeIconPath" : "Store/options/quanbu0",
+            "flag"          : [
+                0
+            ],
+            "isSuit"        : false
+        },
+        {
+            "cnName" : "\u5957\u88C5",
+            "showIconPath" : "Store/options/taozhuang1",
+            "closeIconPath" : "Store/options/taozhuang0",
+            "flag"          : [
+            ],
+            "isSuit"        : true
+        },
+        {
+            "cnName" : "\u53D1\u578B",
+            "showIconPath" : "Store/options/faxing1",
+            "closeIconPath" : "Store/options/faxing0",
+            "flag"          : [
+                1
+            ],
+            "isSuit"        : false
+        },
+        {
+            "cnName" : "\u5934\u9970",
+            "showIconPath" : "Store/options/toushi1",
+            "closeIconPath" : "Store/options/toushi0",
+            "flag"          : [
+                2
+            ],
+            "isSuit"        : false
+        },
+        {
+            "cnName" : "\u4E0A\u88C5",
+            "showIconPath" : "Store/options/shangzhuang1",
+            "closeIconPath" : "Store/options/shangzhuang0",
+            "flag"          : [
+                64
+            ],
+            "isSuit"        : false
+        },
+        {
+            "cnName" : "\u4E0B\u88C5",
+            "showIconPath" : "Store/options/xiazhuang1",
+            "closeIconPath" : "Store/options/xiazhuang0",
+            "flag"          : [
+                512
+            ],
+            "isSuit"        : false
+        },
+        {
+            "cnName" : "\u978B\u5B50",
+            "showIconPath" : "Store/options/xiezi1",
+            "closeIconPath" : "Store/options/xiezi0",
+            "flag"          : [
+                2048
+            ],
+            "isSuit"        : false
+        },
+        {
+            "cnName" : "\u8868\u60C5",
+            "showIconPath" : "Store/options/biaoqing1",
+            "closeIconPath" : "Store/options/biaoqing0",
+            "flag"          : [
+                8
+            ],
+            "isSuit"        : false
+        },
+        {
+            "cnName" : "\u9970\u54C1",
+            "showIconPath" : "Store/options/shipin1",
+            "closeIconPath" : "Store/options/shipin0",
+            "flag"          : [
+                4,
+                16,
+                32,
+                128,
+                256,
+                1024,
+                8192
+            ],
+            "isSuit"        : false
+        }
+    ],
+    "badmintonScal"      : {
+        "maxHeight" : 4.0,
+        "minScal"   : 0.5,
+        "minHeight" : 0.8,
+        "maxScal"   : 0.28
+    },
+    "flightSet"          : {
+        "openFlight" : true,
+        "flightCount" : 5,
+        "flightZR"    : 200,
+        "flightZTime" : 0.25,
+        "flightZTimeAdd" : 0.05,
+        "easeType"       : 6,
+        "runTime"        : 1.2,
+        "runTimeAdd"     : 0.5,
+        "runEaseType"    : 10,
+        "teXiaoScalEnd"  : 0.8,
+        "scalRunTime"    : 0.05
+    },
+    "flightAmounts"      : [
+        {
+            "resType" : 1,
+            "path"    : "UI/Prefabs/Flight/GUI_FlightCoin",
+            "amount"  : 10,
+            "amountMax" : 80
+        },
+        {
+            "resType" : 2,
+            "path"    : "UI/Prefabs/Flight/GUI_FlightCrash",
+            "amount"  : 20,
+            "amountMax" : 80
+        },
+        {
+            "resType" : 3,
+            "path"    : "UI/Prefabs/Flight/GUI_FlightDiamond",
+            "amount"  : 10,
+            "amountMax" : 80
+        },
+        {
+            "resType" : 4,
+            "path"    : "UI/Prefabs/Flight/GUI_FlightTaskgem",
+            "amount"  : 5,
+            "amountMax" : 80
+        }
+    ],
+    "qualitySetList"     : [
+        {
+            "qyality" : 1,
+            "openBoxPrefab" : "UI/Prefabs/Box/GUI_Box_RewardItemN",
+            "itemBoxBgIconPath" : "common/UI_com_icon_board01",
+            "color"             : {
+                "grayscale" : 0.2195568,
+                "maxColorComponent" : 0.2705882,
+                "r"                 : 0.2,
+                "g"                 : 0.2196078,
+                "b"                 : 0.2705882,
+                "a"                 : 1.0
+            }
+        },
+        {
+            "qyality" : 2,
+            "openBoxPrefab" : "UI/Prefabs/Box/GUI_Box_RewardItemN",
+            "itemBoxBgIconPath" : "common/UI_com_icon_board01",
+            "color"             : {
+                "grayscale" : 0.2195568,
+                "maxColorComponent" : 0.2705882,
+                "r"                 : 0.2,
+                "g"                 : 0.2196078,
+                "b"                 : 0.2705882,
+                "a"                 : 1.0
+            }
+        },
+        {
+            "qyality" : 3,
+            "openBoxPrefab" : "UI/Prefabs/Box/GUI_Box_RewardItemR",
+            "itemBoxBgIconPath" : "common/UI_com_icon_board02",
+            "color"             : {
+                "grayscale" : 0.2195568,
+                "maxColorComponent" : 0.2705882,
+                "r"                 : 0.2,
+                "g"                 : 0.2196078,
+                "b"                 : 0.2705882,
+                "a"                 : 1.0
+            }
+        },
+        {
+            "qyality" : 4,
+            "openBoxPrefab" : "UI/Prefabs/Box/GUI_Box_RewardItemSR",
+            "itemBoxBgIconPath" : "common/UI_com_icon_board03",
+            "color"             : {
+                "grayscale" : 0.2195568,
+                "maxColorComponent" : 0.2705882,
+                "r"                 : 0.2,
+                "g"                 : 0.2196078,
+                "b"                 : 0.2705882,
+                "a"                 : 1.0
+            }
+        },
+        {
+            "qyality" : 5,
+            "openBoxPrefab" : "UI/Prefabs/Box/GUI_Box_RewardItemSSR",
+            "itemBoxBgIconPath" : "common/UI_com_icon_board04",
+            "color"             : {
+                "grayscale" : 0.2195568,
+                "maxColorComponent" : 0.2705882,
+                "r"                 : 0.2,
+                "g"                 : 0.2196078,
+                "b"                 : 0.2705882,
+                "a"                 : 1.0
+            }
+        }
+    ],
+    "fluffyWeightAnimationConfigs" : [
+        {
+            "weight" : 0,
+            "animationPath" : "Animations/Show/Boy/B_stand01_anim",
+            "sex"           : 1
+        },
+        {
+            "weight" : 10,
+            "animationPath" : "Animations/Show/Boy/B_begin_1001_anim",
+            "sex"           : 1
+        },
+        {
+            "weight" : 0,
+            "animationPath" : "Animations/Show/Girl/G_stand_01_anim",
+            "sex"           : 0
+        },
+        {
+            "weight" : 10,
+            "animationPath" : "Animations/Show/Girl/G_stand_02_anim",
+            "sex"           : 0
+        },
+        {
+            "weight" : 20,
+            "animationPath" : "Animations/Show/Boy/B_stand_watch_anim",
+            "sex"           : 1
+        },
+        {
+            "weight" : 20,
+            "animationPath" : "Animations/Show/Girl/G_stand_watch_anim",
+            "sex"           : 0
+        }
+    ],
+    "skirtAnimationConfigs"        : [
+        {
+            "fluffyWeight" : 1,
+            "tightenLevel" : 0,
+            "sex"          : 0,
+            "animationPath" : "Animations/Show/Girl/G_skirt_00",
+            "key"           : "normal"
+        },
+        {
+            "fluffyWeight" : 1,
+            "tightenLevel" : 0,
+            "sex"          : 0,
+            "animationPath" : "Animations/Show/Girl/G_begin_1001_anim",
+            "key"           : "StartMovie"
+        },
+        {
+            "fluffyWeight" : 1,
+            "tightenLevel" : 1,
+            "sex"          : 0,
+            "animationPath" : "Animations/Show/Girl/G_skirt_01_anim",
+            "key"           : "normal"
+        },
+        {
+            "fluffyWeight" : 1,
+            "tightenLevel" : 1,
+            "sex"          : 0,
+            "animationPath" : "Animations/Show/Girl/G_begin_1001_qunzi_anim",
+            "key"           : "StartMovie"
+        },
+        {
+            "fluffyWeight" : 1,
+            "tightenLevel" : 2,
+            "sex"          : 0,
+            "animationPath" : "Animations/Show/Girl/G_skirt_01_anim",
+            "key"           : "normal"
+        },
+        {
+            "fluffyWeight" : 1,
+            "tightenLevel" : 2,
+            "sex"          : 0,
+            "animationPath" : "Animations/Show/Girl/G_begin_1001_anim",
+            "key"           : "StartMovie"
+        },
+        {
+            "fluffyWeight" : 2,
+            "tightenLevel" : 0,
+            "sex"          : 0,
+            "animationPath" : "Animations/Show/Girl/G_skirt_00",
+            "key"           : "normal"
+        },
+        {
+            "fluffyWeight" : 2,
+            "tightenLevel" : 0,
+            "sex"          : 0,
+            "animationPath" : "Animations/Show/Girl/G_begin_1001_qunzi_anim",
+            "key"           : "StartMovie"
+        }
+    ],
+    "audioLibraries"               : [
+        {
+            "key" : "vo_hitgood",
+            "grilLibrary" : [
+            ],
+            "boyLibrary"  : [
+            ]
+        },
+        {
+            "key" : "vo_hitnormal",
+            "grilLibrary" : [
+            ],
+            "boyLibrary"  : [
+            ]
+        },
+        {
+            "key" : "vo_hitretrieve",
+            "grilLibrary" : [
+            ],
+            "boyLibrary"  : [
+            ]
+        },
+        {
+            "key" : "vo_hitstrong",
+            "grilLibrary" : [
+            ],
+            "boyLibrary"  : [
+            ]
+        },
+        {
+            "key" : "vo_hitskill",
+            "grilLibrary" : [
+            ],
+            "boyLibrary"  : [
+            ]
+        },
+        {
+            "key" : "Strike_good",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_good"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_good"
+            ]
+        },
+        {
+            "key" : "Strike_medium",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_medium",
+                "Sound/Battle/strike/battle_strike_medium_2"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_medium",
+                "Sound/Battle/strike/battle_strike_medium_2"
+            ]
+        },
+        {
+            "key" : "Strike_bad",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_bad"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_bad"
+            ]
+        },
+        {
+            "key" : "Strike_bad2",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_bad2"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_bad2"
+            ]
+        },
+        {
+            "key" : "Strike_maxgood",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_maxgood"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_maxgood"
+            ]
+        },
+        {
+            "key" : "Strike_maxmedium",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_maxmedium"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_maxmedium"
+            ]
+        },
+        {
+            "key" : "Strike_maxbad",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_maxbad"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_maxbad"
+            ]
+        },
+        {
+            "key" : "Strike_maxgood1",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_maxgood1"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_maxgood1"
+            ]
+        },
+        {
+            "key" : "Strike_maxgood2",
+            "grilLibrary" : [
+                "Sound/Battle/strike/battle_strike_maxgood2"
+            ],
+            "boyLibrary"  : [
+                "Sound/Battle/strike/battle_strike_maxgood2"
+            ]
+        }
+    ],
+    "boyBadmintonConfig"           : {
+        "position" : {
+            "magnitude" : 0.1043371,
+            "sqrMagnitude" : 0.01088622,
+            "x"            : 0.0631,
+            "y"            : 0.0245,
+            "z"            : -0.0794
+        },
+        "rotation" : {
+            "magnitude" : 181.9228,
+            "sqrMagnitude" : 33095.89,
+            "x"            : -179.372,
+            "y"            : -14.47198,
+            "z"            : 26.68599
+        },
+        "scale"    : {
+            "magnitude" : 1.385641,
+            "sqrMagnitude" : 1.92,
+            "x"            : 0.8,
+            "y"            : 0.8,
+            "z"            : 0.8
+        }
+    },
+    "girlBadmintonConfig"          : {
+        "position" : {
+            "magnitude" : 0.13005,
+            "sqrMagnitude" : 0.016913,
+            "x"            : 0.066,
+            "y"            : 0.109,
+            "z"            : -0.026
+        },
+        "rotation" : {
+            "magnitude" : 147.6238,
+            "sqrMagnitude" : 21792.78,
+            "x"            : -144.484,
+            "y"            : -25.905,
+            "z"            : 15.687
+        },
+        "scale"    : {
+            "magnitude" : 1.385641,
+            "sqrMagnitude" : 1.92,
+            "x"            : 0.8,
+            "y"            : 0.8,
+            "z"            : 0.8
+        }
+    },
+    "deviceModelNames"             : [
+        "HUAWEI COL-AL10"
+    ],
+    "performanceCorrelationSetting" : {
+        "init" : {
+            "low" : {
+                "displayQuality" : 1,
+                "textureQuality" : 0,
+                "flightFrame"    : 1,
+                "viewFrame"      : 0,
+                "light"          : false,
+                "sawtooth"       : false,
+                "dazzleLight"    : false,
+                "sceneMirror"    : false
+            },
+            "middle" : {
+                "displayQuality" : 2,
+                "textureQuality" : 1,
+                "flightFrame"    : 1,
+                "viewFrame"      : 0,
+                "light"          : false,
+                "sawtooth"       : false,
+                "dazzleLight"    : true,
+                "sceneMirror"    : false
+            },
+            "high"   : {
+                "displayQuality" : 2,
+                "textureQuality" : 2,
+                "flightFrame"    : 2,
+                "viewFrame"      : 1,
+                "light"          : true,
+                "sawtooth"       : true,
+                "dazzleLight"    : true,
+                "sceneMirror"    : true
+            }
+        },
+        "ios"  : {
+            "low" : {
+                "displayQuality" : 1,
+                "textureQuality" : 0,
+                "flightFrame"    : 2,
+                "viewFrame"      : 0,
+                "light"          : false,
+                "sawtooth"       : false,
+                "dazzleLight"    : false,
+                "sceneMirror"    : false
+            },
+            "middle" : {
+                "displayQuality" : 2,
+                "textureQuality" : 1,
+                "flightFrame"    : 2,
+                "viewFrame"      : 0,
+                "light"          : false,
+                "sawtooth"       : false,
+                "dazzleLight"    : true,
+                "sceneMirror"    : false
+            },
+            "high"   : {
+                "displayQuality" : 2,
+                "textureQuality" : 2,
+                "flightFrame"    : 2,
+                "viewFrame"      : 2,
+                "light"          : true,
+                "sawtooth"       : true,
+                "dazzleLight"    : true,
+                "sceneMirror"    : true
+            }
+        }
+    }
+}

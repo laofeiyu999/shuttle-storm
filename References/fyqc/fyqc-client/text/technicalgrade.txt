@@ -1,0 +1,35 @@
+[
+    {
+        "id":1001,
+        "maxPhysique":9,
+        "name":"\u521d\u7ea7\u8fd0\u52a8\u5458",
+        "reward":[
+            {
+                "count":1,
+                "itemId":4000002
+            }
+        ]
+    },
+    {
+        "id":2001,
+        "maxPhysique":12,
+        "name":"\u4e2d\u7ea7\u8fd0\u52a8\u5458",
+        "reward":[
+            {
+                "count":1,
+                "itemId":4000004
+            }
+        ]
+    },
+    {
+        "id":3001,
+        "maxPhysique":15,
+        "name":"\u9ad8\u7ea7\u8fd0\u52a8\u5458",
+        "reward":[
+            {
+                "count":1,
+                "itemId":4000005
+            }
+        ]
+    }
+]

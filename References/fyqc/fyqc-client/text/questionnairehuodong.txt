@@ -1,0 +1,36 @@
+[
+    {
+        "id":1001,
+        "name":"\u95ee\u5377\u8c03\u67e51",
+        "openTime":{
+            "end":{
+                "day":19,
+                "hour":4,
+                "minute":59,
+                "month":5,
+                "year":2022
+            },
+            "start":{
+                "day":10,
+                "hour":5,
+                "minute":0,
+                "month":5,
+                "year":2022
+            }
+        },
+        "rewards":[
+            {
+                "amount":150,
+                "tableID":1
+            },
+            {
+                "amount":100,
+                "tableID":2
+            },
+            {
+                "amount":50,
+                "tableID":9
+            }
+        ]
+    }
+]

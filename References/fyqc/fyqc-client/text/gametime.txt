@@ -1,0 +1,6 @@
+{
+    "animTime":90,
+    "countDown":1000,
+    "id":1001,
+    "releaseTime":90
+}

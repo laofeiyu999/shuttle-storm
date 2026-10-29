@@ -1,0 +1,26 @@
+[
+    {
+        "entranceID":1008,
+        "iconPath":"activities/pve_double/entrance/UI_mode_bg_entry01",
+        "id":1001,
+        "intro":"\u53cc\u6253PVE\u6a21\u5f0f",
+        "name":"\u6700\u4f73\u62cd\u6863",
+        "nameIconPath":"Language_activities/UI_activities_text01"
+    },
+    {
+        "entranceID":1009,
+        "iconPath":"activities/bomb/UI_mode_bg_entry01",
+        "id":1002,
+        "intro":"\u70b8\u5f39\u73a9\u6cd5",
+        "name":"\u51fb\u7403\u4f20\u82b1",
+        "nameIconPath":"Language_activities/UI_activities_text02"
+    },
+    {
+        "entranceID":1012,
+        "iconPath":"activities/noskill/UI_mode_bg_entry03",
+        "id":1003,
+        "intro":"\u65e0\u6280\u80fd\u6a21\u5f0f",
+        "name":"\u7ecf\u5178\u6a21\u5f0f",
+        "nameIconPath":"Language_activities/UI_activities_text03"
+    }
+]

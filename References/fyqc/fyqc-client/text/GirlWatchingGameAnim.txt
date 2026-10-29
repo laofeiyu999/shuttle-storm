@@ -1,0 +1,191 @@
+
+{
+    "timeGap" : {
+        "magnitude" : 25.0,
+        "sqrMagnitude" : 625.0,
+        "x"            : 15.0,
+        "y"            : 20.0
+    },
+    "idleAnimData" : [
+        {
+            "hasAttachWeapon" : false,
+            "triggerAudio"    : null,
+            "weaponPointName" : null,
+            "positionOffset"  : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "rotation"        : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "scale"           : {
+                "magnitude" : 1.732051,
+                "sqrMagnitude" : 3.0,
+                "x"            : 1.0,
+                "y"            : 1.0,
+                "z"            : 1.0
+            },
+            "animClipPath"    : "Animations/Show/Girl/G_stand_lookaround_anim",
+            "triggerAudioPath" : null,
+            "weaponPointPath"  : ""
+        },
+        {
+            "hasAttachWeapon" : false,
+            "triggerAudio"    : null,
+            "weaponPointName" : null,
+            "positionOffset"  : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "rotation"        : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "scale"           : {
+                "magnitude" : 1.732051,
+                "sqrMagnitude" : 3.0,
+                "x"            : 1.0,
+                "y"            : 1.0,
+                "z"            : 1.0
+            },
+            "animClipPath"    : "Animations/Show/Girl/G_stand_lookracket_anim",
+            "triggerAudioPath" : null,
+            "weaponPointPath"  : ""
+        }
+    ],
+    "initiativeAnimData" : [
+        {
+            "id" : 1001,
+            "hasAttachWeapon" : false,
+            "triggerAudio"    : null,
+            "weaponPointName" : null,
+            "positionOffset"  : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "rotation"        : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "scale"           : {
+                "magnitude" : 1.732051,
+                "sqrMagnitude" : 3.0,
+                "x"            : 1.0,
+                "y"            : 1.0,
+                "z"            : 1.0
+            },
+            "animClipPath"    : "Animations/Show/Girl/G_appreciate_anim",
+            "triggerAudioPath" : null,
+            "weaponPointPath"  : ""
+        },
+        {
+            "id" : 1002,
+            "hasAttachWeapon" : false,
+            "triggerAudio"    : null,
+            "weaponPointName" : null,
+            "positionOffset"  : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "rotation"        : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "scale"           : {
+                "magnitude" : 1.732051,
+                "sqrMagnitude" : 3.0,
+                "x"            : 1.0,
+                "y"            : 1.0,
+                "z"            : 1.0
+            },
+            "animClipPath"    : "Animations/Show/Girl/G_cheerup_anim",
+            "triggerAudioPath" : null,
+            "weaponPointPath"  : ""
+        },
+        {
+            "id" : 1003,
+            "hasAttachWeapon" : false,
+            "triggerAudio"    : null,
+            "weaponPointName" : null,
+            "positionOffset"  : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "rotation"        : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "scale"           : {
+                "magnitude" : 1.732051,
+                "sqrMagnitude" : 3.0,
+                "x"            : 1.0,
+                "y"            : 1.0,
+                "z"            : 1.0
+            },
+            "animClipPath"    : "Animations/Show/Girl/G_provocation_anim",
+            "triggerAudioPath" : null,
+            "weaponPointPath"  : ""
+        },
+        {
+            "id" : 1004,
+            "hasAttachWeapon" : false,
+            "triggerAudio"    : null,
+            "weaponPointName" : null,
+            "positionOffset"  : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "rotation"        : {
+                "magnitude" : 0.0,
+                "sqrMagnitude" : 0.0,
+                "x"            : 0.0,
+                "y"            : 0.0,
+                "z"            : 0.0
+            },
+            "scale"           : {
+                "magnitude" : 1.732051,
+                "sqrMagnitude" : 3.0,
+                "x"            : 1.0,
+                "y"            : 1.0,
+                "z"            : 1.0
+            },
+            "animClipPath"    : "Animations/Show/Girl/G_cute_anim",
+            "triggerAudioPath" : null,
+            "weaponPointPath"  : ""
+        }
+    ]
+}

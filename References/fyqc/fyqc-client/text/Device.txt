@@ -1,0 +1,438 @@
+机型档位	品牌名	机型标识	SOC型号
+2	Apple	"iPhone7Plus|A1661|A1784|A1785|A1786|iPhone9,2|iPhone9,4"	Apple A10 Fusion APL1W24
+2	Apple	"iPhone6s|A1634|A1688|A1690|A1699|iPhone8,1"	Apple A9 APL0898
+2	Apple	"iPhone7|A1660|A1778|A1779|A1780|iPhone9,1|iPhone9,3"	Apple A10 Fusion APL1W24
+3	Apple	"iPhone8Plus|A1864|A1897|A1898|iPhone10,5|iPhone10,2"	Apple A11 Bionic APL1W72
+2	Apple	"iPhone6sPlus|A1633|A1687|A1691|A1700|iPhone8,2"	Apple A9 APL1022
+1	Apple	"iPhone6|A1549|A1586|A1589|iPhone7,2"	Apple A8 APL1011
+3	Apple	"iPhoneX|iPhone10|iPhoneTen|A1865|A1901|A1902|iPhone10,3|iPhone10,6"	Apple A11 Bionic APL1W72
+3	Apple	"iPhone8|A1863|A1905|A1906|iPhone10,4|iPhone10,1"	Apple A11 Bionic APL1W72
+1	Apple	"iPhone6Plus|A1522|A1524|A1593|iPhone7,1"	Apple A8 APL1011
+3	Apple	"iPhoneXR|A2105|A2108|iPhone11,8"	Apple A12 Bionic APL1W81
+3	Apple	"iPhoneXSMax|A2101|A2104|iPhone11,4|iPhone11,6"	Apple A12 Bionic APL1W81
+1	Apple	"iPhone5s|A1453|A1457|A1518|A1528|A1530|A1533|iPhone6,1|iPhone6,2"	Apple A7 APL0698
+2	Apple	"iPhoneSE|A1662|A1723|A1724|iPhone8,4"	Apple A9 APL0898
+2	Apple	"iPad9.7(2018)|A1954|A1893|iPad7,5|iPad7,6"	Apple A10 Fusion APL1W24
+1	Apple	"iPadAir2|A1566|A1567|iPad5,3|iPad5,4"	Apple A8X
+2	Apple	"iPad9.7|A1823|A1822|iPad6,11|iPad6,12"	Apple A9 APL0898
+1	Apple	"iPadmini4|A1538|A1550|iPad5,1|iPad5,2"	Apple A8 APL1011
+1	Apple	"iPadmini2|iPadminiwithRetinadisplay|iPad4,4|iPad4,5|iPad4,6"	Apple A7 APL0698
+3	Apple	"iPhoneXS|A2097|A2100|iPhone11,2"	Apple A12 Bionic APL1W81
+1	Apple	"iPadAir|iPad5|A1474|A1475|A1476|iPad4,1|iPad4,2|iPad4,3"	Apple A7 APL5698
+1	Apple	"iPhone5|A1428|A1429|A1442|iPhone5,1|iPhone5,2"	Apple A6 APL0589
+3	Apple	"iPadmini5|iPadmini(2019)|iPadmini(2019)Wi-Fi|iPad11,1|iPad11,2"	Apple A12 Bionic APL1W81
+1	Apple	"iPad4|4thGeneration|MD510LLA|MD510LL/A|MD511LLA|MD511LL/A|A1458|ME401LL/A|ME401LLA|A1459|A1460|iPad3,4|iPad3,5|iPad3,6"	Apple A6X PL5598
+1	Apple	"iPadmini|MD528LLA|MD528LL/A|MD531LLA|MD531LL/A|A1219|A1454|A1455|iPad2,5|iPad2,6|iPad2,7"	Apple A5 APL2498
+2	Apple	"iPadPro9.7|A1674|A1675|A1673|iPad6,3|iPad6,4"	Apple A9X APL1021
+2	Apple	"iPadPro210.5|iPadPro210.5Wi-Fi|A1701|iPadPro210.5|A1709|A1852|iPadPro210.5|A1709|A1852|iPad7,3|iPad7,4"	Apple A10X Fusion APL1071
+1	Apple	"iPadmini3|A1599|A1600|iPad4,7|iPad4,8|iPad4,9"	Apple A7 APL0698
+3	Apple	"iPadAir(2019)|iPadAir3|iPadAir3Wi-Fi|iPad11,3|iPad11,4"	Apple A12 Bionic APL1W81
+1	Apple	"iPhone5c|iPhoneLight|Low-costiPhone|iPhoneLite|iPhone5,3|iPhone5,4"	Apple A6 APL0589
+1	Apple	"iPhone4S|A1431|A1387|A1387|iPhone4,1"	Apple A5 APL0498
+3	Apple	"iPadPro11(2018)|A1979|A1934|A2013|A1980|iPad8,1|iPad8,2|iPad8,3|iPad8,4"	Apple A12X Bionic APL1083
+1	Apple	"iPad3|3thGeneration|iPadWi-FiEarly2012|MC706LL/A|MC706LLA|A1416|iPad3Wi-Fi+Cellular|iPadWi-fi+4GEarly2012|iPad3,1|iPad3,2|iPad3,3"	Apple A5X APL5498
+1	Apple	"iPad2|A1395|A1397|iPad2,1|iPad2,2|iPad2,3|iPad2,4"	Apple A5 APL0498
+2	Apple	"iPadPro12.9|A1652|A1584|iPad6,7|iPad6,8"	Apple A9X APL1021
+1	Apple	"iPhone4|A1332|iPhone3,1|iPhone3,2|iPhone3,3"	Apple A4 APL0398
+2	Apple	"iPadPro212.9|iPadPro212.9Wi-Fi|A1670|iPad7,1|iPad7,2"	Apple A10X Fusion APL1071
+3	Apple	"iPadPro12.9(2018)|A1895|A1983|A2014|A1876|iPad8,5|iPad8,6|iPad8,7|iPad8,8"	Apple A12X Bionic APL1083
+1	Apple	"iPhone|iPhone1,1"	Samsung S5L8900
+3	Xiaomi	Mi 8|MI 8|Mi8	Qualcomm Snapdragon 845
+2	Huawei	Honor 8x|JSNL21|JSNL22|JSNL23|JSNL42|JSNTL00|JSNAL00a|JSNAL00|Glory 8x|JSNL21|JSNL22|JSNL23|JSNL42|JSNLX1|JSNLX2|JSNLX3|Huawei Honor 8x|Huawei Glory 8x|Huawei JSNL21|Huawei JSNL22|Huawei JSNL23|Huawei JSNL42|Huawei JSNLX1|Huawei JSNLX2|Huawei JSNLX3	Huawei HiSilicon KIRIN 710
+1	Oppo	A5|CPH1809|PBAM00|PBAT00|Oppo A5	Qualcomm Snapdragon 450
+2	Vivo	Qualcomm Snapdragon 660 MSM8976 Plus	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Oppo	R17|CPH1879|PBEM00|PBET00|Oppo R17	Qualcomm Snapdragon 670
+2	Oppo	R15|CPH1833|CPH1835|PACM00|PACT00|Oppo R15|OPPO CPH1831	MediaTek Helio P60 (MT6771)
+1	Vivo	X9|vivo X9|Vivo X9|vivo X9L	Qualcomm Snapdragon 625 MSM8953
+2	Huawei	Honor 10|COLAL00|COLAL10|COLL29|COLTL10|COLAL00|COLAL10|COLL29|COLTL00|COLTL10|Huawei Honor 10|Huawei COLAL00|Huawei COLAL10|Huawei COLL29|Huawei COLTL00|Huawei COLTL10	Huawei HiSilicon KIRIN 970
+2	Huawei	Honor V9|DUKAL20|DUKTL30|DUKAL20|DUKTL30|Huawei Honor V9|Huawei DUKAL20|Huawei DUKTL30	Huawei HiSilicon KIRIN 960
+2	Vivo	X20|X20A|Vivo X20|Vivo X20A	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Huawei	Enjoy 9 Plus|JKMAL00a|JKMTL00|JKMAL00b|Enjoy 9Plus|Enjoy 9+|JKMAL00|Huawei Enjoy 9 Plus|Huawei Enjoy 9Plus|Huawei Enjoy 9+|Huawei JKMAL00	Huawei HiSilicon KIRIN 710
+1	Oppo	A57|OPPO A57|OPPO A57t|CPH1701|F3 Lite|Oppo A57|Oppo F3 Lite|OPPO CPH1701	Qualcomm Snapdragon 435 MSM8940
+2	Huawei	Honor V10|BKLAL00|BKLAL20|BKLTL10|Honor View 10|BKLAL00|BKLAL20|BKLL09|Huawei Honor V10|Huawei Honor View 10|Huawei BKLAL00|Huawei BKLAL20|Huawei BKLL09	Huawei HiSilicon KIRIN 970
+1	Vivo	Y85|Vivo Y85|vivo Y85A	Qualcomm Snapdragon 450
+1	Huawei	Honor 7X|BNDL21|BNDL24|BNDL31|BNDAL00|BNDAL10|BNDL21|BNDL24|BNDTL10|Huawei Honor 7X|Huawei BNDAL10|Huawei BNDL21|Huawei BNDL24|Huawei BNDTL10	Huawei HiSilicon KIRIN 659
+2	Xiaomi	Mi Pad 4 WiFi|Mi Pad4 WiFi|MI PAD 4	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Vivo	Y97|V1813A|V1813A|V1813T|Vivo Y97|Vivo V1813A|Vivo V1813T	MediaTek Helio P60 (MT6771)
+1	Teclast	P10|rk3368	Rockchip RK3368
+2	Huawei	P20|EMLAL00|EMLL09|EMLL29|EMLTL00|EMLL09|EMLL22|EMLL29|Huawei P20|Huawei EMLL09|Huawei EMLL22|Huawei EMLL29	Huawei HiSilicon KIRIN 970
+1	Vivo	Y66|vivo Y66|Vivo Y66|vivo Y66L	Qualcomm Snapdragon 430 MSM8937
+3	Huawei	Mate 20|HMAAL00|HMAL09|HMAL29|HMATL00|Mate20|HMAAL00|HMAL09|HMAL29|HMATL00|Huawei Mate 20|Huawei Mate20|Huawei HMAAL00|Huawei HMAL09|Huawei HMAL29|Huawei HMATL00	Huawei HiSilicon KIRIN 980
+2	Huawei	Honor Play|CORAL00|CORAL10|CORL29|CORTL10|CORAL00|CORL29|CORTL10|Huawei Honor Play|Huawei CORAL00|Huawei CORL29|Huawei CORTL10	Huawei HiSilicon KIRIN 970
+1	Vivo	U1|V1818A|Vivo U1|Vivo V1818A	Qualcomm Snapdragon 439
+2	Huawei	nova 3|PARAL00|PARL21|PARL29|PARLX1|PARLX1M|PARLX9|PARTL00|PARTL20|nova3|PARAL00|PARLX1|PARLX1M|PARLX9|PARTL20|Huawei nova 3|Huawei nova3|Huawei PARAL00|Huawei PARLX1|Huawei PARLX1M|Huawei PARLX9|Huawei PARTL20	Huawei HiSilicon KIRIN 970
+3	Xiaomi	Mi 9|MI 9|Mi9	Qualcomm Snapdragon 855
+1	Vivo	X9Plus|X9 Plus|Vivo X9Plus|Vivo X9 Plus|vivo X9Plus L	Qualcomm Snapdragon 653 MSM8976 Pro
+2	Huawei	nova 3i|INELX2r|INEAL00|INELX1|INELX1r|INELX2|INETL00|nova3i|INEAL00|INETL00|INELX2|Huawei nova 3i|Huawei nova3i|Huawei INEAL00|Huawei INETL00|Huawei INELX2	Huawei HiSilicon KIRIN 710
+1	Huawei	Honor 8 Lite|PRALX1|Honor 8 Youth|PRAAL00|PRAAL00X|PRATL10|Huawei Honor 8 Lite|Huawei Honor 8 Youth|Huawei PRAAL00|Huawei PRAAL00X|Huawei PRATL10	Huawei HiSilicon KIRIN 655
+2	Huawei	Mate 9|MHAAL00|MHAL09|MHAL29|MHATL00|MHAL09|MHAL29|Huawei Mate 9|Huawei MHAL09|Huawei MHAL29	Huawei HiSilicon KIRIN 960
+1	Vivo	Y67|vivo Y67|Vivo Y67|vivo Y67A|vivo Y67L	MediaTek MT6750
+1	Oppo	A83|OPPO A83|OPPO A83t|CPH1729|A83 2018|Oppo A83|Oppo CPH1729|Oppo A83 2018	MediaTek Helio P23 (MT6763T)
+2	Huawei	Honor 9|STFAL00|STFAL10|STFL09|STFL09S|STFTL10|Glory 9|STFAL00|STFAL10|STFL09|Huawei Honor 9|Huawei Glory 9|Huawei STFAL00|Huawei STFAL10|Huawei STFL09	Huawei HiSilicon KIRIN 960
+3	Huawei	Mate 20 Pro|LYAAL00|LYAAL10|LYAL09|LYAL29|LYATL00|Mate20Pro|Mate 20Pro|LYAAL00|LYAAL00P|LYAL09|LYAL29|LYATL00|Huawei Mate 20 Pro|Huawei Mate20Pro|Huawei Mate 20Pro|Huawei LYAAL00|Huawei LYAAL00P|Huawei LYAL09|Huawei LYAL29|Huawei LYATL00	Huawei HiSilicon KIRIN 980
+1	Huawei	Honor 6X|BLNL24|BLNL21|BLNL22|BLNTL10|BLNAL20|BLNAL40|BLNAL10|BLNL21|BLNL22|BLNL24|Huawei Honor 6X|Huawei BLNAL10|Huawei BLNL21|Huawei BLNL22|Huawei BLNL24	Huawei HiSilicon Kirin 655
+3	Huawei	Honor V20|PCTAL10|PCTTL10|Honor View 20|PCTL29|Huawei Honor V20|Huawei Honor View 20|Huawei PCTL29	Huawei HiSilicon KIRIN 980
+1	Xiaomi	Redmi 5 Plus|Redmi 5 Plus|Redmi Note 5|Redmi 5Plus	Qualcomm Snapdragon 625 MSM8953
+2	Xiaomi	Redmi Note 7|Redmi Note7|Red Rice Note 7|Red Rice Note7	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Vivo	X23|V1809A|V1809T|Vivo X23|Vivo V1809A|Vivo V1809T	Qualcomm Snapdragon 670
+1	Xiaomi	Redmi Note 4X|Redmi Note 4X Hatsune Miku Special Edition|Red Rice Note 4X	Qualcomm Snapdragon 625 MSM8953
+2	Xiaomi	Mi 8 Lite|MI 8 Lite|Platina|Mi 8Lite|Mi 8 Youth|Mi8 Youth|Mi8Youth	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Vivo	Y93s|V1818CA|V1818CA|V1818CT|Vivo Y93s|Vivo V1818CA|Vivo V1818CT	MediaTek Helio P22 (MT6762)
+2	Huawei	nova 2s|HWIAL00|HWITL00|HWIAL00|Huawei nova 2s|Huawei HWIAL00	Huawei HiSilicon KIRIN 960
+1	Vivo	X6|Vivo X6|vivo X6D	MediaTek MT6752
+1	Oppo	R9S|CPH1607|CPH1607fw|OPPO R9s|Oppo R9S|R9sk|OPPO R9st	Qualcomm Snapdragon 625 MSM8953
+2	Oppo	A3|CPH1837|PADM00|PADT00|PADM00|PADT00|Oppo A3|Oppo PADM00|Oppo PADT00	MediaTek Helio P60 (MT6771)
+1	Oppo	A59|OPPO A59|OPPO A59m|OPPO A59s|A59m|A59t|Oppo A59|Oppo A59m|Oppo A59t	MediaTek MT6750
+3	Huawei	P30|ELEAL00|ELEL09|ELEL29|Huawei P30|Huawei ELEAL00|Huawei ELEL09|Huawei ELEL29	Huawei HiSilicon KIRIN 980
+2	Huawei	Mate 10|ALPAL00|ALPL09|ALPL29|ALPTL00|ALPL09|ALPL29|Huawei Mate 10|Huawei ALPL09|Huawei ALPL29	Huawei HiSilicon KIRIN 970
+1	Vivo	Y51|vivo Y51|Vivo Y51	Qualcomm Snapdragon 410 MSM8916
+1	Vivo	X9s|Vivo X9s|vivo X9s L	Qualcomm Snapdragon 652 MSM8976
+1	Oppo	A37|OPPO A37|OPPO A37m|Oppo A37|OPPO A37t	Qualcomm Snapdragon 410 MSM8916
+3	Vivo	iQOO|V1824A|V1824BA|Vivo iQOO|Vivo V1824A|Vivo V1824BA	Qualcomm Snapdragon 855
+1	Huawei	Enjoy 9|DUBTL00|Enjoy9|Huawei Enjoy 9|Huawei Enjoy9|DUBAL00	Qualcomm Snapdragon 450
+2	Huawei	Honor 10 Lite|HRYAL00|HRYAL00a|HRYLX1|HRYLX1MEB|HRYLX2|Honor 10Lite|Honor10Lite|Honor 10 Youth|Honor 10Youth|Honor10Youth|HRYAL00|HRYLX1|HRYLX2|Huawei Honor 10 Lite|Huawei Honor 10Lite|Huawei Honor10Lite|Huawei Honor 10 Youth|Huawei Honor 10Youth|Huawei Honor10Youth|Huawei HRYAL00|Huawei HRYLX1|Huawei HRYLX2	Huawei HiSilicon KIRIN 710
+1	Huawei	Honor 7C|AUML41|LNDAL30|LNDAL40|LNDL29|LNDTL30|LNDTL40|LNDAL30|LNDAL40|Huawei Honor 7C|Huawei LNDAL30|Huawei LNDAL40	Qualcomm Snapdragon 450
+1	Huawei	Enjoy 7 Plus|TRTTL10|TRTTL10A|TRTAL00A|Enjoy 7Plus|华为畅享7Plus|TRTAL00|Huawei Enjoy 7 Plus|Huawei Enjoy 7Plus|Huawei 华为畅享7Plus|Huawei TRTAL00	Qualcomm Snapdragon 435 MSM8940
+2	Oppo	A7x|PBBM00|PBBT00|PBMM00|PBBT00|Oppo A7x|Oppo PBMM00|Oppo PBBT00	MediaTek Helio P60 (MT6771)
+1	Xiaomi	Mi 5X|MI 5X|Mi5X	Qualcomm Snapdragon 625 MSM8953
+1	Xiaomi	Mi Max 2|MI MAX 2|	Qualcomm Snapdragon 625 MSM8953
+1	Oppo	R9S Plus|CPH1611|OPPO R9s Plus|OPPO R9s Plust|OPPO R9sPlus|Oppo R9S Plus	Qualcomm Snapdragon 653 MSM8976 Pro
+1	Oppo	A9|PCAM10|Oppo A9|Oppo PCAM10	MediaTek Helio P70
+1	Vivo	Y83|Y83A|Vivo Y83|Vivo Y83A	MediaTek Helio P22 (MT6762)
+1	Oppo	A31|A31|Oppo A31	Qualcomm Snapdragon 410 MSM8916
+2	Huawei	nova 4 Standard version|VCEAL00|nova4 Standard version|Huawei nova 4 Standard version|Huawei nova4 Standard version	Huawei HiSilicon KIRIN 970
+3	Huawei	P30 Pro|HW02L|VOGAL00|VOGAL10|VOGL04|VOGL09|VOGL29|VOGTL00|P30Pro|VOGAL00|VOGAL10|VOGL09|VOGL29|VOGTL00|Huawei P30 Pro|Huawei P30Pro|Huawei VOGAL00|Huawei VOGAL10|Huawei VOGL09|Huawei VOGL29|Huawei VOGTL00	Huawei HiSilicon KIRIN 980
+2	Vivo	X23 Symphony Edition|Vivo X23 Symphony Edition|V1816A|V1816T	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Huawei	Honor 8|FRDAL00|FRDAL10|FRDDL00|FRDL04|FRDL09|FRDL14|FRDL19|FRDL24|FRDTL00|FRDAL00|FRDAL10|FRDDL00|FRDL04|FRDL09|FRDL19|Huawei Honor 8|Huawei FRDAL00|Huawei FRDAL10|Huawei FRDDL00|Huawei FRDL04|Huawei FRDL09|Huawei FRDL19	Huawei HiSilicon KIRIN 950
+1	Vivo	Y71|vivo 1801|Vivo Y71|vivo Y71A	Qualcomm Snapdragon 425 MSM8917
+2	Huawei	P20 Pro|HW01K|CLTAL00|CLTAL00l|CLTAL01|CLTL04|CLTL09|CLTL29|CLTTL00|CLTTL01|CLTL04|CLTL09|CLTL29|Huawei P20 Pro|Huawei CLTL04|Huawei CLTL09|Huawei CLTL29	Huawei HiSilicon KIRIN 970
+1	Oppo	R7s|OPPO R7s|R7s|R7 sf|Oppo R7s|Oppo R7 sf|OPPO R7sm	Qualcomm Snapdragon 615 MSM8939
+2	Vivo	Z3 V1813BA|V1813BA|Vivo Z3 V1813BA|Vivo V1813BA|V1813BT	Qualcomm Snapdragon 670
+1	Huawei	Maimang 5|Head 5|麦芒5|MLAAL00|MLAAL10|MLAL01|MLA11|Huawei Maimang 5|Huawei Head 5|Huawei 麦芒5|Huawei MLAAL00|Huawei MLAAL10|Huawei MLAL01|Huawei MLA11	Qualcomm Snapdragon 625 MSM8953
+1	Meizu	M5 note|Meilan Note 5|Blue Charm Note 5|M621C|M621H	MediaTek Helio P10 (MT6755)
+1	Huawei	Enjoy 8 Plus|FLATL10|FLAAL10|FLAAL20|Enjoy8 Plus|Enjoy8Plus|Huawei Enjoy 8 Plus|Huawei Enjoy8 Plus|Huawei Enjoy8Plus	Huawei HiSilicon KIRIN 659
+1	Xiaomi	Redmi Note 3 16GB|Hongmi Note 3 16GB|Red Rice Note 3 16GB|Redmi Note 3	MediaTek Helio X10 (MT6795M)
+1	Huawei	Enjoy 8|LDNAL20|Enjoy8|Huawei Enjoy 8|Huawei Enjoy8|LDNAL00	Qualcomm Snapdragon 430 MSM8937
+2	Oppo	R11|OPPO R11|OPPO R11t|CPH1707|Oppo R11|Oppo CPH1707	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Huawei	Mate 10 Pro|BLAA09|BLAAL00|BLAL09|BLAL29|BLATL00|BLAL09|BLAL29|Huawei Mate 10 Pro|Huawei BLAL09|Huawei BLAL29	Huawei HiSilicon KIRIN 970
+2	Vivo	X21i|Vivo X21i|vivo X21i A	MediaTek Helio P60 (MT6771)
+2	Xiaomi	Mi Note 3|Mi Note 3|Mi Note3	Qualcomm Snapdragon 660 MSM8976 Plus
+3	Huawei	Honor 20|YALAL00|YALTL00|Huawei Honor 20	Huawei HiSilicon KIRIN 980
+1	Huawei	Honor 9 Lite|LLDL21|LLDL31|Honor 9 Youth|LLDAL00|LLDAL10|LLDL31|LLDTL10|Huawei Honor 9 Lite|Huawei Honor 9 Youth|Huawei LLDAL00|Huawei LLDAL10|Huawei LLDL31|Huawei LLDTL10	Huawei HiSilicon KIRIN 659
+3	Xiaomi	Redmi K20 Pro|Redmi K20Pro	Qualcomm Snapdragon 855
+1	Huawei	Honor 4C Play|CHMTL00H|CHMCL00|CHMTL00|CHMUL00|Huawei Honor 4C Play|Huawei CHMCL00|Huawei CHMTL00|Huawei CHMUL00	Huawei HiSilicon KIRIN 620
+1	Vivo	Y81s|Vivo Y81s|V1732A|V1732T	MediaTek Helio P22 (MT6762)
+1	Vivo	Y51A|vivo Y51A|Vivo Y51A	Qualcomm Snapdragon 410 MSM8916
+1	Oppo	R9|OPPO R9|OPPO R9km|OPPO R9m|OPPO R9tm|R9m|R9tm|X9009|Oppo R9|Oppo R9m|Oppo R9tm|Oppo X9009	MediaTek Helio P10 (MT6755)
+1	Oppo	A73|OPPO A73|CPH1725|Oppo A73|Oppo CPH1725|OPPO A73t	MediaTek Helio P23 (MT6763T)
+1	Huawei	Honor 8C|BKKL21|BKKAL10|BKKL22|BKKLX2|BKKAL00|Honor Play 8C|BKKAL10|Huawei Honor 8C|Huawei Honor Play 8C|Huawei BKKAL10	Qualcomm Snapdragon 632
+2	Vivo	NEX|NEX A|PD1806|Vivo NEX|Vivo NEX A|Vivo PD1806	Qualcomm Snapdragon 710
+2	Oppo	R15 Dream Mirror|CPH1831|PAAT00|R15 Pro|PAAM00|Oppo R15 Dream Mirror|Oppo R15 Pro|Oppo PAAM00	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Vivo	Z1|vivo Z1|Vivo Z1	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Xiaomi	Redmi Note 7 Pro|Redmi Note 7 Pro|Redmi Note7 Pro|Redmi Note 7Pro|Redmi Note7Pro|Red Rice Note 7 Pro|Red Rice Note 7Pro|Red Rice Note7 Pro|Red Rice Note7Pro	Qualcomm Snapdragon 675
+1	Huawei	Enjoy 5S|TAGAL00|TAGCL00|TAGL23|TAGTL00|Huawei Enjoy 5S|Huawei TAGAL00|Huawei TAGCL00|Huawei TAGL23|Huawei TAGTL00	MediaTek MT6753T
+2	Oppo	Reno|CPH1917|Oppo Reno|PCAM00	Qualcomm Snapdragon 710
+2	Oppo	R15x|PBCM10|PBCT10|Oppo R15x	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Oppo	R11s|OPPO R11s|OPPO CPH1721|CPH1719|Oppo R11s|Oppo CPH1719|OPPO R11st	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Meizu	M6 note|M6 Note|Meilan Note 6|Blue Charm Note 6|M721L	Qualcomm Snapdragon 625 MSM8953
+1	Vivo	X9i|vivo X9i|Vivo X9i	Qualcomm Snapdragon 625 MSM8953
+1	Vivo	X7 Plus|vivo X7Plus|X7Plus|Vivo X7 Plus|Vivo X7Plus	Qualcomm Snapdragon 652 MSM8976
+1	LeEco	Le 2|Le2|X620|Le X620	MediaTek Helio X20 (MT6797)
+3	OnePlus	6|A6000|A6003|OnePlus 6|OnePlus A6000|OnePlus A6003	Qualcomm Snapdragon 845
+1	Huawei	nova Lite|PRALX2|PRALX3|WASTL10|WASAL00|PRALX2|Huawei nova Lite|Huawei PRALX2	Huawei HiSilicon KIRIN 655
+2	Samsung	Galaxy S8+ SD835|Galaxy S8 Plus MSM8998|SMG955A|G955A|SMG955D|G955D|SMG955J|G955J|SMG955T|G955T|SMG955U|G955U|SMG955W|G955W|SMG9550|G9550|Samsung Galaxy S8+ SD835|Samsung Galaxy S8 Plus MSM8998|Samsung SMG955A|Samsung G955A|Samsung SMG955D|Samsung G955D|Samsung SMG955J|Samsung G955J|Samsung SMG955T|Samsung G955T|Samsung SMG955U|Samsung G955U|Samsung SMG955W|Samsung G955W|Samsung SMG9550|Samsung G9550	Qualcomm Snapdragon 835 MSM8998
+1	Vivo	Y79|Vivo Y79|vivo Y79A	Qualcomm Snapdragon 625 MSM8953
+3	Xiaomi	Mi 8 Screen Fingerprint Edition|MI 8 UD|Mi 8 Pro|Mi8Pro|Mi8 Pro|Mi 8 Under Display Edition	Qualcomm Snapdragon 845
+1	Vivo	X27 128GB|V1838A|V1838T|Vivo X27 128GB|Vivo V1838A|Vivo V1838T	Qualcomm Snapdragon 675
+1	Huawei	Enjoy 6S|DIGAL00|DIGTL10|华为畅享6S|Huawei Enjoy 6S|Huawei DIGAL00|Huawei DIGTL10|Huawei 华为畅享6S	Qualcomm Snapdragon 435 MSM8940
+1	Huawei	nova 3e|ANEAL00|ANETL00|ANEAL00|ANEL21|ANETL00|ANELX1|ANELX2|ANELX2J|ANELX3|Huawei nova 3e|Huawei ANEAL00|Huawei ANEL21|Huawei ANETL00|Huawei ANELX1|Huawei ANELX2|Huawei ANELX2J|Huawei ANELX3	Huawei HiSilicon KIRIN 659
+1	VKworld	Mix3|Mix3|Mix 3	MediaTek Helio P25 (MT6757CH)
+1	Huawei	Honor 5C|NEML21|NEML22|NEML51|NEMAL10|NEMTL00H|NEMUL10|NEML22|NMOL23|NEML51|Huawei Honor 5C|Huawei NEMTL00H|Huawei NEMUL10|Huawei NEML22|Huawei NMOL23|Huawei NEML51	Huawei HiSilicon KIRIN 650
+1	Huawei	Honor 7A|AUMAL00|AUMAL20|AUML29|AUML33|AUMTL00|AUMTL20|DUAL22|AUMAL00|AUMAL20|AUMTL00|AUMTL20|Huawei Honor 7A|Huawei AUMAL00|Huawei AUMAL20|Huawei AUMTL00|Huawei AUMTL20	Qualcomm Snapdragon 430 MSM8937
+1	Vivo	X9s Plus|X9s+|X9sPlus|Vivo X9s Plus|Vivo X9s+|Vivo X9sPlus|vivo X9s Plus L	Qualcomm Snapdragon 653 MSM8976 Pro
+1	Huawei	Honor 5X|KIWL21|KIWTL00H|KIWL22|KIWL23|KIWL24|KIWAL10|KIWCL00|KIWL23|KIWTL00|KIWTL00H|KIWUL00|Glory 5X|Honor Play 5X|Huawei Honor 5X|Huawei KIWAL10|Huawei KIWCL00|Huawei KIWL23|Huawei KIWTL00|Huawei KIWTL00H|Huawei KIWUL00|Huawei Glory 5X|Huawei Honor Play 5X	Qualcomm Snapdragon 616 MSM8939v2
+2	Samsung	Galaxy S8 SD835|SMG955N|SMG950A|G950A|SMG950J|G950J|SMG950P|G950T|SMG950T|G950T|SMG950U|G950U|SMG950V|G950VSMG950W|G950W|SMG9500|G9500|Samsung Galaxy S8 SD835|Samsung SMG950A|Samsung G950A|Samsung SMG950J|Samsung G950J|Samsung SMG950P|Samsung G950T|Samsung SMG950T|Samsung SMG950U|Samsung G950U|Samsung SMG950V|Samsung G950VSMG950W|Samsung G950W|Samsung SMG9500|Samsung G9500	Qualcomm Snapdragon 835 MSM8998
+1	Huawei	Honor 9N|LLDAL20|Huawei Honor 9N	Huawei HiSilicon KIRIN 659
+1	Xiaomi	Redmi 6|Redmi 6|Redmi6	MediaTek Helio P22 (MT6762)
+2	Huawei	nova 4e|MARAL00|MARTL00|MARAL00|MARTL00|Huawei nova 4e|Huawei MARAL00|Huawei MARTL00	Huawei HiSilicon KIRIN 710
+2	Huawei	Honor Note 10|RVLAL09|Honor Note10|RVLAL10|Huawei Honor Note 10|Huawei Honor Note10|Huawei RVLAL10	Huawei HiSilicon KIRIN 970
+2	Samsung	Galaxy S8+ Exynos|Galaxy S8 Plus Exynos|SMG955F|G955F|SMG955FD|G955FD|Samsung Galaxy S8+ Exynos|Samsung Galaxy S8 Plus Exynos|Samsung SMG955F|Samsung G955F|Samsung SMG955FD|Samsung G955FD	Samsung Exynos 9 Octa 8895
+1	Xiaomi	Redmi 4A|Redmi 4A|Hongmi 4A|Red Rise 4A	Qualcomm Snapdragon 425 MSM8917
+1	Oppo	A77|OPPO A77|OPPO A77t|Oppo A77|OPPO CPH1715|CPH1715	MediaTek MT6750T
+2	Huawei	P10 Plus|VKYAL00|VKYL09|VKYL29|VKYTL00|VKYAL00|VKYL09|VKYL29|Huawei P10 Plus|Huawei VKYAL00|Huawei VKYL09|Huawei VKYL29	Huawei HiSilicon KIRIN 960
+1	Vivo	Y66i|Vivo Y66i|vivo Y66i A	Qualcomm Snapdragon 425 MSM8917
+1	Vivo	X6Plus|X6 Plus D|Vivo X6Plus|Vivo X6 Plus D	Qualcomm Snapdragon 616 MSM8939v2
+2	OnePlus	5|A5000|OnePlus 5|OnePlus A5000	Qualcomm Snapdragon 835 MSM8998
+1	Huawei	Honor 8A|JATAL00|JATL29|JATL41|JATLX1|JATLX3|JATLX1|Huawei Honor 8A|Huawei JATLX1	MediaTek Helio P35 (MT6765)
+2	Vivo	X21 UD|Vivo X21 UD|vivo X21UD A	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Huawei	Honor 8X Max SD636|AREAL10|AREAL00|Huawei Honor 8X Max SD636|Huawei AREAL00	Qualcomm Snapdragon 636
+1	Huawei	Enjoy 7s|FIGAL00|FIGAL10|FIGTL00|FIGTL10|Huawei Enjoy 7s|Huawei FIGAL00|Huawei FIGAL10|Huawei FIGTL00|Huawei FIGTL10	Huawei HiSilicon KIRIN 659
+1	Huawei	Enjoy 7|SLATL10|Enjoy7|华为畅享7|SLAAL00|Huawei Enjoy 7|Huawei Enjoy7|Huawei 华为畅享7|Huawei SLAAL00	Qualcomm Snapdragon 425 MSM8917
+1	Gionee	M6|GN8003|M6|GN8003	MediaTek Helio P10 (MT6755M)
+3	Huawei	Honor Magic 2|TNYAL00|TNYTL00|Honor Magic2|TNYTL00|Huawei Honor Magic 2|Huawei Honor Magic2|Huawei TNYTL00	Huawei HiSilicon KIRIN 980
+3	Huawei	Mate 20 X|EVRAL00|EVRL29|EVRTL00|Mate20X|Mate 20X|EVRL29|Huawei Mate 20 X|Huawei Mate20X|Huawei Mate 20X|Huawei EVRL29	Huawei HiSilicon KIRIN 980
+1	Huawei	Honor 5|Honor Play 5|Honor 5 Play|CUNAL00|CUNTL00|Huawei Honor 5|Huawei Honor Play 5|Huawei Honor 5 Play|Huawei CUNAL00|Huawei CUNTL00	MediaTek MT6735P
+1	Xiaomi	Redmi Note 5A Standard Edition|Redmi Rise Note 5A Standard|Hongmi Rice 5A Standard|Redmi Note 5A	Qualcomm Snapdragon 425 MSM8917
+3	OnePlus	7 Pro|Pro7|GM1910|GM1911|GM1913|GM1915|GM1917|OnePlus 7 Pro|OnePlus Pro7|OnePlus GM1910|OnePlus GM1911|OnePlus GM1913|OnePlus GM1915|OnePlus GM1917	Qualcomm Snapdragon 855
+2	Vivo	X20 Plus|vivo X20Plus A|X20Plus|X20+|Vivo X20 Plus|Vivo X20Plus|Vivo X20+	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Oppo	R9 Plus|OPPO R9 Plusm A|OPPO R9 Plustm A|X9079|R9 Plusm|R9 Plustm|Oppo R9 Plus|Oppo R9 Plusm|Oppo R9 Plustm	Qualcomm Snapdragon 652 MSM8976
+1	Xiaomi	Redmi 6A|Redmi 6A|Redmi6A	MediaTek Helio A22 (MT6761)
+1	Huawei	nova 2 Plus|BACAL00|BACL01|BACL03|BACL23|BACTL00|nova2Plus|nova 2+|nova2+|nova 2Plus|BACAL00|BACL21|BACTL00|Huawei nova 2 Plus|Huawei nova2Plus|Huawei nova 2+|Huawei nova2+|Huawei nova 2Plus|Huawei BACAL00|Huawei BACL21|Huawei BACTL00	Huawei HiSilicon KIRIN 659
+2	Xiaomi	Mi Max 3|MI MAX 3|Mi Max3	Qualcomm Snapdragon 636
+3	Xiaomi	Black Shark|BlackShark|SKRA0	Qualcomm Snapdragon 845
+1	Vivo	Y31|vivo Y31|Vivo Y31	MediaTek MT6580
+1	Huawei	Maimang 6|RNEAL00|Mang6|RNEAL00|Huawei Maimang 6|Huawei Mang6|Huawei RNEAL00	Huawei HiSilicon KIRIN 659
+1	Huawei	Honor Play 6|MYAAL10|MYATL10|Huawei Honor Play 6|Huawei MYAAL10|Huawei MYATL10	MediaTek MT6737T
+1	Xiaomi	Redmi 6 Pro|Redmi 6 Pro|Redmi 6Pro	Qualcomm Snapdragon 625 MSM8953
+3	Oppo	Find X|CPH1871|CPH1875|PAFM00|PAFT00|PAFM00|PAFT00|Oppo Find X|Oppo PAFM00|Oppo PAFT00	Qualcomm Snapdragon 845
+1	Huawei	Y6 Pro|HUAWEI TITAL00|HUAWEI TITCL10|HUAWEI TITL01|HUAWEI TITTL00|TITAL00|TITL01|HUAWEI TITCL00|HUAWEI TITU02|TITAL00|TITU02|Huawei Y6 Pro|Huawei TITAL00|Huawei TITU02	MediaTek MT6735
+1	Huawei	Honor 5A|HUAWEI LYOL21|LYOL21|CAMTL00|CAMTL00H|CAMUL00|Huawei Honor 5A|Huawei CAMTL00|Huawei CAMTL00H|Huawei CAMUL00	Huawei Hisilicon Kirin 620
+1	Xiaomi	Redmi 4X|Redmi 4X|santoni|Hongmi 4X|Red Rise 4X	Qualcomm Snapdragon 435 MSM8940
+1	Vivo	Y35|vivo Y35|Vivo Y35	Qualcomm Snapdragon 410 MSM8916
+2	Xiaomi	Mi 5s|MI 5s|Mi5s	Qualcomm Snapdragon 821 MSM8996 Pro
+2	OnePlus	5T|A5010|OnePlus 5T|OnePlus A5010	Qualcomm Snapdragon 835 MSM8998
+1	Huawei	Honor 9i|LLDAL20|LLDAL30|Huawei Honor 9i|Huawei LLDAL20|Huawei LLDAL30	Huawei HiSilicon KIRIN 659
+1	Huawei	nova|HUAWEI CANL01|HUAWEI CANL02|HUAWEI CANL03|HUAWEI CANL11|HUAWEI CANL12|HUAWEI CANL13|HUAWEI CAZAL10|HUAWEI CAZAL00|HUAWEI CAZTL10|HUAWEI CAZTL20|CANL01|CANL11|CANL02|CANL12|CANL03|CANL13|Huawei nova|Huawei CANL01|Huawei CANL11|Huawei CANL02|Huawei CANL12|Huawei CANL03|Huawei CANL13	Qualcomm Snapdragon 625 MSM8953
+2	Vivo	X27 256GB|V1829A|V1829T|Vivo X27 256GB|Vivo V1829A|Vivo V1829T	Qualcomm Snapdragon 710
+1	Oppo	R1C|R8200|R8205|R8207|Oppo R1C|Oppo R8200|Oppo R8205|Oppo R8207	Qualcomm Snapdragon 615 MSM8939
+2	Vivo	Z1i|Vivo Z1i	Qualcomm Snapdragon 636
+1	Huawei	Honor V9 Play|JMMAL00|JMMAL10|JMMTL00|JMMTL10|Huawei Honor V9 Play|Huawei JMMAL00|Huawei JMMAL10|Huawei JMMTL00|Huawei JMMTL10	MediaTek MT6750
+1	Meizu	E2|Blue Charm E2|m3X|Meilan E2|M E2|M2 E	MediaTek Helio P20 (MT6757)
+1	Vivo	S1|V1831A|V1831T|Vivo S1|Vivo V1831A|Vivo V1831T	MediaTek Helio P70
+1	Oppo	A7|CPH1901|CPH1905|PBFM00|PBFT00|AX7|CPH1901|Oppo A7|Oppo AX7|Oppo CPH1901	Qualcomm Snapdragon 450
+1	Vivo	Y75|Y75A|Vivo Y75|Vivo Y75A	MediaTek Helio P23 (MT6763T)
+2	Oppo	K1|PBCM30|PBCM30|Oppo K1|Oppo PBCM30	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Xiaomi	Mi 5s Plus|MI 5s Plus|Mi5s Plus|Mi 5s+|Mi5s+	Qualcomm Snapdragon 821 MSM8996 Pro
+1	Vivo	X6A|vivo PD1415A|Vivo X6A	MediaTek MT6752
+2	Huawei	Enjoy 9s|POTAL00a|POTAL00|Huawei Enjoy 9s|Huawei POTAL00	Huawei HiSilicon KIRIN 710
+1	Vivo	Y31A|Vivo Y31A	Qualcomm Snapdragon 410 MSM8916
+2	Huawei	Honor V8|KNTAL10|KNTAL20|KNTTL10|KNTUL10|KNTAL20|Huawei Honor V8|Huawei KNTAL20	Huawei HiSilicon KIRIN 955
+3	Samsung	Galaxy S10 SD855|SMG9730|SMG9750|SMG973N|G973N|SMG973U|G973U|Samsung Galaxy S10 SD855|Samsung SMG973N|Samsung G973N|Samsung SMG973U|Samsung G973U	Qualcomm Snapdragon 855
+2	Oppo	K3|PCGM00|Oppo K3|Oppo PCGM00	Qualcomm Snapdragon 710
+1	Xiaomi	Redmi 7|ONC|Redmi 7|Redmi7|Red Rice 7|Red Rice7	Qualcomm Snapdragon 632
+1	Xiaomi	Redmi 3S 16GB|Hongmi 3S 16GB|Red Rise 3S 16GB|Redmi 3S	Qualcomm Snapdragon 430 MSM8937
+2	Huawei	Honor 20i|HRYAL00Ta|Huawei Honor 20i	Huawei HiSilicon KIRIN 710
+1	Vivo	X6S|X6S A|Vivo X6S|Vivo X6S A	Qualcomm Snapdragon 652 MSM8976
+3	Vivo	NEX S|NEX Ultimate|Vivo NEX S|Vivo NEX Ultimate	Qualcomm Snapdragon 845
+1	LeTV	Le 1s|1s|X500|X501|LeTV Le 1s|LeTV 1s|LeTV X500|LeTV X501	MediaTek Helio X10 (MT6795)
+1	Vivo	Xplay6|vivo Xplay6|Xplay 6|Vivo Xplay6|Vivo Xplay 6	Qualcomm Snapdragon 820 MSM8996
+2	Huawei	Mate 9 Pro|LONAL00|LONL29|Mate9 Pro|LONAL00|LONAL10|LONL29|Huawei Mate 9 Pro|Huawei Mate9 Pro|Huawei LONAL00|Huawei LONAL10|Huawei LONL29	Huawei HiSilicon KIRIN 960
+3	Samsung	Galaxy S9+ SD845|Galaxy S9 Plus SD845|SMG9650|G9650|SMG965D|G965D|SMG965J|G965J|SMG965U|G965U|SMG965W|G965W|Samsung Galaxy S9+ SD845|Samsung Galaxy S9 Plus SD845|Samsung SMG9650|Samsung G9650|Samsung SMG965D|Samsung G965D|Samsung SMG965J|Samsung G965J|Samsung SMG965U|Samsung G965U|Samsung SMG965W|Samsung G965W	Qualcomm Snapdragon 845
+1	Huawei	Enjoy 8e|Enjoy8e|Huawei Enjoy 8e|Huawei Enjoy8e|ATUAL10	Qualcomm Snapdragon 430 MSM8937
+1	Samsung	Galaxy S6 Edge|404SC|SC04G|SCV31|SMG925I|SMG925X|SMG925R7|SAMSUNGSMG925A|SMG925W8|SMG9250|SMG925K|SMG925R6|SMG925S|SMG925P|SMG925T|SMG925R4|SMG925V|SMG925F|SMG925L|SMG925A|G925A|SMG925F|G925F|SMG925K|G925K|SMG925P|G925P|SMG925X|G925X|SMG9250|G9250|Samsung Galaxy S6 Edge|Samsung SMG925A|Samsung G925A|Samsung SMG925F|Samsung G925F|Samsung SMG925K|Samsung G925K|Samsung SMG925P|Samsung G925P|Samsung SMG925X|Samsung G925X|Samsung SMG9250|Samsung G9250	Samsung Exynos 7 Octa 7420
+2	Samsung	Galaxy Note8 SD835|SMN950N|Galaxy Note 8 Snapdragon|SMN950A|N950A|SMN950P|N950P|SMN950T|N950T|SMN950V|N950V|SMN9500|N9500|Samsung Galaxy Note8 SD835|Samsung Galaxy Note 8 Snapdragon|Samsung SMN950A|Samsung N950A|Samsung SMN950P|Samsung N950P|Samsung SMN950T|Samsung N950T|Samsung SMN950V|Samsung N950V|Samsung SMN9500|Samsung N9500	Qualcomm Snapdragon 835 MSM8998
+1	Vivo	Y93|V1818A|V1818T|Vivo Y93|Vivo V1818A|Vivo V1818T	Qualcomm Snapdragon 439
+2	Huawei	MediaPad M3|BTVDL09|BTVW09|Huawei MediaPad M3|Huawei BTVDL09|Huawei BTVW09	Huawei HiSilicon KIRIN 950
+1	Meizu	m3 note|M681Q	MediaTek Helio P10 (MT6755)
+3	Meizu	16th|16th|M882H|M882Q	Qualcomm Snapdragon 845
+1	Huawei	Honor 6A|DLIL22|DLITL20|DLIAL10|Huawei Honor 6A|Huawei DLIAL10	Qualcomm Snapdragon 430 MSM8937
+1	Vivo	X5M|vivo X5M|Vivo X5M	Qualcomm Snapdragon 615 MSM8939
+1	Xiaomi	Mi Pad 3|MI PAD 3|MiPad 3	MediaTek MT8176
+1	Samsung	Galaxy C9 Pro|SMC900F|SMC900Y|SMC9000|SMC9008|SMC900X|SMC9000|C9000|SMC900F/DS|C900F/DS|Samsung Galaxy C9 Pro|Samsung SMC9000|Samsung C9000|Samsung SMC900F/DS|Samsung C900F/DS	Qualcomm Snapdragon 653 MSM8976 Pro
+1	Oppo	A79|OPPO A79|Oppo A79|OPPO A79k	MediaTek Helio P23 (MT6763T)
+1	Huawei	Enjoy 9e|MRDAL00|Huawei Enjoy 9e|Huawei MRDAL00	MediaTek Helio P35 (MT6765)
+2	nubia	Z17|NX563J	Qualcomm Snapdragon 835 MSM8998
+2	Oppo	R11 Plus|OPPO R11 Plus|Oppo R11 Plus|OPPO R11 Pluskt|OPPO R11 Plusk	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Samsung	Galaxy S7 Edge Exynos|Galaxy S7 Edge|SMG935D|G935D|SMG935F|G935F|SMG935J|G935J|SMG935K|G935K|SMG935L|G935L|SMG935S|G935S|Samsung Galaxy S7 Edge Exynos|Samsung SMG935D|Samsung G935D|Samsung SMG935F|Samsung G935F|Samsung SMG935J|Samsung G935J|Samsung SMG935K|Samsung G935K|Samsung SMG935L|Samsung G935L|Samsung SMG935S|Samsung G935S	Samsung Exynos 8 Octa 8890
+1	Oppo	F5|CPH1723|Oppo F5|Oppo CPH1723	MediaTek Helio P23 (MT6763T)
+1	Huawei	Honor 7|PLKAL10|PLKCL00|PLKL01|PLKTL00|PLKTL01H|PLKUL00|PLKAL10|PLKTL01H|PLKUL00|Huawei Honor 7|Huawei PLKAL10|Huawei PLKTL01H|Huawei PLKUL00	Huawei HiSilicon KIRIN 935
+3	Meizu	16th Plus|16th Plus|16thPlus|16+|M892Q	Qualcomm Snapdragon 845
+3	OnePlus	6T|A6010|A6013|OnePlus 6T|OnePlus A6010|OnePlus A6013	Qualcomm Snapdragon 845
+1	Vivo	Y3|V1901A|V1901T|Vivo Y3|Vivo V1901A|Vivo V1901T	MediaTek Helio P35 (MT6765)
+1	Alldocube	M5 S|M5S	MediaTek Helio X20 (MT6797)
+1	Xiaomi	Redmi 5|Redmi 5|	Qualcomm Snapdragon 450
+1	Huawei	Honor 6 Plus|Honor 6x|Glory 6 Plus|PETL10|PETL20|PETL00M|PEUL00|Huawei Honor 6 Plus|Huawei Honor 6x|Huawei Glory 6 Plus|Huawei PETL10|Huawei PETL20|Huawei PETL00M|Huawei PEUL00	Huawei HiSilicon KIRIN 925
+1	Smartisan	Nut Pro|U1 Pro|JianGuo Pro|OD103|OD105	Qualcomm Snapdragon 626 MSM8953 Pro
+1	Xiaomi	Redmi 4 Standard Edition|Hongmi 4 Standard Edition|Red Rise 4 Standard Edition|Redmi 4	Qualcomm Snapdragon 430 MSM8937
+1	Huawei	Honor 7S|DUAAL00|DUAL22|DUALX3|Huawei Honor 7S	MediaTek MT6739
+1	Meizu	Blue Charm Metal|m1 metal|M57A|M57AM|M57AU|Blue Metal Charm|Metal	MediaTek Helio X10 (MT6795M)
+1	Huawei	P8|HUAWEI GRACL00|HUAWEI GRACL10|HUAWEI GRAL09|HUAWEI GRATL00|HUAWEI GRAUL00|HUAWEI GRAUL10|GRA_L09|GRA_UL00|GRAL09|GRAUL00|Huawei P8|Huawei GRA_L09|Huawei GRA_UL00|Huawei GRAL09|Huawei GRAUL00	Huawei HiSilicon KIRIN 930
+1	Huawei	Honor 9i India|RNEL22|Huawei Honor 9i India|Huawei RNEL22	Huawei HiSilicon KIRIN 659
+3	Xiaomi	Mi 9 Transparent Edition|Mi9 Transparent Edition	Qualcomm Snapdragon 855
+1	Huawei	Enjoy 8e Youth|DRAAL00|Huawei Enjoy 8e Youth|Huawei DRAAL00	MediaTek MT6739
+2	Huawei	Enjoy Max|Huawei Enjoy Max|ARSAL00	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Xiaomi	Redmi 5A|Redmi 5A|Hongmi 5A|Red Rise 5A	Qualcomm Snapdragon 425 MSM8917
+3	Xiaomi	Black Shark 2|SKWA0	Qualcomm Snapdragon 855
+2	Huawei	P9|EVAAL00|EVAAL10|EVACL00|EVADL00|EVAL09|EVAL19|EVAL29|EVATL00|EVAL09|EVAL19|Huawei P9|Huawei EVAL09|Huawei EVAL19	Huawei HiSilicon KIRIN 955
+2	Smartisan	Nut Pro 2|OS105|Nut Pro2|Nuts Pro 2|Nuts Pro2|U3 Pro|U3Pro	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Samsung	Galaxy J7 Prime|SMJ727T1|SMJ727T|SMG610F|SMG610M|SMG610Y|SMG6100|SMG610F|G610F|SMG6100|G6100|Samsung Galaxy J7 Prime|Samsung SMG610F|Samsung G610F|Samsung SMG6100|Samsung G6100	Samsung Exynos 7 Octa 7870
+1	Meizu	m1|Charm Blue|M1 E	MediaTek MT6732
+2	360	N6 Pro|N6Pro|1801A01	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Huawei	Honor 5A CAMAL00|CAMAL00|Huawei Honor 5A CAMAL00|Huawei CAMAL00	Qualcomm Snapdragon 617 MSM8952
+2	Xiaomi	Mi Pad 4 Plus|Mi Pad4 Plus|Mi Pad 4+|Mi Pad4+|Mi Pad 4Plus|Mi Pad4Plus	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Samsung	Galaxy Note8 Exynos|Galaxy Note 8 Exynos|SMN950F|N950F|SMN950K|N950K|SMN950L|N950L|SMN950S|N950S|SMN9508|N9508|Samsung Galaxy Note8 Exynos|Samsung Galaxy Note 8 Exynos|Samsung SMN950F|Samsung N950F|Samsung SMN950K|Samsung N950K|Samsung SMN950L|Samsung N950L|Samsung SMN950S|Samsung N950S|Samsung SMN9508|Samsung N9508	Samsung Exynos 9 Octa 8895
+1	Alldocube	M5|T1006	MediaTek Helio X20 (MT6797)
+1	Meizu	m2 note|M571C	MediaTek MT6753
+2	Realme	X|RMX1901	Qualcomm Snapdragon 710
+3	Samsung	Galaxy Note9 Exynos|Galaxy Note 9 Exynos|SMN960F|N960F|SMN960FD|N960FD|SMN960N|N960N|Samsung Galaxy Note9 Exynos|Samsung Galaxy Note 9 Exynos|Samsung SMN960F|Samsung N960F|Samsung SMN960FD|Samsung N960FD|Samsung SMN960N|Samsung N960N	Samsung Exynos 9 9810
+1	Xiaomi	Mi Pad 2|MI PAD 2|MiPad 2|Millet flat 2	Intel Atom x5-Z8500
+1	Samsung	Galaxy A7 (2018)|SMA750F|SMA750FN|SMA750GN|SMA750N|SMA750F|A750F|Samsung Galaxy A7 (2018)|Samsung SMA750F|Samsung A750F	Samsung Exynos 7 Octa 7885
+2	Huawei	Honor Note 8|EDIAL10|Huawei Honor Note 8|Huawei EDIAL10	Huawei Hisilicon Kirin 955
+1	Vivo	V1 Max|vivo Y37|Vivo V1 Max	Qualcomm Snapdragon 615 MSM8939
+1	Vivo	V3|vivo V3|Vivo V3|vivo V3M A	Qualcomm Snapdragon 616 MSM8939v2
+1	360	N6|1707A01	Qualcomm Snapdragon 630
+2	OnePlus	3T|A3003|A3010|OnePlus 3T|OnePlus A3003|OnePlus A3010	Qualcomm Snapdragon 821 MSM8996 Pro
+2	Oppo	R17 Pro|CPH1877|PBDM00|PBDT00|R17Pro|RX17 Pro|RX17Pro|CPH1877|Oppo R17 Pro|Oppo R17Pro|Oppo RX17 Pro|Oppo RX17Pro|Oppo CPH1877	Qualcomm Snapdragon 710
+1	Xiaomi	Mi 4 LTE|MI 4C|MI 4LTE|MI 4W|	Qualcomm Snapdragon 801 MSM8974AC
+2	Huawei	Maimang 7|SNEAL00|Maimang7|Mang7|Huawei Maimang 7|Huawei Maimang7|Huawei Mang7	Huawei HiSilicon KIRIN 710
+2	Oppo	F9|CPH1823|CPH1825|CPH1881|CPH1825|CPH1881|Oppo F9|Oppo CPH1825|Oppo CPH1881	MediaTek Helio P60 (MT6771)
+2	Huawei	P9 Plus|VIEAL10|VIEL09|VIEL29|VIEL09|Huawei P9 Plus|Huawei VIEL09	Huawei HiSilicon KIRIN 955
+1	Vivo	Y35A|vivo Y35A|Vivo Y35A	Qualcomm Snapdragon 410 MSM8916
+1	Samsung	Galaxy Note 5 Duos|SMN920CD|N920CD|SMN9208|N9208|Samsung Galaxy Note 5 Duos|Samsung SMN920CD|Samsung N920CD|Samsung SMN9208|Samsung N9208	Samsung Exynos 7 Octa 7420
+1	Huawei	nova 2|PICAL00|PICTL00|nova2|PICAL00|PICL09|PICL29|PICTL00|Huawei nova 2|Huawei nova2|Huawei PICAL00|Huawei PICL09|Huawei PICL29|Huawei PICTL00	Huawei HiSilicon KIRIN 659
+1	Huawei	Y7 Pro 2019|DUBAL20|Y7 Pro (2019)|DUBLX2|Huawei Y7 Pro 2019|Huawei Y7 Pro (2019)|Huawei DUBLX2	Qualcomm Snapdragon 450
+2	Google	Pixel 2|Pixel 2|Pixel2	Qualcomm Snapdragon 835 MSM8998
+3	Vivo	NEX Dual Display|NEX Dual Screen|V1821A|V1821T|Vivo NEX Dual Display|Vivo NEX Dual Screen|Vivo V1821A|Vivo V1821T	Qualcomm Snapdragon 845
+2	360	N7|1807A01	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Oppo	R11s Plus|OPPO R11s Plus|CPH1721|R11s+|Oppo R11s Plus|Oppo R11s+|OPPO R11s Plust	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Vivo	Y55|vivo 1603|Vivo Y55	Qualcomm Snapdragon 430 MSM8937
+1	Meizu	M6s|Meizu M6s|Meizu mblu S6|Meilan S6|Blue Charm S6|Meizu S6	Samsung Exynos 5 Hexa 7872
+1	Oppo	R7 Plus High Version|Oppo R7 Plus High Version|OPPO R7sPlus	Qualcomm Snapdragon 615 MSM8939
+1	Gionee	S10|GIONEE S10|	MediaTek Helio P25 (MT6757CD)
+1	Samsung	Galaxy J7|SMJ700K|SMJ700H|SMJ700F|SMJ700M|SMJ7008|SMJ727U|SMJ727R4|SMJ727VPP|SMJ737VPP|SMJ737A|SMJ737U|SMJ730F|SMJ730FM|SMJ7008|J7008|Samsung Galaxy J7|Samsung SMJ7008|Samsung J7008	Qualcomm Snapdragon 615 MSM8939
+1	Xiaomi	Redmi 2|Hongmi 2|2014813	Qualcomm Snapdragon 410 MSM8916
+2	Meizu	Pro 7|PRO 7H|PRO 7|PRO 7S|Pro7 Helio X30	MediaTek Helio X30 (MT6799)
+1	Huawei	Honor 6|Glory 6|Mulan|H60L01|H60L02|H60L04|H60L11|H60L12|Huawei Honor 6|Huawei Glory 6|Huawei Mulan|Huawei H60L01|Huawei H60L02|Huawei H60L04|Huawei H60L11|Huawei H60L12	Huawei HiSilicon KIRIN 920
+1	Samsung	Galaxy J7 (2016)|SMJ700T1|SMJ700T|SMJ710F|SMJ710FQ|SMJ710GN|SMJ710MN|SMJ7108|SMJ710K|SMJ7109|SMJ7108|J7108|SMJ710F|J710F|Samsung Galaxy J7 (2016)|Samsung SMJ7108|Samsung J7108|Samsung SMJ710F|Samsung J710F	Samsung Exynos 7 Octa 7870
+2	360	N7 Pro|N7Pro|1809A01	Qualcomm Snapdragon 710
+1	Huawei	MediaPad M3 Lite 10|BAHAL00|BAHL09|BAHW09|BachW01|Huawei MediaPad M3 Lite 10|Huawei BachW01	Qualcomm Snapdragon 435 MSM8940
+1	Xiaomi	Mi A1|MI A1|Mi A1|	Qualcomm Snapdragon 625 MSM8953
+1	Oppo	F1s|A1601|Oppo F1s|Oppo A1601	MediaTek MT6750
+2	Huawei	Y9 (2019)|JKMLX1|JKMLX2|JKMLX3|Huawei Y9 (2019)|Huawei JKMLX1|Huawei JKMLX2|Huawei JKMLX3	Huawei HiSilicon KIRIN 710
+1	Huawei	Honor 7i|ATHAL00|ATHCL00|ATHAL00|ATHCL00|ATHTL00|ATHUL00|ShotX|Huawei Honor 7i|Huawei ATHAL00|Huawei ATHCL00|Huawei ATHTL00|Huawei ATHUL00|Huawei ShotX	Qualcomm Snapdragon 616 MSM8939v2
+2	Vivo	X21s|V1814A|V1814T|Vivo X21s|Vivo V1814A|Vivo V1814T	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Oppo	R15 Neo|R15Neo|CPH1851|Oppo R15 Neo|Oppo R15Neo|Oppo CPH1851	Qualcomm Snapdragon 450
+3	Xiaomi	Black Shark Helo|BlackShark Helo|AWMA0	Qualcomm Snapdragon 845
+1	Samsung	Galaxy C7|SMC7000|SMC700X|SMC701X|SMC7000|C7000|Samsung Galaxy C7|Samsung SMC7000|Samsung C7000	Qualcomm Snapdragon 625 MSM8953
+1	Samsung	Galaxy S6 Edge+|SMG9287C|SMG928C|SMG928G|SMG928I|SMG928X|SAMSUNGSMG928A|SMG928W8|SMG9280|SMG928K|SMG928N0|SMG928L|SMG928S|SMG928P|SMG928T|SMG928R4|SMG928V|SMG9287|SMG928F|Galaxy S6 Edge Plus|SMG928A|G928A|SMG928F|G928F|SMG928V|G928V|Samsung Galaxy S6 Edge+|Samsung Galaxy S6 Edge Plus|Samsung SMG928A|Samsung G928A|Samsung SMG928F|Samsung G928F|Samsung SMG928V|Samsung G928V	Samsung Exynos 7 Octa 7420
+1	nubia	Z17 mini Standard Edition|NX569H	Qualcomm Snapdragon 652 MSM8976
+3	Meizu	16s|16s|	Qualcomm Snapdragon 855
+2	Meizu	16X|16 X|M872H|M872Q	Qualcomm Snapdragon 710
+2	Alldocube	M8|	MediaTek Helio X27 (MT6797X)
+2	Meizu	X8|M852Q|M1852	Qualcomm Snapdragon 710
+1	Vivo	Y89|V1730EA|Vivo Y89|Vivo V1730EA	Qualcomm Snapdragon 626 MSM8953 Pro
+2	Lenovo	Z5|Lenovo L78011|L78011|Lenovo Z5|Lenovo L78011	Qualcomm Snapdragon 636
+1	Huawei	G9 Lite VNSAL00|VNSAL00|Huawei G9 Lite VNSAL00|Huawei VNSAL00	Qualcomm Snapdragon 617 MSM8952
+1	LeEco	Le Max2|Le X820|Le X821|Le X829|Le Max 2|X820|X823|X829	Qualcomm Snapdragon 820 MSM8996
+1	LG	Optimus Vu F100L|Optimus Sketch|LGF100L|F100L	Qualcomm Snapdragon S3 MSM8660
+2	Google	Pixel XL|Pixel XL|	Qualcomm Snapdragon 821 MSM8996 Pro
+3	Samsung	Galaxy Note9 SD845|Galaxy Note 9 SD845|SMN9600|N9600|SMN960D|N960D|SMN960J|N960J|SMN960U|N960U|Samsung Galaxy Note9 SD845|Samsung Galaxy Note 9 SD845|Samsung SMN9600|Samsung N9600|Samsung SMN960D|Samsung N960D|Samsung SMN960J|Samsung N960J|Samsung SMN960U|Samsung N960U	Qualcomm Snapdragon 845
+2	nubia	Red Magic|Red Devil|NX609J	Qualcomm Snapdragon 835 MSM8998
+3	nubia	Red Magic Mars|NX619J	Qualcomm Snapdragon 845
+1	Xiaomi	Redmi 3X|Hongmi 3X|Red Rise 3X	Qualcomm Snapdragon 430 MSM8937
+2	Smartisan	Nut Pro 2S|Nut Pro2S|Nuts Pro 2S|Nuts Pro2S|OE106	Qualcomm Snapdragon 710
+1	Gionee	S10 Lite|GIONEE S10 lite|S10Lite|GIONEE S10L	Qualcomm Snapdragon 427 MSM8920
+1	Huawei	P8Lite|503HW|ALEL02|ALEL21|ALEL23|Autana LTE|HUAWEI ALECL00|HUAWEI ALEL04|P8 Lite|ALEL01|ALEL02|ALEL21|ALEL23|ALEUL00|Huawei P8Lite|Huawei P8 Lite|Huawei ALEL01|Huawei ALEL02|Huawei ALEL21|Huawei ALEL23|Huawei ALEUL00	Huawei HiSilicon KIRIN 620
+2	Samsung	Galaxy S8 Exynos|SMG950F|G950F|SMG950FD|G950FD|Samsung Galaxy S8 Exynos|Samsung SMG950F|Samsung G950F|Samsung SMG950FD|Samsung G950FD	Samsung Exynos 9 Octa 8895
+1	Meizu	MX6|M685H|M685Q	MediaTek Helio X20 (MT6797)
+1	Samsung	Galaxy Grand Prime|SMG530H|SMG530BT|SMG5306W|SMG5308W|SMG530F|SMG530M|SMG5309W|SMG530MU|SMG530Y|SMG530R7|gprimelteacg|SMG530W|SMG530T1|SMG530P|SMS920L|SMG530T|SMG530R4|SMG530FZ|SAMSUNGSMG530AZ|SMG531H|SMG531BT|SMG531F|SMG531M|SMG531Y|SMG530H|G530H|SMG530H/DS|G530H/DS|SMG530F|G530F|SMG530Y|G530Y|SMG530BT|G530BT|SMG530W|G530W|Samsung Galaxy Grand Prime|Samsung SMG530H|Samsung G530H|Samsung SMG530H/DS|Samsung G530H/DS|Samsung SMG530F|Samsung G530F|Samsung SMG530Y|Samsung G530Y|Samsung SMG530BT|Samsung G530BT|Samsung SMG530W|Samsung G530W	Qualcomm Snapdragon 410 MSM8916
+1	Gionee	F100S|F100S|	MediaTek MT6735
+1	Jiake	MX5|	MediaTek MT6572
+1	Vivo	X6Plus A|vivo PD1515A|X6 Plus A|Vivo X6Plus A|Vivo X6 Plus A	Qualcomm Snapdragon 616 MSM8939v2
+1	Gionee	M6 Plus|GN8002|GN8002S|M6Plus	MediaTek Helio P10 (MT6755)
+1	Meizu	m1 note|Charm Blue Note|M463U	MediaTek MT6752
+1	Coolpad	M3|	MediaTek MT6750
+1	Gionee	S6|GN9010|S6|Elife S6	MediaTek MT6753
+1	Xiaomi	Mi 4c|Mi4c|Mi4c	Qualcomm Snapdragon 808 MSM8992
+1	Conquest	S9|	Qualcomm Snapdragon 615 MSM8939
+3	Samsung	Galaxy S9+ Exynos|Galaxy S9 Plus Exynos|SMG965F|G965FSMG965FD|G965FD|SMG965N|G965N|Samsung Galaxy S9+ Exynos|Samsung Galaxy S9 Plus Exynos|Samsung SMG965F|Samsung G965FSMG965FD|Samsung G965FD|Samsung SMG965N|Samsung G965N	Samsung Exynos 9 9810
+1	Smartisan	Nut 3|U3|OC105	Qualcomm Snapdragon 625 MSM8953
+1	Samsung	Galaxy A8+ (2018)|SMA730F|SMA730X|SMA730F|A730F|Samsung Galaxy A8+ (2018)|Samsung SMA730F|Samsung A730F	Samsung Exynos 7 Octa 7885
+2	Sony	Xperia XZ Premium|G8141|G8142|G8188|SO04J|G8141	Qualcomm Snapdragon 835 MSM8998
+1	Vivo	Y55L|1603|Vivo Y55L|Vivo 1603	Qualcomm Snapdragon 430 MSM8937
+1	Asus	ZenFone 3 ZE552KL|asus ASUS_Z012DA|ASUS_Z012DA	Qualcomm Snapdragon 625 MSM8953
+1	Vivo	X6L|Vivo X6L	MediaTek MT6752
+1	Xiaomi	Redmi S2|Redmi S2|	Qualcomm Snapdragon 625 MSM8953
+1	360	N5|1605A01	Qualcomm Snapdragon 653 MSM8976 Pro
+3	Samsung	Galaxy S9 SD845|SMG9600|G9600|SMG9608|G9608|SMG960D|G960D|SMG960J|G960J|SMG960U|G960U|SMG960W|G960W|Samsung Galaxy S9 SD845|Samsung SMG9600|Samsung G9600|Samsung SMG9608|Samsung G9608|Samsung SMG960D|Samsung G960D|Samsung SMG960J|Samsung G960J|Samsung SMG960U|Samsung G960U|Samsung SMG960W|Samsung G960W	Qualcomm Snapdragon 845
+1	Meizu	Note 8|Note8|M822H|M822Q|M1822	Qualcomm Snapdragon 632
+2	Oppo	F7|CPH1819|CPH1821|CPH1819|Oppo F7|Oppo CPH1819	MediaTek Helio P60 (MT6771)
+1	Samsung	Galaxy A70|SMA7050|SMA705F|SMA705FN|SMA705GM|SMA705MN|SMA705W|SMA705YN|SMA705FD|A705FD|Samsung Galaxy A70|Samsung SMA705FD|Samsung A705FD	Qualcomm Snapdragon 675
+2	Huawei	Mate 10 Porsche Design|BLAL29|Huawei Mate 10 Porsche Design|Huawei BLAL29	Huawei HiSilicon KIRIN 970
+1	Gionee	F100|F100|	MediaTek MT6735
+1	Huawei	MediaPad T5 10 WiFi|AGS2W09|AGS2W19|Huawei MediaPad T5 10 WiFi|Huawei AGS2W09|Huawei AGS2W19	Huawei HiSilicon KIRIN 659
+1	Samsung	Galaxy J5 SMJ5008|SMJ5008|J5008|Samsung Galaxy J5 SMJ5008|Samsung SMJ5008|Samsung J5008	Qualcomm Snapdragon 410 MSM8916
+1	Vivo	X6S Plus|X6SPlus|X6S Plus D|Vivo X6S Plus|Vivo X6SPlus|Vivo X6S Plus D	Qualcomm Snapdragon 652 MSM8976
+1	Samsung	Galaxy A5|SMA500H|SMA500F|SMA500G|SMA500M|SMA500XZ|SMA5000|SMA500X|SMA5009|SMA500YZ|SMA500FU|SMA500Y|SMA500W|SMA500K|SMA500L|SMA500F1|SMA500S|SMA500F|A500F|Samsung Galaxy A5|Samsung SMA500F|Samsung A500F	Qualcomm Snapdragon 410 MSM8916
+1	Samsung	Galaxy J4+|SMJ415F|SMJ415FN|SMJ415G|SMJ415GN|SMJ415N|Galaxy J4 Plus|Galaxy J4Plus|SMJ415F|J415F|Samsung Galaxy J4+|Samsung Galaxy J4 Plus|Samsung Galaxy J4Plus|Samsung SMJ415F|Samsung J415F	Qualcomm Snapdragon 425 MSM8917
+1	Xiaomi	Redmi Pro Standard Edition|Redmi Pro	MediaTek Helio X20 (MT6797)
+1	Lava	A51|	Spreadtrum SC7731G
+1	Huawei	Ascend Mate7|Ascend Mate 7|MT7TL10|Huawei Ascend Mate7|Huawei Ascend Mate 7|Huawei MT7TL10	Huawei HiSilicon KIRIN 925
+1	Samsung	Galaxy J7 Pro|SMJ730G|SMJ730GM|SMJ730GM/DS|Samsung Galaxy J7 Pro|Samsung SMJ730GM/DS	Samsung Exynos 7 Octa 7870
+1	Asus	ZenPad 8.0 Z380KL|Z380KL|P024	Qualcomm Snapdragon 410 MSM8916
+1	Vivo	Y23L|Vivo Y23L	Qualcomm Snapdragon 400 MSM8926
+2	Samsung	Galaxy A9 (2018)|SMA920F|SMA920N|SMA920F|A920F|Samsung Galaxy A9 (2018)|Samsung SMA920F|Samsung A920F	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Google	Pixel 2 XL|Pixel 2 XL|Pixel2 XL	Qualcomm Snapdragon 835 MSM8998
+1	nubia	Z11|NX531J_V2A|NX531J_V2B|NX531J	Qualcomm Snapdragon 820 MSM8996
+2	Huawei	MediaPad M5 8|SHTAL09|Huawei MediaPad M5 8|Huawei SHTAL09	Huawei HiSilicon KIRIN 960
+1	Huawei	MediaPad M3 Lite 8.0|CPNAL00|Huawei MediaPad M3 Lite 8.0|Huawei CPNAL00	Qualcomm Snapdragon 435 MSM8940
+1	Vivo	Y53|vivo 1606|Vivo Y53	Qualcomm Snapdragon 425 MSM8917
+1	Xiaomi	Mi 5c|MI 5C|Meri|	Xiaomi Surge S1
+1	Vivo	Y73|V1731CA|Vivo Y73|Vivo V1731CA	Qualcomm Snapdragon 439
+2	Xiaomi	Mi Note 2 Standard Edition|Mi Note2 Standard Edition|Mi Note 2	Qualcomm Snapdragon 821 MSM8996 Pro
+1	Gionee	M7|GIONEE M7|	MediaTek Helio P30 (MT6758)
+1	nubia	Z11 miniS|Z11 mini s|NX549J	Qualcomm Snapdragon 625 MSM8953
+1	Vivo	Y27|vivo Y27|Y627|Y927|Vivo Y27|Vivo Y627|Vivo Y927	Qualcomm Snapdragon 410 MSM8916
+1	Huawei	MediaPad M2 7.0|PLE703L|Huawei MediaPad M2 7.0|Huawei PLE703L	Qualcomm Snapdragon 615 MSM8939
+1	Vivo	Y33|vivo Y33|Vivo Y33	MediaTek MT6735
+1	Samsung	Galaxy A7|SMA700H|SMA700F|SMA700FD|SMA700X|SMA7000|SMA700YD|SMA7009|SMA700K|SMA700L|SMA700S|SMA700F|A700F|Samsung Galaxy A7|Samsung SMA700F|Samsung A700F	Samsung Exynos 5 Octa 5430
+1	Samsung	Galaxy Note 4 SMN910H/C|SMN910U|Muscat|SMN910H|N910H|SMN910C|N910C|Samsung Galaxy Note 4 SMN910H/C|Samsung Muscat|Samsung SMN910H|Samsung N910H|Samsung SMN910C|Samsung N910C	Samsung Exynos 5 Octa 5433
+2	Xiaomi	Redmi K20|	Qualcomm Snapdragon 730
+1	Huawei	MediaPad T3 10|AGSL03|AGSL09|Huawei MediaPad T3 10|Huawei AGSL03|Huawei AGSL09	Qualcomm Snapdragon 425 MSM8917
+1	Samsung	Galaxy Note 3 N9005 LTE|Galaxy Note III LTE|Galaxy Note 3 LTE|SMN9005|N9005|Samsung Galaxy Note 3 N9005 LTE|Samsung Galaxy Note III LTE|Samsung Galaxy Note 3 LTE|Samsung SMN9005|Samsung N9005	Qualcomm Snapdragon 800 MSM8974
+1	Huawei	Honor Pad 2 JDNAL00|JDNAL00|Huawei Honor Pad 2 JDNAL00|Huawei JDNAL00	Qualcomm Snapdragon 616 MSM8939v2
+1	Samsung	Galaxy C7 Pro|SMC701F|SMC7010|SMC7018|SMC7010Z|C7010Z|Samsung Galaxy C7 Pro|Samsung SMC7010Z|Samsung C7010Z	Qualcomm Snapdragon 626 MSM8953 Pro
+1	360	N6 Lite|N6Lite|1713A01	Qualcomm Snapdragon 630
+1	Samsung	Galaxy A9 (2016)|SMA9000|SMA9000|A9000|Samsung Galaxy A9 (2016)|Samsung SMA9000|Samsung A9000	Qualcomm Snapdragon 652 MSM8976
+1	Oppo	F11 Pro|CPH1969|CPH1987|F11Pro|CPH1969|Oppo F11 Pro|Oppo F11Pro|Oppo CPH1969	MediaTek Helio P70
+2	nubia	Z17S|NX595J	Qualcomm Snapdragon 835 MSM8998
+2	Vivo	V9 6GB|vivo 1723|Vivo V9 6GB	Qualcomm Snapdragon 660 MSM8976 Plus
+2	Samsung	Galaxy A8s|SMG887F|SMG8870|SMG8870|G8870|SMG887FZ|G887FZ|Samsung Galaxy A8s|Samsung SMG8870|Samsung G8870|Samsung SMG887FZ|Samsung G887FZ	Qualcomm Snapdragon 710
+1	Vivo	Y75s|Vivo Y75s	Qualcomm Snapdragon 450
+1	Goophone	Note 9|Note9	MediaTek MT6580
+2	Vivo	Z3x|V1730GA|Vivo Z3x|Vivo V1730GA	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Samsung	Galaxy On5|SMG550FY|SMG5500|SMG550T1|SMS550TL|SMG550T|SMG550T2|SMG550FY|G550F|SMG5500|G5500|Samsung Galaxy On5|Samsung SMG550FY|Samsung G550F|Samsung SMG5500|Samsung G5500	Samsung Exynos 3 Quad 3475
+1	Gionee	S6 Pro|GN9012|S6 Pro|Elife S6 Pro	MediaTek Helio P10 (MT6755M)
+1	Samsung	Galaxy C5|SMC5000|SMC500X|SMC5000|C5000|Samsung Galaxy C5|Samsung SMC5000|Samsung C5000	Qualcomm Snapdragon 617 MSM8952
+1	Huawei	Enjoy 6|NCEAL00|华为畅享6|Huawei Enjoy 6|Huawei NCEAL00|Huawei 华为畅享6	MediaTek MT6750
+1	Huawei	Honor 4A|SCCU21|SCLAL00|SCLCL00|SCLTL00|SCLTL00H|SCLAL00|SCLCL00|SCLTL00H|Huawei Honor 4A|Huawei SCLAL00|Huawei SCLCL00|Huawei SCLTL00H	Qualcomm Snapdragon 210 MSM8909
+2	Huawei	Mate 8|HUAWEI NXTAL10|HUAWEI NXTCL00|HUAWEI NXTDL00|HUAWEI NXTL09|HUAWEI NXTL29|HUAWEI NXTTL00|HUAWEI NXTTL00B|NXTAL10|NXTCL00|NXTDL00|NXTL09|NXTL29|NXTTL00|Ascend Mate 8|Mate8|NXTAL10|NXTCL00|NXTDL00|NXTL09|NXTL29|NXTTL00|Huawei Mate 8|Huawei Ascend Mate 8|Huawei Mate8|Huawei NXTAL10|Huawei NXTCL00|Huawei NXTDL00|Huawei NXTL09|Huawei NXTL29|Huawei NXTTL00	Huawei HiSilicon KIRIN 950
+1	Motorola	Moto X4|Moto X (4th gen.)	Qualcomm Snapdragon 630
+1	ZUK	Z2|ZUK Z2131|Z2131	Qualcomm Snapdragon 820 MSM8996
+3	Smartisan	Nut R1|Nuts R1|DE106	Qualcomm Snapdragon 845
+1	Samsung	Galaxy A60|SMA6060|SMA606Y|SMA6060|A6060|Samsung Galaxy A60|Samsung SMA6060|Samsung A6060	Qualcomm Snapdragon 675
+1	Samsung	Galaxy Note 2|SC02E|GTN7100|GTN7100T|GTN7102|GTN7102i|GTN7108|SCHN719|GTN7105|GTN7105T|SAMSUNGSGHI317|SGHI317M|SGHT889V|GTN7108D|SHVE250K|SHVE250L|SHVE250S|SPHL900|SGHT889|SCHR950|SCHI605|GTN7100|N7100|GTN7105|N7105|Galaxy Note II|Samsung Galaxy Note 2|Samsung GTN7100|Samsung N7100|Samsung GTN7105|Samsung N7105|Samsung Galaxy Note II	Samsung Exynos 4 Quad 4412
+2	Samsung	Galaxy A9s|SMA9200|SMA9200|A9200|Samsung Galaxy A9s|Samsung SMA9200|Samsung A9200	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Huawei	Honor Pad 5|AGS2AL00HN|Huawei Honor Pad 5|Huawei AGS2AL00HN	Huawei HiSilicon KIRIN 659
+1	Huawei	Mate S|HUAWEI CRRCL00|HUAWEI CRRCL20|HUAWEI CRRL09|HUAWEI CRRTL00|HUAWEI CRRUL00|HUAWEI CRRUL20|CRRL09|CRRUL00|Huawei Mate S|Huawei CRRL09|Huawei CRRUL00	Huawei HiSilicon KIRIN 935
+1	Huawei	nova 2 Lite|LDNL22|LDNLX2|Huawei nova 2 Lite|Huawei LDNL22|Huawei LDNLX2	Qualcomm Snapdragon 430 MSM8937
+1	Huawei	G9 Lite VNSTL00|VNSTL00|Huawei G9 Lite VNSTL00|Huawei VNSTL00	Huawei HiSilicon KIRIN 650
+2	360	N7 Lite|N7Lite|1803A01	Qualcomm Snapdragon 660 MSM8976 Plus
+1	Xiaomi	Mi Note Pro|MI NOTE Pro|	Qualcomm Snapdragon 810 MSM8994 v2.1
+2	HTC	U11|HTC U3w|HTC U11|HTC_U3u|HTC 2PZC100|601HT|HTV33|2PZC5|U 11	Qualcomm Snapdragon 835 MSM8998
+2	Lenovo	K5 Pro|K5Pro|L38041|Lenovo K5 Pro|Lenovo K5Pro|Lenovo L38041	Qualcomm Snapdragon 636
+2	Huawei	MediaPad M5 10 WiFi|CMRW09|Huawei MediaPad M5 10 WiFi|Huawei CMRW09	Huawei HiSilicon KIRIN 960
+1	Huawei	Honor 4X Che1CL20|Che1CL20|Huawei Honor 4X Che1CL20|Huawei Che1CL20	Qualcomm Snapdragon 410 MSM8916
+2	Asus	ZenFone Max Pro (M1)|ASUS_X00TD|ASUS_X00TDB|ZB602KL|ZB601KL	Qualcomm Snapdragon 636
+1	nubia	M2 Lite|M2 Youth|NX573J	MediaTek MT6750
+1	Huawei	MediaPad T1 10|T1A21L|T1A22L|T1A23L|Huawei MediaPad T1 10|Huawei T1A21L|Huawei T1A22L|Huawei T1A23L	Qualcomm Snapdragon 410 MSM8916
+1	Huawei	G7 Plus|HUAWEI RIOTL00|HUAWEI RIOUL00|Huawei G7 Plus	Qualcomm Snapdragon 616 MSM8939v2
+1	Gionee	S8|GN9011|Elife S8|GN9011	MediaTek Helio P10 (MT6755)
+1	Oppo	R5|R8106|R8107|R8109|Oppo R5	Qualcomm Snapdragon 615 MSM8939
+1	Samsung	Galaxy S4 I9500|Galaxy S IV I9500|GTI9500|I9500|Samsung Galaxy S4 I9500|Samsung Galaxy S IV I9500|Samsung GTI9500|Samsung I9500	Samsung Exynos 5 Octa 5410
+1	Huawei	MediaPad M2 8.0|M2801L|M2802L|M2803L|Huawei MediaPad M2 8.0|Huawei M2801L|Huawei M2802L|Huawei M2803L	Huawei HiSilicon KIRIN 930
+1	Vivo	X5Max+|X5 Max+|Vivo X5Max+|Vivo X5 Max+	MediaTek MT6752
+1	Vivo	X3L|Vivo X3L	Qualcomm Snapdragon 400 MSM8926
+2	Xiaomi	Mi 6|MI 6|Mi6|xiaomi 6	Qualcomm Snapdragon 835 MSM8998
+2	Meizu	E3|MEIZU E3|Blue Charm E3|Charm Blue E3|Meilan E3|M E3|M851Q	Qualcomm Snapdragon 636
+2	Samsung	Galaxy A6s|SMG6200|G6200|Samsung Galaxy A6s|Samsung SMG6200|Samsung G6200	Qualcomm Snapdragon 660 MSM8976 Plus
+1	ZTE	Small Fresh 4|小鲜4|BV0701|ZTE Small Fresh 4|ZTE 小鲜4|ZTE BV0701	MediaTek MT6753
+1	Gionee	Big Gold Steel 2|GN5007	Qualcomm Snapdragon 435 MSM8940
+1	360	N5s|1607A01	Qualcomm Snapdragon 653 MSM8976 Pro
+1	Vivo	X6Plus L|X6 Plus L|Vivo X6Plus L|Vivo X6 Plus L	Qualcomm Snapdragon 616 MSM8939v2
+2	HTC	U Ultra|HTC U1w|HTC U Ultra|HTC_U1u|HTC 2PZF1|	Qualcomm Snapdragon 821 MSM8996 Pro
+1	Meizu	M3 Max|	MediaTek Helio P10 (MT6755M)
+1	Xiaomi	Redmi 3|Redmi 3|ido|Hongmi 3|Red Rise 3	Qualcomm Snapdragon 616 MSM8939v2
+2	Realme	X Lite|X Youth Edition|RMX1851	Qualcomm Snapdragon 710
+1	General Mobile	4G|General Mobile 4G|Android One General Mobile 4G|GM 4G	Qualcomm Snapdragon 410 MSM8916
+1	Huawei	MediaPad M3 Lite 8.0 WiFi|CPNW09|Huawei MediaPad M3 Lite 8.0 WiFi|Huawei CPNW09	Qualcomm Snapdragon 435 MSM8940

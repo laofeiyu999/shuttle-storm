@@ -1,0 +1,11 @@
+{
+    "iID":101,
+    "iModelID":1001,
+    "properties":{
+        "iSpeedBack":310,
+        "iSpeedForward":380,
+        "iSpeedLeft":380,
+        "iSpeedRight":380
+    },
+    "sName":"boy"
+}

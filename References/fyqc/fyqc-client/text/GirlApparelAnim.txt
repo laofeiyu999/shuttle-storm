@@ -1,0 +1,135 @@
+
+{
+    "leisureTimeGap" : {
+        "magnitude" : 11.6619,
+        "sqrMagnitude" : 136.0,
+        "x"            : 6.0,
+        "y"            : 10.0
+    },
+    "canInterrupted" : true,
+    "apparelMappers" : [
+        {
+            "apparelParts" : [
+                {
+                    "apparels" : [
+                        0
+                    ]
+                }
+            ],
+            "clipPaths"    : [
+                "Animations/Show/Girl/G_stand_01_anim"
+            ]
+        },
+        {
+            "apparelParts" : [
+                {
+                    "apparels" : [
+                        1
+                    ]
+                },
+                {
+                    "apparels" : [
+                        2
+                    ]
+                },
+                {
+                    "apparels" : [
+                        4
+                    ]
+                },
+                {
+                    "apparels" : [
+                        16
+                    ]
+                }
+            ],
+            "clipPaths"    : [
+                "Animations/Show/Girl/G_show_hairpart_anim"
+            ]
+        },
+        {
+            "apparelParts" : [
+                {
+                    "apparels" : [
+                        64
+                    ]
+                },
+                {
+                    "apparels" : [
+                        512
+                    ]
+                }
+            ],
+            "clipPaths"    : [
+                "Animations/Show/Girl/G_show_clothespart_anim"
+            ]
+        },
+        {
+            "apparelParts" : [
+                {
+                    "apparels" : [
+                        128
+                    ]
+                },
+                {
+                    "apparels" : [
+                        8192
+                    ]
+                }
+            ],
+            "clipPaths"    : [
+                "Animations/Show/Girl/G_show_backpart_anim"
+            ]
+        },
+        {
+            "apparelParts" : [
+                {
+                    "apparels" : [
+                        1024
+                    ]
+                },
+                {
+                    "apparels" : [
+                        2048
+                    ]
+                }
+            ],
+            "clipPaths"    : [
+                "Animations/Show/Girl/G_show_shoespart_anim"
+            ]
+        },
+        {
+            "apparelParts" : [
+                {
+                    "apparels" : [
+                        4096
+                    ]
+                }
+            ],
+            "clipPaths"    : [
+                "Animations/Show/Girl/G_show_racketpart_anim"
+            ]
+        },
+        {
+            "apparelParts" : [
+                {
+                    "apparels" : [
+                        64,
+                        512,
+                        256
+                    ]
+                },
+                {
+                    "apparels" : [
+                        64,
+                        512
+                    ]
+                }
+            ],
+            "clipPaths"    : [
+                "Animations/Show/Girl/G_show_clothespart_anim"
+            ]
+        }
+    ],
+    "defaultClipPath" : "Animations/Show/Girl/G_stand_01_anim"
+}

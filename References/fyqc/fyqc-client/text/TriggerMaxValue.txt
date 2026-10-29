@@ -1,0 +1,27 @@
+
+[
+    {
+        "ModuleID" : 3000001,
+        "triggerMaxValue" : 2
+    },
+    {
+        "ModuleID" : 3010002,
+        "triggerMaxValue" : 3
+    },
+    {
+        "ModuleID" : 3001001,
+        "triggerMaxValue" : 2
+    },
+    {
+        "ModuleID" : 2101010,
+        "triggerMaxValue" : 2
+    },
+    {
+        "ModuleID" : 2103010,
+        "triggerMaxValue" : 3
+    },
+    {
+        "ModuleID" : 2102010,
+        "triggerMaxValue" : 2
+    }
+]

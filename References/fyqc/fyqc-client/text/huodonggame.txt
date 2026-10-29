@@ -1,0 +1,19 @@
+[
+    {
+        "id":1001,
+        "rewards":[
+            {
+                "amount":1,
+                "tableID":14
+            },
+            {
+                "amount":50,
+                "tableID":13
+            },
+            {
+                "amount":150,
+                "tableID":2
+            }
+        ]
+    }
+]

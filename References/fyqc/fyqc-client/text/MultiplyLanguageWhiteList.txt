@@ -1,0 +1,7 @@
+
+[
+    {
+        "CN_Path" : "UI/Prefabs/LanguagePrefabs/SimplifiedChinese/Login/loginParticel",
+        "TW_Path" : "UI/Prefabs/LanguagePrefabs/TraditionalChinese/Login/loginParticel"
+    }
+]

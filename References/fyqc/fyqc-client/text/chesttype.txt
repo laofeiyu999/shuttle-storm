@@ -1,0 +1,34 @@
+[
+    {
+        "id":1001,
+        "idleFXPath":"Effects/Others/Chest/Chest_a4",
+        "idleMusicKey":"play_ui_chest_standby_ab",
+        "openFXPath":"Effects/Others/Chest/Chest_a3",
+        "openMusicKey":"play_ui_chest_open_a",
+        "resPath":"Model/ItemBox/chest_skin_a"
+    },
+    {
+        "id":1002,
+        "idleFXPath":"Effects/Others/Chest/Chest_b4",
+        "idleMusicKey":"play_ui_chest_standby_ab",
+        "openFXPath":"Effects/Others/Chest/Chest_b3",
+        "openMusicKey":"play_ui_chest_open_b",
+        "resPath":"Model/ItemBox/chest_skin_b"
+    },
+    {
+        "id":1003,
+        "idleFXPath":"Effects/Others/Chest/Chest_c4",
+        "idleMusicKey":"play_ui_chest_standby_c",
+        "openFXPath":"Effects/Others/Chest/Chest_c3",
+        "openMusicKey":"play_ui_chest_open_c",
+        "resPath":"Model/ItemBox/chest_skin_c"
+    },
+    {
+        "id":1004,
+        "idleFXPath":"Effects/Others/Chest/Chest_d4",
+        "idleMusicKey":"play_ui_chest_standby_d",
+        "openFXPath":"Effects/Others/Chest/Chest_d3",
+        "openMusicKey":"play_ui_chest_open_d",
+        "resPath":"Model/ItemBox/chest_skin_d"
+    }
+]

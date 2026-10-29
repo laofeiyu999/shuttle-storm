@@ -1,0 +1,7 @@
+[
+    {
+        "id":1001,
+        "monthCardResetTimes":3,
+        "normalResetTimes":2
+    }
+]

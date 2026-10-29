@@ -1,0 +1,13 @@
+{
+	"A5" : ["ipad2,1","ipad2,2","ipad2,3","ipad2,4","ipad2,5","ipad2,6","ipad2,7"],
+	"A5X" : ["ipad3,1","ipad3,2","ipad3,3"],
+	"A6X" : ["ipad3,4","ipad3,5","ipad3,6","ipad4,4","ipad4,5","ipad4,6","ipad4,7","ipad4,8","ipad4,9"],
+	"A7" : ["ipad4,1","ipad4,2","ipad4,3"],
+	"A8" : ["ipad5,1","ipad5,2"],
+	"A8X" : ["ipad5,3","ipad5,4"],
+	"A9" : ["ipad6,11","ipad6,12"],
+	"A9X" : ["ipad6,3","ipad6,4","ipad6,7","ipad6,8"],
+	"A10X" : ["ipad7,1","ipad7,2","ipad7,3","ipad7,4"],
+	"A12X" : ["ipad8,1","ipad8,2","ipad8,3","ipad8,4"],
+	"A12Z" : ["ipad8,5","ipad8,6","ipad8,7","ipad8,8","ipad8,9","ipad8,10","ipad8,11","ipad8,12"],
+}

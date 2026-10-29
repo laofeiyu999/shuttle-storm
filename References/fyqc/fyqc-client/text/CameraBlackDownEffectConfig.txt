@@ -1,0 +1,113 @@
+
+[
+    {
+      "blackDownType": 0,
+
+        "blackInTime"   : 3.0,
+        "blackOutTime"  : 0.0,
+        "maskScale"     : 1.0,
+        "maskScaleCurve" : {
+            "keys" : [
+                {
+                    "time" : 0.0,
+                    "value" : 1.0,
+                    "inTangent" : 0.0,
+                    "outTangent" : 0.0,
+                    "inWeight"   : 0.0,
+                    "outWeight"  : 0.0,
+                    "weightedMode" : 0,
+                    "tangentMode"  : 34
+                },
+                {
+                    "time" : 1.0,
+                    "value" : 1.0,
+                    "inTangent" : 0.0,
+                    "outTangent" : 0.0,
+                    "inWeight"   : 0.0,
+                    "outWeight"  : 0.0,
+                    "weightedMode" : 0,
+                    "tangentMode"  : 34
+                }
+            ],
+            "length" : 2,
+            "preWrapMode" : 8,
+            "postWrapMode" : 8
+        },
+        "strength"       : 5.0,
+        "strengthCurve"  : {
+            "keys" : [
+                {
+                    "time" : 0.0,
+                    "value" : 1.0,
+                    "inTangent" : -4.0,
+                    "outTangent" : -4.0,
+                    "inWeight"   : 0.0,
+                    "outWeight"  : 0.3333333,
+                    "weightedMode" : 0,
+                    "tangentMode"  : 34
+                },
+                {
+                    "time" : 0.1,
+                    "value" : 0.6,
+                    "inTangent" : -4.0,
+                    "outTangent" : -0.1111111,
+                    "inWeight"   : 0.3333333,
+                    "outWeight"  : 0.3333333,
+                    "weightedMode" : 0,
+                    "tangentMode"  : 69
+                },
+                {
+                    "time" : 1.0,
+                    "value" : 0.5,
+                    "inTangent" : -0.1111111,
+                    "outTangent" : -0.1111111,
+                    "inWeight"   : 0.3333333,
+                    "outWeight"  : 0.0,
+                    "weightedMode" : 0,
+                    "tangentMode"  : 34
+                }
+            ],
+            "length" : 3,
+            "preWrapMode" : 8,
+            "postWrapMode" : 8
+        },
+        "sampleDist"     : 0.3,
+        "sampleDistCurve" : {
+            "keys" : [
+                {
+                    "time" : 0.0,
+                    "value" : 1.0,
+                    "inTangent" : -4.0,
+                    "outTangent" : -4.0,
+                    "inWeight"   : 0.0,
+                    "outWeight"  : 0.3333333,
+                    "weightedMode" : 0,
+                    "tangentMode"  : 34
+                },
+                {
+                    "time" : 0.1,
+                    "value" : 0.6,
+                    "inTangent" : -4.0,
+                    "outTangent" : -0.2222223,
+                    "inWeight"   : 0.3333333,
+                    "outWeight"  : 0.3333333,
+                    "weightedMode" : 0,
+                    "tangentMode"  : 69
+                },
+                {
+                    "time" : 1.0,
+                    "value" : 0.4,
+                    "inTangent" : -0.2222223,
+                    "outTangent" : -0.2222223,
+                    "inWeight"   : 0.3333333,
+                    "outWeight"  : 0.0,
+                    "weightedMode" : 0,
+                    "tangentMode"  : 34
+                }
+            ],
+            "length" : 3,
+            "preWrapMode" : 8,
+            "postWrapMode" : 8
+        }
+    }
+]

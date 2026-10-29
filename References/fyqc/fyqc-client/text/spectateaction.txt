@@ -1,0 +1,18 @@
+[
+    {
+        "imagePath":"watch/UI_watch_icon_sign01",
+        "itemId":1001
+    },
+    {
+        "imagePath":"watch/UI_watch_icon_sign02",
+        "itemId":1002
+    },
+    {
+        "imagePath":"watch/UI_watch_icon_sign03",
+        "itemId":1003
+    },
+    {
+        "imagePath":"watch/UI_watch_icon_sign04",
+        "itemId":1004
+    }
+]
