@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>飞羽青晏 · 蓄力值球路曲线簇 3D 演示</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #05070c; }
+  canvas { display: block; width: 100vw; height: 100vh; cursor: grab; }
+  canvas.dragging { cursor: grabbing; }
+
+  #panel {
+    position: fixed; left: 18px; top: 18px; width: 300px;
+    background: rgba(10, 16, 26, 0.86);
+    border: 1px solid rgba(90, 170, 220, 0.28);
+    border-radius: 12px; padding: 14px 15px 16px;
+    font: 12px/1.5 "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+    color: #c9d8e6; backdrop-filter: blur(8px);
+    box-shadow: 0 10px 34px rgba(0, 0, 0, 0.55);
+    user-select: none;
+    max-height: calc(100vh - 36px); overflow-y: auto;
+    scrollbar-width: thin; scrollbar-color: rgba(90,170,220,0.35) transparent;
+  }
+  #panel::-webkit-scrollbar { width: 6px; }
+  #panel::-webkit-scrollbar-thumb { background: rgba(90,170,220,0.32); border-radius: 3px; }
+  #panel h1 {
+    margin: 0 0 2px; font-size: 14px; font-weight: 650; letter-spacing: 0.4px;
+    color: #eaf4ff;
+  }
+  #panel .sub { font-size: 10.5px; color: #6f8ba3; margin-bottom: 12px; letter-spacing: 0.3px; }
+  .group { margin-bottom: 11px; }
+  .label {
+    font-size: 10.5px; letter-spacing: 0.9px; color: #6f8ba3;
+    text-transform: uppercase; margin-bottom: 6px; display: flex; justify-content: space-between;
+  }
+  .label b { color: #7ee0c8; font-weight: 600; letter-spacing: 0; text-transform: none; }
+  .row { display: flex; gap: 6px; }
+  .btn {
+    flex: 1; padding: 7px 4px; text-align: center; cursor: pointer;
+    background: rgba(30, 48, 68, 0.75); border: 1px solid rgba(80, 130, 170, 0.3);
+    border-radius: 7px; color: #a9c2d6; font-size: 11.5px; transition: all 0.14s;
+  }
+  .btn:hover { background: rgba(44, 72, 100, 0.9); color: #dff0ff; }
+  .btn.on {
+    background: linear-gradient(180deg, rgba(64, 190, 190, 0.34), rgba(40, 130, 150, 0.28));
+    border-color: rgba(110, 230, 210, 0.72); color: #a8fff0;
+    box-shadow: 0 0 12px rgba(80, 220, 200, 0.24) inset;
+  }
+  .btn .k { display: block; font-size: 9px; color: #5d7f97; margin-top: 1px; }
+  .btn.on .k { color: #6fd7c4; }
+
+  input[type=range] {
+    -webkit-appearance: none; width: 100%; height: 4px; border-radius: 3px; margin: 5px 0 0;
+    background: linear-gradient(90deg, #2a6d7a, #4fd6b0);
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%;
+    background: #d8fff6; border: 2px solid #38c9a8; cursor: pointer;
+    box-shadow: 0 0 9px rgba(60, 230, 200, 0.7);
+  }
+  .ticks { display: flex; justify-content: space-between; font-size: 9px; color: #4a6274; margin-top: 3px; }
+
+  /* 击球点自由滑块的紧凑布局：左标题 + 右数值 + 下一行整条滑轨 */
+  .slider {
+    display: grid; grid-template-columns: 1fr auto; align-items: center;
+    column-gap: 6px; margin-top: 9px;
+  }
+  .slider .sn { font-size: 10px; color: #6f8ba3; letter-spacing: 0.5px; }
+  .slider .sv { font-size: 10px; color: #7ee0c8; font-variant-numeric: tabular-nums; }
+  .slider input[type=range] { grid-column: 1 / -1; margin: 3px 0 0; }
+  .slider .ticks { grid-column: 1 / -1; margin-top: 1px; }
+  .slider:first-of-type { margin-top: 8px; }
+
+  #readout {
+    margin-top: 14px; padding-top: 12px; border-top: 1px solid rgba(80, 130, 170, 0.2);
+    font-size: 11px;
+  }
+  #readout .line { display: flex; justify-content: space-between; padding: 1.5px 0; }
+  #readout .line span:first-child { color: #6f8ba3; }
+  #readout .line span:last-child { color: #d7e8f5; font-variant-numeric: tabular-nums; }
+  #status {
+    margin-top: 9px; text-align: center; padding: 5px; border-radius: 6px;
+    font-size: 11.5px; font-weight: 600; letter-spacing: 1px; transition: all 0.2s;
+  }
+  .st-in  { background: rgba(40, 190, 150, 0.18); color: #67f0c0; border: 1px solid rgba(60, 220, 170, 0.42); }
+  .st-net { background: rgba(220, 60, 90, 0.16); color: #ff8099; border: 1px solid rgba(240, 90, 120, 0.42); }
+  .st-out { background: rgba(230, 160, 40, 0.16); color: #ffc766; border: 1px solid rgba(240, 180, 60, 0.42); }
+
+  #legend {
+    position: fixed; right: 18px; bottom: 16px; font: 11px/1.7 "Segoe UI", "Microsoft YaHei", sans-serif;
+    color: #7c96ab; text-align: right; user-select: none;
+  }
+  #legend .sw { display: inline-block; width: 22px; height: 2px; vertical-align: middle; margin-right: 6px; border-radius: 2px; }
+  #hint {
+    position: fixed; left: 50%; transform: translateX(-50%); bottom: 14px;
+    font: 11px "Segoe UI", "Microsoft YaHei", sans-serif; color: #4d6579; letter-spacing: 0.4px;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+<canvas id="cv"></canvas>
+
+<div id="panel">
+  <h1>蓄力值球路曲线簇</h1>
+  <div class="sub">charge &rarr; 三键曲线 · 实时几何</div>
+
+  <div class="group">
+    <div class="label">击球键 <b id="lb-key">小球 P</b></div>
+    <div class="row" id="keyRow">
+      <div class="btn on" data-key="P">小球<span class="k">KEY_P</span></div>
+      <div class="btn" data-key="D">杀球/平抽<span class="k">KEY_D</span></div>
+      <div class="btn" data-key="GY">高远<span class="k">KEY_GY</span></div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="label">击球点 <b id="lb-hit">网前</b></div>
+    <div class="row" id="hitRow">
+      <div class="btn on" data-preset="front">网前</div>
+      <div class="btn" data-preset="mid">中场</div>
+      <div class="btn" data-preset="back">后场</div>
+    </div>
+    <div class="slider">
+      <span class="sn">位置 X 横向（左右）</span><span class="sv" id="lb-hx">0 cm</span>
+      <input id="hitX" type="range" min="-305" max="305" step="5" value="0">
+      <div class="ticks"><span>-305 左</span><span>0</span><span>+305 右</span></div>
+    </div>
+    <div class="slider">
+      <span class="sn">位置 Y 纵深（前后）</span><span class="sv" id="lb-hz">-110 cm</span>
+      <input id="hitZ" type="range" min="-670" max="-40" step="5" value="-110">
+      <div class="ticks"><span>-670 底线</span><span>-198</span><span>-40</span></div>
+    </div>
+    <div class="slider">
+      <span class="sn">高度 H</span><span class="sv" id="lb-hh">168 cm</span>
+      <input id="hitH" type="range" min="10" max="400" step="1" value="168">
+      <div class="ticks"><span>10</span><span>150 网高</span><span>400</span></div>
+    </div>
+  </div>
+
+  <div class="group">
+    <div class="label">蓄力值 <b id="lb-charge">0.55</b></div>
+    <input id="charge" type="range" min="0" max="1" step="0.005" value="0.55">
+    <div class="ticks"><span>0</span><span>1/3</span><span>4/5</span><span>1</span></div>
+  </div>
+
+  <div class="group">
+    <div class="label">横向瞄点 X <b id="lb-aim">0 cm</b></div>
+    <input id="aim" type="range" min="-260" max="260" step="5" value="0">
+  </div>
+
+  <div class="group">
+    <div class="label">视图 <b id="lb-view">透视</b></div>
+    <div class="row" id="viewRow">
+      <div class="btn on" data-view="persp">透视</div>
+      <div class="btn" data-view="top">顶视</div>
+      <div class="btn" data-view="side">侧视</div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom:4px">
+    <div class="btn on" id="btnFamily">曲线簇</div>
+    <div class="btn on" id="btnPlay">播放</div>
+  </div>
+
+  <div id="readout">
+    <div class="line"><span>落点 z</span><span id="rd-land">-</span></div>
+    <div class="line"><span>飞行时长</span><span id="rd-time">-</span></div>
+    <div class="line"><span>过网高度</span><span id="rd-net">-</span></div>
+    <div class="line"><span>最高点</span><span id="rd-apex">-</span></div>
+    <div class="line"><span>出球速度</span><span id="rd-speed">-</span></div>
+    <div class="line"><span>曲线形态</span><span id="rd-kind">-</span></div>
+    <div class="line"><span>击球点 X/Y/H</span><span id="rd-hit">-</span></div>
+    <div id="status" class="st-in">界内</div>
+  </div>
+</div>
+
+<div id="legend">
+  <div><span class="sw" style="background:#5ff0c0"></span>界内</div>
+  <div><span class="sw" style="background:#ff6f8a"></span>下网</div>
+  <div><span class="sw" style="background:#ffc35c"></span>出界</div>
+</div>
+<div id="hint">拖动旋转 · 滚轮缩放 · 1/2/3 切键 · V 切视图 · 空格播放/暂停 · 击球点用三个滑块自由摆</div>
+
+<script src="charge_math.js"></script>
+<script>
+(function () {
+  'use strict';
+  var C = window.CURVE;
+
+  /* ======================= 矩阵工具 ======================= */
+  function mat4() { return new Float32Array(16); }
+  function persp(out, fovy, aspect, near, far) {
+    var f = 1.0 / Math.tan(fovy / 2), nf = 1 / (near - far);
+    out[0] = f / aspect; out[1] = 0; out[2] = 0; out[3] = 0;
+    out[4] = 0; out[5] = f; out[6] = 0; out[7] = 0;
+    out[8] = 0; out[9] = 0; out[10] = (far + near) * nf; out[11] = -1;
+    out[12] = 0; out[13] = 0; out[14] = 2 * far * near * nf; out[15] = 0;
+    return out;
+  }
+  function lookAt(out, eye, ctr, up) {
+    var zx = eye[0] - ctr[0], zy = eye[1] - ctr[1], zz = eye[2] - ctr[2];
+    var zl = Math.sqrt(zx * zx + zy * zy + zz * zz) || 1;
+    zx /= zl; zy /= zl; zz /= zl;
+    var xx = up[1] * zz - up[2] * zy, xy = up[2] * zx - up[0] * zz, xz = up[0] * zy - up[1] * zx;
+    var xl = Math.sqrt(xx * xx + xy * xy + xz * xz) || 1;
+    xx /= xl; xy /= xl; xz /= xl;
+    var yx = zy * xz - zz * xy, yy = zz * xx - zx * xz, yz = zx * xy - zy * xx;
+    out[0] = xx; out[1] = yx; out[2] = zx; out[3] = 0;
+    out[4] = xy; out[5] = yy; out[6] = zy; out[7] = 0;
+    out[8] = xz; out[9] = yz; out[10] = zz; out[11] = 0;
+    out[12] = -(xx * eye[0] + xy * eye[1] + xz * eye[2]);
+    out[13] = -(yx * eye[0] + yy * eye[1] + yz * eye[2]);
+    out[14] = -(zx * eye[0] + zy * eye[1] + zz * eye[2]);
+    out[15] = 1;
+    return out;
+  }
+  function mul4(out, a, b) {
+    for (var i = 0; i < 4; i++) {
+      var ai0 = a[i], ai1 = a[i + 4], ai2 = a[i + 8], ai3 = a[i + 12];
+      for (var j = 0; j < 4; j++) {
+        out[i + j * 4] = ai0 * b[j * 4] + ai1 * b[j * 4 + 1] + ai2 * b[j * 4 + 2] + ai3 * b[j * 4 + 3];
+      }
+    }
+    return out;
+  }
+
+  /* ======================= WebGL 初始化 ======================= */
+  var canvas = document.getElementById('cv');
+  var gl = canvas.getContext('webgl', { antialias: true, alpha: false, preserveDrawingBuffer: true })
+        || canvas.getContext('experimental-webgl', { antialias: true, alpha: false });
+  if (!gl) { document.body.innerHTML = '<p style="color:#f88;font:14px sans-serif;padding:30px">浏览器不支持 WebGL</p>'; return; }
+
+  var VS = [
+    'attribute vec3 aPos;',
+    'attribute vec4 aCol;',
+    'uniform mat4 uMVP;',
+    'uniform float uPointSize;',
+    'varying vec4 vCol;',
+    'void main() {',
+    '  vCol = aCol;',
+    '  gl_Position = uMVP * vec4(aPos, 1.0);',
+    '  gl_PointSize = uPointSize;',
+    '}'
+  ].join('\n');
+  var FS = [
+    'precision mediump float;',
+    'varying vec4 vCol;',
+    'void main() {',
+    '  gl_FragColor = vCol;',
+    '}'
+  ].join('\n');
+
+  function compile(type, src) {
+    var s = gl.createShader(type);
+    gl.shaderSource(s, src); gl.compileShader(s);
+    if (!gl.getShaderParameter(s, gl.COMPILE_STATUS)) throw new Error(gl.getShaderInfoLog(s));
+    return s;
+  }
+  var prog = gl.createProgram();
+  gl.attachShader(prog, compile(gl.VERTEX_SHADER, VS));
+  gl.attachShader(prog, compile(gl.FRAGMENT_SHADER, FS));
+  gl.linkProgram(prog);
+  if (!gl.getProgramParameter(prog, gl.LINK_STATUS)) throw new Error(gl.getProgramInfoLog(prog));
+  gl.useProgram(prog);
+
+  var locPos = gl.getAttribLocation(prog, 'aPos');
+  var locCol = gl.getAttribLocation(prog, 'aCol');
+  var locMVP = gl.getUniformLocation(prog, 'uMVP');
+  var locPS = gl.getUniformLocation(prog, 'uPointSize');
+  gl.enableVertexAttribArray(locPos);
+  gl.enableVertexAttribArray(locCol);
+
+  gl.enable(gl.DEPTH_TEST);
+  gl.enable(gl.BLEND);
+  gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+  gl.clearColor(0.016, 0.026, 0.043, 1.0);
+
+  /* ======================= 批次绘制系统 ======================= */
+  // 每个 draw item: {mode, verts(Float32Array nx7: x,y,z,r,g,b,a), pointSize}
+  function makeItem(mode, data, pointSize) {
+    var buf = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+    gl.bufferData(gl.ARRAY_BUFFER, data, gl.STATIC_DRAW);
+    return { mode: mode, buf: buf, count: data.length / 7, pointSize: pointSize || 1 };
+  }
+  function drawItem(it, mvp) {
+    gl.bindBuffer(gl.ARRAY_BUFFER, it.buf);
+    gl.vertexAttribPointer(locPos, 3, gl.FLOAT, false, 28, 0);
+    gl.vertexAttribPointer(locCol, 4, gl.FLOAT, false, 28, 12);
+    gl.uniformMatrix4fv(locMVP, false, mvp);
+    gl.uniform1f(locPS, it.pointSize);
+    gl.drawArrays(it.mode, 0, it.count);
+  }
+  function pushLine(arr, a, b, col) {
+    arr.push(a[0], a[1], a[2], col[0], col[1], col[2], col[3]);
+    arr.push(b[0], b[1], b[2], col[0], col[1], col[2], col[3]);
+  }
+
+  /* ======================= 场景坐标约定 =======================
+     x: 横向（单打边线 +-260，双打 +-305）
+     y: 高度
+     z: 纵深（负=己方后场，正=对方后场，底线 +-670）
+     网在 z=0，网高 150
+     ========================================================== */
+  var CL = C.COURT_HALF_L;       // 260 单打边线
+  var CW = C.COURT_HALF_W;       // 670 底线
+  var DUAL = 305;                // 双打边线
+  var NET = C.NET_H;             // 150
+  var SS = C.SHORT_SERVICE;      // 198
+  var DLS = C.DBL_LONG_SERVICE;  // 594
+
+  var C_FLOOR = [0.17, 0.33, 0.44, 0.85];
+  var C_FLOOR2 = [0.11, 0.22, 0.31, 0.55];
+  var C_GRID = [0.075, 0.14, 0.19, 0.45];
+  var C_NET = [0.40, 0.63, 0.76, 0.62];
+  var C_POST = [0.72, 0.87, 0.96, 0.95];
+
+  /* ---- 静态场景：地面、场地线、网 ---- */
+  function buildScene() {
+    var items = [];
+
+    // 地面填充（两个三角，深色垫底）
+    var floorV = [];
+    var A = [-DUAL - 90, 0, -CW - 60], B = [DUAL + 90, 0, -CW - 60];
+    var D = [-DUAL - 90, 0, CW + 60], E = [DUAL + 90, 0, CW + 60];
+    var fc = [0.035, 0.055, 0.078, 1.0];
+    function tri(p, q, r, c) {
+      floorV.push(p[0], p[1], p[2], c[0], c[1], c[2], c[3]);
+      floorV.push(q[0], q[1], q[2], c[0], c[1], c[2], c[3]);
+      floorV.push(r[0], r[1], r[2], c[0], c[1], c[2], c[3]);
+    }
+    tri(A, B, E, fc); tri(A, E, D, fc);
+    // 场地内圈稍亮
+    var fc2 = [0.055, 0.085, 0.115, 1.0];
+    tri([-DUAL, 0.2, -CW], [DUAL, 0.2, -CW], [DUAL, 0.2, CW], fc2);
+    tri([-DUAL, 0.2, -CW], [DUAL, 0.2, CW], [-DUAL, 0.2, CW], fc2);
+    items.push(makeItem(gl.TRIANGLES, new Float32Array(floorV), 1));
+
+    // 场地线
+    var L = [];
+    function seg(x1, z1, x2, z2, c, y) {
+      y = y === undefined ? 0.6 : y;
+      pushLine(L, [x1, y, z1], [x2, y, z2], c);
+    }
+    // 单打边线
+    seg(-CL, -CW, -CL, CW, C_FLOOR);
+    seg(CL, -CW, CL, CW, C_FLOOR);
+    // 双打边线
+    seg(-DUAL, -CW, -DUAL, CW, C_FLOOR2);
+    seg(DUAL, -CW, DUAL, CW, C_FLOOR2);
+    // 底线
+    seg(-DUAL, -CW, DUAL, -CW, C_FLOOR);
+    seg(-DUAL, CW, DUAL, CW, C_FLOOR);
+    // 前发球线
+    seg(-DUAL, -SS, DUAL, -SS, C_FLOOR);
+    seg(-DUAL, SS, DUAL, SS, C_FLOOR);
+    // 双打后发球线
+    seg(-DUAL, -DLS, DUAL, -DLS, C_FLOOR2);
+    seg(-DUAL, DLS, DUAL, DLS, C_FLOOR2);
+    // 中线（前发球线到底线）
+    seg(0, -SS, 0, -CW, C_FLOOR2);
+    seg(0, SS, 0, CW, C_FLOOR2);
+
+    // 地面网格（辅助透视）
+    for (var gx = -600; gx <= 600; gx += 100) seg(gx, -CW - 40, gx, CW + 40, C_GRID, 0.35);
+    for (var gz = -700; gz <= 700; gz += 100) seg(-DUAL - 60, gz, DUAL + 60, gz, C_GRID, 0.35);
+    items.push(makeItem(gl.LINES, new Float32Array(L), 1));
+
+    // 网：立柱 + 网格
+    var N = [];
+    var postC = C_POST;
+    pushLine(N, [-DUAL, 0, 0], [-DUAL, NET, 0], postC);
+    pushLine(N, [DUAL, 0, 0], [DUAL, NET, 0], postC);
+    // 上下框
+    pushLine(N, [-DUAL, NET, 0], [DUAL, NET, 0], postC);
+    pushLine(N, [-DUAL, 0.5, 0], [DUAL, 0.5, 0], [0.4, 0.62, 0.72, 0.7]);
+    // 竖向网线
+    for (var wx = -DUAL; wx <= DUAL + 0.01; wx += 25) {
+      pushLine(N, [wx, 0.5, 0], [wx, NET, 0], [0.42, 0.66, 0.78, 0.28]);
+    }
+    // 横向网线
+    for (var wy = 10; wy < NET; wy += 12) {
+      pushLine(N, [-DUAL, wy, 0], [DUAL, wy, 0], [0.42, 0.66, 0.78, 0.2]);
+    }
+    items.push(makeItem(gl.LINES, new Float32Array(N), 1));
+
+    return items;
+  }
+  var sceneItems = buildScene();
+
+  /* ---- 相机 ---- */
+  var view = 'persp';
+  var cam = { yaw: -0.50, pitch: 0.58, dist: 1900, fov: 42 * Math.PI / 180 };
+  var target = [0, 150, 10];
+
+  function currentEye() {
+    // 顶视：把球场长轴(z)横放到屏幕上，16:9 才装得下而不留大片黑边
+    if (view === 'top') return { eye: [0, 4200, 0.001], ctr: [0, 0, 0], up: [-1, 0, 0], fov: 16 };
+    if (view === 'side') return { eye: [-2050, 380, 0], ctr: [0, 210, 0], up: [0, 1, 0], fov: 30 };
+    var cp = Math.cos(cam.pitch), sp = Math.sin(cam.pitch);
+    return {
+      eye: [target[0] + cam.dist * cp * Math.sin(cam.yaw),
+            target[1] + cam.dist * sp,
+            target[2] + cam.dist * cp * Math.cos(cam.yaw)],
+      ctr: target, up: [0, 1, 0], fov: cam.fov
+    };
+  }
+
+  /* ---- 颜色按状态 ---- */
+  var COL = {
+    in:  [0.37, 0.94, 0.75, 1.0],
+    net: [1.0, 0.44, 0.54, 1.0],
+    out: [1.0, 0.76, 0.36, 1.0]
+  };
+  function colFor(c, a) {
+    var b = COL[c.status] || COL.in;
+    return [b[0], b[1], b[2], a === undefined ? 1 : a];
+  }
+
+  /* ======================= 曲线绘制数据 ======================= */
+  var state = {
+    key: 'P',
+    preset: 'front',       // front / mid / back / custom
+    hit: [0, 168, -110],   // 真实击球点 [x, y, z]，滑块直接改这里
+    charge: 0.55,
+    aimX: 0,
+    showFamily: true,
+    playing: true,
+    playT: 0,
+    speed: 1.0
+  };
+
+  /* 击球点：预设按钮只是把三个滑块拨到预设值，之后用户可以任意拖。
+     x ∈ [-305, 305]（双打边线）、z ∈ [-670, -40]（本方半场）、y ∈ [10, 400]（高度）。 */
+  function hitPoint() {
+    return [state.hit[0], state.hit[1], state.hit[2]];
+  }
+
+  function presetName(hit) {
+    var P2 = C.HIT_PRESETS, keys = ['front', 'mid', 'back'];
+    for (var i = 0; i < keys.length; i++) {
+      var p = P2[keys[i]];
+      if (p.x === hit[0] && p.y === hit[1] && p.z === hit[2]) return keys[i];
+    }
+    return 'custom';
+  }
+
+  /* 把击球点同步到三个滑块与标签；pre-drag 用来区分"用户动了滑块"还是"点了预设" */
+  function syncHitSliders() {
+    slHitX.value = String(state.hit[0]);
+    slHitZ.value = String(state.hit[2]);
+    slHitH.value = String(state.hit[1]);
+    el.lbHx.textContent = Math.round(state.hit[0]) + ' cm';
+    el.lbHz.textContent = Math.round(state.hit[2]) + ' cm';
+    el.lbHh.textContent = Math.round(state.hit[1]) + ' cm';
+  }
+
+  /* 动态批次：每帧重建（点数很少，够用） */
+  var dynFamily = [], dynMain = [], dynMarker = [], dynPoint = [];
+
+  function clearDyn() {
+    dynFamily.length = 0; dynMain.length = 0; dynMarker.length = 0; dynPoint.length = 0;
+  }
+
+  function curveToLines(cur, col, arr, step) {
+    step = step || 1;
+    var pts = cur.points;
+    for (var i = 0; i + step < pts.length; i += step) {
+      pushLine(arr, pts[i], pts[i + step], col);
+    }
+    // 收尾：若最后一段没连上，补一段
+    var last = pts.length - 1;
+    var covered = Math.floor(last / step) * step;
+    if (covered < last) pushLine(arr, pts[covered], pts[last], col);
+  }
+
+  /* ---- 曲线簇：常驻 buffer + 分帧渐进构建 ----
+     曲线簇只跟 (键, 击球点, 横向瞄点) 有关，跟蓄力值无关；而单条高远曲线的
+     仰角二分要约 12ms，21 条同步算就是 250ms 的卡顿。所以：
+       1) 只有这三个量变了才作废重算（拖蓄力滑块不再重算曲线簇）；
+       2) 每帧按时间预算补算若干条，边算边画，拖动时保持可交互。 */
+  var dragHitBusy = false;   // 正在拖击球点滑块
+  var FAM_N = 21;
+  var famBuf = gl.createBuffer();
+  var famVerts = new Float32Array(0), famCount = 0;
+  var famSig = null, famCurves = [], famStep = 0;
+
+  function famSigOf(hit) {
+    return state.key + '|' + hit[0] + ',' + hit[1] + ',' + hit[2] + '|' + state.aimX;
+  }
+
+  function famReset() { famCurves = []; famStep = 0; famCount = 0; }
+
+  /* 上传已算好的曲线簇顶点（点数不多，每次重传够用） */
+  function famUpload() {
+    var fv = [];
+    for (var i = 0; i < famCurves.length; i++) {
+      var a = 0.13 + 0.22 * (i / (FAM_N - 1));
+      curveToLines(famCurves[i], colFor(famCurves[i], a), fv, 2);
+    }
+    famCount = fv.length / 7;
+    if (!famCount) return;
+    famVerts = new Float32Array(fv);
+    gl.bindBuffer(gl.ARRAY_BUFFER, famBuf);
+    gl.bufferData(gl.ARRAY_BUFFER, famVerts, gl.STATIC_DRAW);
+  }
+
+  /* 每帧调用：把曲线簇补到当前预算用完为止 */
+  function pumpFamily() {
+    if (!state.showFamily || famStep >= FAM_N) return;
+    // 正拖着击球点滑块：先只保主曲线流畅，松手后再补曲线簇
+    if (dragHitBusy) return;
+    var hit = hitPoint();
+    var t0 = (typeof performance !== 'undefined' && performance.now) ? performance.now() : Date.now();
+    var built = 0;
+    while (famStep < FAM_N) {
+      var c = C.buildShot(state.key, hit, famStep / (FAM_N - 1), state.aimX);
+      famCurves.push(c);
+      famStep++;
+      built++;
+      var now = (typeof performance !== 'undefined' && performance.now) ? performance.now() : Date.now();
+      if (now - t0 > 6) break;      // 每帧最多花 ~6ms，别把帧率拖死
+    }
+    if (built) famUpload();
+  }
+
+  function buildCurveVertices() {
+    if (dynBufs) { dynBufs.forEach(function (b) { gl.deleteBuffer(b); }); }
+    dynBufs = [];
+
+    var hit = hitPoint();
+
+    // 曲线簇作废判断：键/击球点/瞄点任一变化就重算。
+    // 拖击球点滑块期间不重算也不清空——把已算好的那一片冻在原地显示，
+    // 主曲线和标记照常跟着滑块走；松手后 famSig 变了一致重算，再渐进补画。
+    if (!state.showFamily) { famSig = null; famReset(); }
+    else if (!dragHitBusy) {
+      var sig = famSigOf(hit);
+      if (sig !== famSig) { famSig = sig; famReset(); }
+    }
+
+    // 主曲线（当前蓄力值）
+    var cur = C.buildShot(state.key, hit, state.charge, state.aimX);
+    cur.hit = hit;
+    lastCurve = cur;
+    var mv = [];
+    curveToLines(cur, colFor(cur, 1.0), mv, 1);
+    if (mv.length) {
+      dynBufs.push(gl.createBuffer());
+      gl.bindBuffer(gl.ARRAY_BUFFER, dynBufs[dynBufs.length - 1]);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(mv), gl.STATIC_DRAW);
+      dynMain = { mode: gl.LINES, buf: dynBufs[dynBufs.length - 1], count: mv.length / 7, pointSize: 1 };
+    } else dynMain = null;
+
+    // 落点标记：十字 + 竖线
+    var k = [];
+    var dp = cur.drop;
+    var dc = colFor(cur, 0.95);
+    var r = 34;
+    pushLine(k, [dp[0] - r, 1.2, dp[2]], [dp[0] + r, 1.2, dp[2]], dc);
+    pushLine(k, [dp[0], 1.2, dp[2] - r], [dp[0], 1.2, dp[2] + r], dc);
+    pushLine(k, [dp[0], 0, dp[2]], [dp[0], 58, dp[2]], colFor(cur, 0.55));
+    // 击球点标记
+    var hc = [0.85, 0.93, 1.0, 0.9];
+    var hr = 26;
+    pushLine(k, [hit[0] - hr, hit[1], hit[2]], [hit[0] + hr, hit[1], hit[2]], hc);
+    pushLine(k, [hit[0], hit[1], hit[2] - hr], [hit[0], hit[1], hit[2] + hr], hc);
+    pushLine(k, [hit[0], hit[1] - hr, hit[2]], [hit[0], hit[1] + hr, hit[2]], hc);
+    // 击球点向地面投影
+    pushLine(k, [hit[0], 0, hit[2]], [hit[0], hit[1], hit[2]], [0.6, 0.72, 0.85, 0.22]);
+    dynBufs.push(gl.createBuffer());
+    gl.bindBuffer(gl.ARRAY_BUFFER, dynBufs[dynBufs.length - 1]);
+    gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(k), gl.STATIC_DRAW);
+    dynMarker = { mode: gl.LINES, buf: dynBufs[dynBufs.length - 1], count: k.length / 7, pointSize: 1 };
+
+    updateReadout(cur);
+    return cur;
+  }
+
+  var dynBufs = [];
+  var lastCurve = null;
+
+  /* 小球（飞行中的球）——按时间采样位置 */
+  var ballBuf = gl.createBuffer();
+  function buildBall(cur, t) {
+    var pts = cur.points, ts = cur.times;
+    var tt = Math.min(t, cur.T);
+    var idx = 0, hi = ts.length - 1;
+    while (hi - idx > 1) { var mid = (idx + hi) >> 1; if (ts[mid] <= tt) idx = mid; else hi = mid; }
+    var span = ts[hi] - ts[idx];
+    var r = span <= 0 ? 0 : (tt - ts[idx]) / span;
+    var x = pts[idx][0] + (pts[hi][0] - pts[idx][0]) * r;
+    var y = pts[idx][1] + (pts[hi][1] - pts[idx][1]) * r;
+    var z = pts[idx][2] + (pts[hi][2] - pts[idx][2]) * r;
+    var col = colFor(cur, 1.0);
+    var v = [];
+    var R = 7;
+    // 简化球：三轴十字 + 加粗点
+    for (var a = 0; a < 3; a++) {
+      var d = [0, 0, 0]; d[a] = R;
+      pushLine(v, [x - d[0], y - d[1], z - d[2]], [x + d[0], y + d[1], z + d[2]], col);
+    }
+    // 十字竖线标记球位
+    pushLine(v, [x, 0.8, z], [x, y, z], [col[0], col[1], col[2], 0.22]);
+    return { x: x, y: y, z: z, v: v };
+  }
+
+  /* ======================= HUD 读数 ======================= */
+  var el = {
+    lbKey: document.getElementById('lb-key'),
+    lbHit: document.getElementById('lb-hit'),
+    lbCharge: document.getElementById('lb-charge'),
+    lbAim: document.getElementById('lb-aim'),
+    lbView: document.getElementById('lb-view'),
+    lbHx: document.getElementById('lb-hx'),
+    lbHz: document.getElementById('lb-hz'),
+    lbHh: document.getElementById('lb-hh'),
+    rdLand: document.getElementById('rd-land'),
+    rdTime: document.getElementById('rd-time'),
+    rdNet: document.getElementById('rd-net'),
+    rdApex: document.getElementById('rd-apex'),
+    rdSpeed: document.getElementById('rd-speed'),
+    rdKind: document.getElementById('rd-kind'),
+    rdHit: document.getElementById('rd-hit'),
+    status: document.getElementById('status')
+  };
+
+  var slHitX = document.getElementById('hitX');
+  var slHitZ = document.getElementById('hitZ');
+  var slHitH = document.getElementById('hitH');
+
+  var KIND_NAME = {
+    drop_net: '小球 · 下网', drop: '小球 · 过网',
+    clear: '高远', smash_straight: '杀球 · 直线', smash_net: '杀球 · 下网',
+    drive: '平抽', drive_out: '平抽 · 出界'
+  };
+  var STATUS_NAME = { in: '界 内', net: '下 网', out: '出 界' };
+
+  function updateReadout(cur) {
+    el.rdLand.textContent = cur.drop[2].toFixed(1) + ' cm';
+    el.rdTime.textContent = cur.T.toFixed(3) + ' s';
+    el.rdNet.textContent = cur.netY === null ? '未过网面' : cur.netY.toFixed(1) + ' cm';
+    el.rdApex.textContent = cur.apex.toFixed(1) + ' cm';
+    el.rdSpeed.textContent = Math.round(cur.speed) + ' cm/s';
+    el.rdKind.textContent = KIND_NAME[cur.kind] || cur.kind;
+    el.status.textContent = STATUS_NAME[cur.status];
+    el.status.className = 'st-' + cur.status;
+    el.lbCharge.textContent = state.charge.toFixed(3);
+    el.lbAim.textContent = state.aimX + ' cm';
+    el.rdHit.textContent = Math.round(state.hit[0]) + ', ' + Math.round(state.hit[2]) + ', ' + Math.round(state.hit[1]) + ' cm';
+    el.lbHit.textContent = HIT_LABEL[state.preset] || '自由';
+  }
+
+  /* ======================= 交互 ======================= */
+  function bindRows(id, attr, fn) {
+    var row = document.getElementById(id);
+    row.addEventListener('click', function (e) {
+      var t = e.target.closest('.btn');
+      if (!t) return;
+      Array.prototype.forEach.call(row.children, function (c) { c.classList.remove('on'); });
+      t.classList.add('on');
+      fn(t.getAttribute(attr));
+    });
+  }
+
+  var KEY_LABEL = { P: '小球 P', D: '杀球/平抽 D', GY: '高远 GY' };
+  var HIT_LABEL = { front: '网前', mid: '中场', back: '后场', custom: '自由' };
+  var VIEW_LABEL = { persp: '透视', top: '顶视', side: '侧视' };
+
+  /* 点预设按钮 = 把状态里的击球点设成预设值，再把三个滑块拨过去。
+     之后用户可以继续拖滑块任意微调，预设高亮会自动变成"自由"。 */
+  function applyPreset(name) {
+    var p = C.HIT_PRESETS[name];
+    if (!p) return;
+    state.preset = name;
+    state.hit = [p.x, p.y, p.z];
+    syncHitButtons(name);
+    syncHitSliders();
+  }
+
+  function syncHitButtons(preset) {
+    var row = document.getElementById('hitRow');
+    Array.prototype.forEach.call(row.children, function (c) {
+      c.classList.toggle('on', c.getAttribute('data-preset') === preset);
+    });
+    el.lbHit.textContent = HIT_LABEL[preset] || '自由';
+  }
+
+  /* 拖滑块：直接改击球点，预设高亮全部取消（除非正好落回某个预设值） */
+  function onHitSlider() {
+    dragHitBusy = true;
+    state.hit = [parseFloat(slHitX.value), parseFloat(slHitH.value), parseFloat(slHitZ.value)];
+    state.preset = presetName(state.hit);
+    syncHitButtons(state.preset);
+    el.lbHx.textContent = Math.round(state.hit[0]) + ' cm';
+    el.lbHz.textContent = Math.round(state.hit[2]) + ' cm';
+    el.lbHh.textContent = Math.round(state.hit[1]) + ' cm';
+    scheduleRebuild();
+  }
+  function onHitSliderDone() { dragHitBusy = false; scheduleRebuild(); }
+  slHitX.addEventListener('input', onHitSlider);
+  slHitZ.addEventListener('input', onHitSlider);
+  slHitH.addEventListener('input', onHitSlider);
+  ['change', 'pointerup', 'mouseup', 'touchend'].forEach(function (ev) {
+    slHitX.addEventListener(ev, onHitSliderDone);
+    slHitZ.addEventListener(ev, onHitSliderDone);
+    slHitH.addEventListener(ev, onHitSliderDone);
+  });
+
+  /* 切键时自动跳到该键的默认击球点（P→网前、D→中场、GY→后场），
+     否则切到 D 还停在网前会直接变成出界平抽，看起来像坏了。
+     但如果用户已经用滑块把击球点摆成"自由"位置，那就尊重他的选择，不覆盖。 */
+  bindRows('keyRow', 'data-key', function (v) {
+    state.key = v;
+    el.lbKey.textContent = KEY_LABEL[v];
+    if (state.preset !== 'custom') applyPreset(C.DEFAULT_PRESET[v] || state.preset);
+    else rebuild();
+  });
+  bindRows('hitRow', 'data-preset', function (v) { applyPreset(v); rebuild(); });
+  bindRows('viewRow', 'data-view', function (v) { view = v; el.lbView.textContent = VIEW_LABEL[v]; });
+
+  var slCharge = document.getElementById('charge');
+  var slAim = document.getElementById('aim');
+  slCharge.addEventListener('input', function () {
+    state.charge = parseFloat(slCharge.value);
+    el.lbCharge.textContent = state.charge.toFixed(3);
+    scheduleRebuild();
+  });
+  slAim.addEventListener('input', function () {
+    state.aimX = parseFloat(slAim.value);
+    el.lbAim.textContent = state.aimX + ' cm';
+    scheduleRebuild();
+  });
+
+  var btnFamily = document.getElementById('btnFamily');
+  var btnPlay = document.getElementById('btnPlay');
+  btnFamily.addEventListener('click', function () {
+    state.showFamily = !state.showFamily;
+    btnFamily.classList.toggle('on', state.showFamily);
+    rebuild();
+  });
+  btnPlay.addEventListener('click', function () {
+    state.playing = !state.playing;
+    btnPlay.classList.toggle('on', state.playing);
+  });
+
+  // 拖动旋转 / 滚轮缩放
+  var dragging = false, lastX = 0, lastY = 0;
+  canvas.addEventListener('mousedown', function (e) {
+    dragging = true; lastX = e.clientX; lastY = e.clientY;
+    canvas.classList.add('dragging');
+  });
+  window.addEventListener('mouseup', function () { dragging = false; canvas.classList.remove('dragging'); });
+  window.addEventListener('mousemove', function (e) {
+    if (!dragging || view !== 'persp') return;
+    cam.yaw -= (e.clientX - lastX) * 0.006;
+    cam.pitch = Math.max(0.06, Math.min(1.35, cam.pitch + (e.clientY - lastY) * 0.005));
+    lastX = e.clientX; lastY = e.clientY;
+  });
+  canvas.addEventListener('wheel', function (e) {
+    e.preventDefault();
+    if (view === 'persp') cam.dist = Math.max(500, Math.min(3400, cam.dist * (1 + e.deltaY * 0.0011)));
+  }, { passive: false });
+
+  window.addEventListener('keydown', function (e) {
+    var k = e.key.toLowerCase();
+    if (k === '1') clickBtn('keyRow', 'data-key', 'P');
+    else if (k === '2') clickBtn('keyRow', 'data-key', 'D');
+    else if (k === '3') clickBtn('keyRow', 'data-key', 'GY');
+    else if (k === 'v') {
+      var order = ['persp', 'top', 'side'];
+      var nx = order[(order.indexOf(view) + 1) % 3];
+      clickBtn('viewRow', 'data-view', nx);
+    } else if (e.code === 'Space') {
+      e.preventDefault();
+      btnPlay.click();
+    }
+  });
+  function clickBtn(rowId, attr, val) {
+    var row = document.getElementById(rowId);
+    Array.prototype.forEach.call(row.children, function (c) {
+      var on = c.getAttribute(attr) === val;
+      c.classList.toggle('on', on);
+      if (on) c.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+    });
+  }
+
+  /* ======================= 主循环 ======================= */
+  var proj = mat4(), mv = mat4(), mvp = mat4();
+  var lastTime = 0;
+
+  function rebuild() { buildCurveVertices(); state.playT = 0; }
+
+  /* 滑块 input 事件在拖动时一帧能来好几个，用 rAF 合并成每帧一次重建。 */
+  var pendingRebuild = false;
+  var lastBuildAt = 0;
+  function scheduleRebuild() { pendingRebuild = true; }
+  /* 拖击球点滑块时单条主曲线要 9~23ms，逐帧重建会掉帧；
+     限流到约 22fps，视觉上仍是连续跟手。其它操作不限流。 */
+  function flushRebuild() {
+    if (!pendingRebuild) return;
+    var now = (typeof performance !== 'undefined' && performance.now) ? performance.now() : Date.now();
+    if (dragHitBusy && now - lastBuildAt < 45) return;
+    pendingRebuild = false;
+    lastBuildAt = now;
+    rebuild();
+  }
+
+  function resize() {
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.floor(canvas.clientWidth * dpr);
+    canvas.height = Math.floor(canvas.clientHeight * dpr);
+    gl.viewport(0, 0, canvas.width, canvas.height);
+  }
+  window.addEventListener('resize', resize);
+
+  function frame(now) {
+    var dt = lastTime ? Math.min((now - lastTime) / 1000, 0.05) : 0;
+    lastTime = now;
+
+    flushRebuild();
+    pumpFamily();
+
+    if (resizeNeeded()) resize();
+    var c = currentEye();
+    persp(proj, c.fov, canvas.width / Math.max(1, canvas.height), 8, 9000);
+    lookAt(mv, c.eye, c.ctr, c.up);
+    mul4(mvp, proj, mv);
+
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+
+    // 静态场景
+    for (var i = 0; i < sceneItems.length; i++) drawItem(sceneItems[i], mvp);
+
+    // 曲线簇
+    if (famCount) {
+      gl.depthMask(false);
+      drawItem({ mode: gl.LINES, buf: famBuf, count: famCount, pointSize: 1 }, mvp);
+      gl.depthMask(true);
+    }
+    // 主曲线
+    if (dynMain) drawItem(dynMain, mvp);
+
+    // 落点/击球点标记
+    if (dynMarker) drawItem(dynMarker, mvp);
+
+    // 飞行球
+    if (lastCurve) {
+      if (state.playing) {
+        state.playT += dt * state.speed;
+        if (state.playT > lastCurve.T + 0.6) state.playT = 0;
+      }
+      var b = buildBall(lastCurve, Math.min(state.playT, lastCurve.T));
+      gl.bindBuffer(gl.ARRAY_BUFFER, ballBuf);
+      gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(b.v), gl.DYNAMIC_DRAW);
+      var it = { mode: gl.LINES, buf: ballBuf, count: b.v.length / 7, pointSize: 1 };
+      drawItem(it, mvp);
+    }
+
+    requestAnimationFrame(frame);
+  }
+
+  var lastW = 0, lastH = 0;
+  function resizeNeeded() {
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var w = Math.floor(canvas.clientWidth * dpr), h = Math.floor(canvas.clientHeight * dpr);
+    if (w !== lastW || h !== lastH) { lastW = w; lastH = h; return true; }
+    return false;
+  }
+
+  resize();
+  syncHitSliders();
+  rebuild();
+  requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>
