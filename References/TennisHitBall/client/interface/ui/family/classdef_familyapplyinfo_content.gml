@@ -1,0 +1,70 @@
+//申请信息
+//夏洋洋 2010-3-9
+
+class VColumn_ApplyInfo_UI item
+{
+	size = "99%,28";//bgcolor = "#ff";
+	cursor = window.CURSOR_HAND;
+	void Init()
+	{
+		new VListBG2_UI{size="100%,27";}
+		staticvar s_SelectBK = new VPic3_ListBK1_UI{size = "100%,32";show = false;}//选中背景
+		staticvar _IMG = new VListSelect_UI{pos="0,4"; SetWidth(parent.width); show=false;}	//鼠标滑过效果
+
+		//申请信息
+		staticvar m_Text_ApplyInfo = new BaseText
+		{	
+			pos = "7,7";
+
+			void SetData(data1,data2)
+			{
+				src = "["+data1+"] 申请加入家族，您是否同意";
+			}
+		}
+	}
+	var _SelectState = false;
+	void OnMouseOver()
+	{
+		if(_SelectState == false){_IMG.show=true;}
+		window.PlaySound(144);
+	}
+	void OnMouseOut()
+	{
+		if(_SelectState == false){_IMG.show=false;}
+	}
+	//选择的效果
+	void OnMySelect()
+	{
+		s_SelectBK.show=true;
+		_IMG.show=false;
+		_SelectState = true;
+	}
+	//不 选择的效果
+	void OnMyUnSelect()
+	{
+		s_SelectBK.show=false;
+		_SelectState = false;
+	}
+}
+
+class VApplyInfoList_UI VN2ListCtrl
+{
+	//需要显示时改变
+	size="560,308"; pos="45,105"; valign(0,0);halign(0,0);
+	alpha = -1;bgcolor = -1;
+
+	//[功能]设置列表的位置
+	//[参数]data：列表的位置
+	//[返回值]无
+	void SetPos(data)
+	{
+		pos = data;
+	}
+	//[功能]设置列表的位置
+	//[参数]data：列表的位置
+	//[返回值]无
+	void SetSize(data)
+	{
+		size = data;
+	}
+}
