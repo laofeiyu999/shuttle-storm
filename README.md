@@ -22,7 +22,7 @@
 ```
 shuttle-storm/
 ├── README.md                                    本文件：仓库用途与目录说明
-├── .gitignore                                   临时文件、仿真产物、仅存本地的超大视频
+├── .gitignore                                   编辑器临时文件、仅存本地的超大视频
 │
 ├── Docs/                                        设计与验证文档（唯一真源）
 │   ├── 羽毛球大作战_游戏开发设计文档_V1.5.docx     当前版本：玩法、数值、弹道、判定、UI、性能、验收
@@ -30,6 +30,22 @@ shuttle-storm/
 │                                                历史档案，被 V1.5 取代，不再作为依据
 │
 ├── handoff/                                     每日交接文件（YYYY-MM-DD.md），与上方“项目进度”表对应
+│
+├── .ua/                                         AI 协作工作区：文档改版的中间产物（不是真源）
+│   └── v15/                                     V1.4 → V1.5 改版
+│       ├── v15_full.md                          V1.5 正文 Markdown 源（改文档改这里，再生成 docx）
+│       ├── build_docx.py                        md → docx 构建脚本（以 V1.4 docx 为样式模板）
+│       ├── v15_core.md                          V1.5 核心口径表（数值与术语的源头、禁用词表）
+│       ├── review_checklist.md                  大改决策审阅清单（F/D/N/X 编号，对应文档附录 B）
+│       ├── decisions_R1.md                      用户逐项拍板记录
+│       ├── user_directives.md                   用户总改指令原文
+│       ├── find_A.md ~ find_E.md                证据提炼：对话三段、动作图鉴、飞羽源码事实
+│       ├── dialog.md / map_total.md / map_rebuild.md / v14.md
+│       │                                        输入资料转写：思路对话、两份动作图鉴、V1.4 全文
+│       ├── draft/                               分章草稿 w0–w6（已合入 v15_full.md，仅备份）
+│       ├── task_plan.md                         改版阶段计划
+│       └── dump_docx.py / insp.py / insp_out.txt / pairs.json
+│                                                docx 转写与样式检查的辅助脚本及输出
 │
 ├── References/                                  第三方参考资料（只读，不参与构建）
 │   ├── fyqc/fyqc-client/                        飞羽青春客户端资源包（15302 个文件，不展开）
@@ -87,6 +103,7 @@ shuttle-storm/
 
 - **Docs/**：所有设计与验证信息以这里为准。文档与代码/注释冲突时，以文档正文为准；需要推翻条文时先补一条决策记录（`Docs/decisions/`），再改实现。
 - **handoff/**：每日交接文件，记录当天状态、文件位置、已定口径、待拍板问题和下一步。新开对话窗口或换人接手时，先读最新一份。
+- **.ua/**：AI 协作工作区，按任务分子目录（如 `v15/` 是 V1.5 改版），放证据提炼、决策记录、草稿、构建脚本等中间产物。这里的内容不是设计真源，冲突时以 `Docs/` 为准；但改版文档的 Markdown 源和构建脚本在这里，后续修订要从这里改。目前随仓库一起提交，游戏上线前再决定哪些改回只存本地。
 - **References/**：从外部拿到的参考资料，只用于比对字段、尺寸、动画命名与表现，分四类——
   - `fyqc/fyqc-client/`：飞羽青春客户端资源包，看资源组织、动画与曲线实现（`curve_reimpl/` 内有曲线复原笔记）；
   - `PureBadminton/`：反编译的 C# 源码，看对手 AI、击球判定与 UI 组织方式；
