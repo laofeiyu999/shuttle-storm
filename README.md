@@ -4,34 +4,90 @@
 
 ## 目录结构
 
+> 本树依据远程 `main`（`2025fd2`）实际内容列出，共 18191 个受版本管理的文件。
+>
+> 列出规则：`References/` 下三套第三方源码只列到顶层，不展开其内部模块；`References/游戏详细参考图与视频/` 完整展开每一个子目录；本仓库自有的 `Docs/`、`.dsh/skills/` 逐个列出。
+
 ```
 shuttle-storm/
-├── README.md                    本文件：仓库用途与目录说明
-├── .gitignore                   临时文件、仿真产物等忽略规则
+├── README.md                                    本文件：仓库用途与目录说明
+├── .gitignore                                   临时文件、仿真产物、仅存本地的超大视频
 │
-├── Docs/                        设计与验证文档（唯一真源）
-│   ├── 羽毛球大作战_游戏开发设计文档_V1.4(最终版).docx
-│                               游戏设计文档：玩法、数值、弹道、判定、UI、性能、验收
-│   
+├── Docs/                                        设计与验证文档（唯一真源）
+│   └── 羽毛球大作战_游戏开发设计文档_V1.4(最终版).docx
+│                                                玩法、数值、弹道、判定、UI、性能、验收
 │
-├── References/                  第三方参考资料（只读，不参与构建）
-│   └── fyqc/fyqc-client/        外部客户端资源包：动画、音频、模型、着色器、精灵、Python 脚本等
-│                                约 1.5 万个文件、数百 MB，随仓库版本管理但不受本项目维护
+├── References/                                  第三方参考资料（只读，不参与构建）
+│   ├── fyqc/fyqc-client/                        飞羽青春客户端资源包（15302 个文件，不展开）
+│   │                                            sprites 5007、textures 4455、materials 2244、
+│   │                                            emotion 1093、meshes 704、animations 696、
+│   │                                            text 281、shaders 254、python_src 248、
+│   │                                            video 85 / video_real 86、audio_wpk 80、
+│   │                                            curve_reimpl 50（曲线复原笔记）、replays 9…
+│   ├── PureBadminton/                           PureBadminton 反编译 C# 源码（423 个文件，不展开）
+│   │                                            Match 141、Utils 137、UI 50、Assembly-CSharp 40、
+│   │                                            CareerMenu 23、MainMenu 14、TournamentMenu 11…
+│   ├── TennisHitBall/                           TennisHitBall 的 GameMaker 工程（848 个 .gml，不展开）
+│   │                                            client/interface 726（ui 与 logic 各一套）、
+│   │                                            designerscript 75、game 22、mdbdef 11、npc 8…
+│   └── 游戏详细参考图与视频/                     美术与玩法参考图 / 视频（45 个文件，完整展开）
+│       ├── 飞羽青春/                            9：前/中/后场相机视角、登录与人物详情界面、
+│       │                                       能量条外观、室内球场场景、击球拖尾与球速（含 1080p 视频）
+│       ├── 网球宝贝/                            9：大厅、匹配 3D 场景、人物详情、开场动画、
+│       │                                       野球场画风、蓄力与球路弹道实操（1080p ×2 + 原画质 ×1）
+│       ├── qq炫舞手游/                          13：捏脸 / 面部预设 / 商城 / 背包界面、3D 人物、
+│       │                                       2D 立绘与横版海报、大厅子场景交互（含 1080p 视频）
+│       ├── 全明星街球派对/                      6：人物画风、人物与加速运球技能特效、
+│       │                                       回放 UI 与拖条、转场复位动效、操控区 UI（4 段视频）
+│       ├── 羽毛球大作战-游戏人物角色美术画风参考/  2：南瓜女孩 3D 建模后的游戏内呈现
+│       ├── 羽毛球大作战-游戏比赛场景地图参考全英赛锦标赛的现实图/
+│       │                                       5：真实国际赛场、进场烟花与球员投影大屏、低视角环绕运镜
+│       └── PureBadminton/                       1：实操与球路弹道、对战击球节奏（1080p）
 │
-├── .dsh/skills/                 项目级 AI 技能（随仓库版本管理）
-│   ├── SKILLS.md                技能清单：来源仓库、用途、前置条件、明确排除项
-│   ├── shuttle-storm-project/   项目总纲：真源位置、硬约束、目录与协作约定
-│   └── <第三方技能目录>/         如 unity-skills、blender-skills 等
+├── .dsh/skills/                                 项目级 AI 技能根（1570 个文件，19 个技能 + 清单）
+│   ├── SKILLS.md                                技能清单：来源仓库、用途、前置条件、明确排除项
+│   ├── shuttle-storm-project/                   项目总纲：真源位置、硬约束、目录与协作约定
+│   ├── understand-anything/                     代码库知识图谱与可浏览看板（后续 Unity/C# 与 sim 架构梳理）
+│   ├── diagram-design/                          架构图、回放时序、状态机图
+│   ├── blender-skills/                          3D 资产与动画管线（自制资产时用）
+│   ├── unity-skills/                            Unity 编辑器自动化 84 模块（正式开发阶段用）
+│   ├── gamedev-agent-skills/                    引擎无关手法 + skills/unity 专章
+│   ├── game-studio/                             浏览器游戏打法路由
+│   ├── planning-with-files/                     多步交付落盘 task_plan / findings / progress
+│   ├── higgsfield-game-generation/              浏览器游戏与素材生成（需 Higgsfield CLI）
+│   ├── game-engine/                             WebGL 游戏循环、相机、输入、渲染组织
+│   ├── brainstorming/                           新系统开工前的需求收敛
+│   ├── game-developer/                          Unity / 引擎实现模式速查
+│   ├── game-ui-design/                          界面视觉语言与可读性
+│   ├── game-design-theory/                      数值与循环设计推演
+│   ├── threejs-game-ui-designer/                仿真系统的 Three.js 场景、HUD、播控
+│   ├── game-ui-ux/                              HUD 信息层级、输入与状态流
+│   ├── game-feel/                               拖尾、落点提示、命中与死球反馈
+│   ├── karpathy-guidelines/                     防过度设计，界定可验证的成功标准
+│   └── ponytail/                                最小改动优先（lite / full / ultra）
 │
-└── sim/                         （规划中）仿真可视化系统：Three.js 场景 + 纯逻辑 domain
+└── sim/                                         （规划中）仿真可视化：Three.js 场景 + 纯逻辑 domain
 ```
 
 ### 各目录说明
 
 - **Docs/**：所有设计与验证信息以这里为准。文档与代码/注释冲突时，以文档正文为准；需要推翻条文时先补一条决策记录（`Docs/decisions/`），再改实现。
-- **References/**：从外部拿到的资源包，只用于比对字段、尺寸、动画命名与表现。目录不受本项目维护，改动会被后续覆盖；其中的素材许可与引擎归属尚未确认，对外分发前需自行核实。不要修改，也不要把其中资源复制进 `sim/`。
+- **References/**：从外部拿到的参考资料，只用于比对字段、尺寸、动画命名与表现，分四类——
+  - `fyqc/fyqc-client/`：飞羽青春客户端资源包，看资源组织、动画与曲线实现（`curve_reimpl/` 内有曲线复原笔记）；
+  - `PureBadminton/`：反编译的 C# 源码，看对手 AI、击球判定与 UI 组织方式；
+  - `TennisHitBall/`：GameMaker 工程（.gml），看体育类对局流程、大厅与训练玩法；
+  - `游戏详细参考图与视频/`：美术与玩法参考图、实操录像，按参考对象分 7 个子目录。
+
+  该目录不受本项目维护，改动会被后续覆盖；其中的素材许可与引擎归属尚未确认，对外分发前需自行核实。不要修改，也不要把其中资源复制进 `sim/`。
 - **.dsh/skills/**：项目级技能根，优先级高于用户级技能目录。只有在**本仓库根目录**打开 DSH 会话时才会加载，避免污染其他项目。第三方技能原样引入、不改写；项目自己的约定写在 `shuttle-storm-project` 技能里。新增或升级技能后，同步更新 `SKILLS.md`。
 - **sim/**（尚未创建）：仿真系统落地时的位置。规划上把“算曲线”的纯逻辑与 Three.js 渲染分开，前者不依赖浏览器、可单测，后者只负责把厘米真值转成米并绘制。
+
+### 大文件策略
+
+- GitHub 单文件硬上限 100MB，且本仓库的 Git LFS 免费额度已用尽，**LFS 不可用**。
+- 因此 `References/游戏详细参考图与视频/` 下的 5 个超大视频以 **1080p 转码版**（H.264 CRF26，合计约 142MB）入库，单文件最大 56MB。
+- 原始 4K/高清文件（合计约 787MB）只保留在本地磁盘，已由 `.gitignore` 排除；需要原画质时看本地文件，不要提交。
+- 新增参考素材前先确认体积：单文件超过 50MB 需先转码或与维护者确认。
 
 ## 约定
 
@@ -40,3 +96,4 @@ shuttle-storm/
 3. 修改规则时同步检查三处：设计文档条文、`sim/` 配置表、golden 测试。
 4. `sim/` 的逻辑层统一用 int32 厘米作真值，渲染层才转成米与浮点。
 5. 提交信息说明改了什么、为什么；一次性的大改动请拆成能单独回滚的提交。
+6. 目录结构变动后同步更新本文件的目录树，保持与远程实际内容一致。
