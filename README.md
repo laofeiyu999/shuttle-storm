@@ -93,8 +93,7 @@ shuttle-storm/
 │   ├── threejs-game-ui-designer/                仿真系统的 Three.js 场景、HUD、播控
 │   ├── game-ui-ux/                              HUD 信息层级、输入与状态流
 │   ├── game-feel/                               拖尾、落点提示、命中与死球反馈
-│   ├── karpathy-guidelines/                     防过度设计，界定可验证的成功标准
-│   └── ponytail/                                最小改动优先（lite / full / ultra）
+│   └── karpathy-guidelines/                     防过度设计，界定可验证的成功标准
 │
 └── sim/                                         （规划中）仿真可视化：Three.js 场景 + 纯逻辑 domain
 ```

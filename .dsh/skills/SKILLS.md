@@ -17,7 +17,6 @@
 | `brainstorming` | obra/superpowers | 新系统开工前的需求收敛 |
 | `planning-with-files` | OthmanAdi/planning-with-files | 多步交付落盘 task_plan / findings / progress |
 | `karpathy-guidelines` | multica-ai/andrej-karpathy-skills | 防过度设计，界定可验证的成功标准 |
-| `ponytail` | DietrichGebert/ponytail | 最小改动优先（lite/full/ultra） |
 | `diagram-design` | cathrynlavery/diagram-design | 架构图、回放时序、状态机图 |
 | `unity-skills` | Besty0728/Unity-Skills | Unity 编辑器自动化（84 模块：animator/ui/profiler/urp/test…），正式开发阶段用 |
 | `gamedev-agent-skills` | gamedev-skills/awesome-gamedev-agent-skills | 引擎无关手法 + skills/unity/ 专章（需 Unity 工程后启用） |
@@ -41,5 +40,6 @@
 ## 明确排除
 
 - `multiplayer-game`：正文要求先读 `BASE_SKILL.md`，且明确只适用于 **RivetKit** 平台，与本项目自研服务端冲突，不安装。
+- `ponytail`：2026-11-05 已删除（项目级与用户级 `~/.dsh/skills` 两处都删）。该技能主张“最小改动优先、能省就省”，会压缩输出与推演长度，与本项目“设计文档要写全、数值要推演到位、口径要逐条对齐”的要求相反，容易导致理解偏差和遗漏。删除后无功能依赖，摘除不影响任何既有流程。
 
-维护说明：升级技能时替换对应目录并同步更新本表；项目专属约定写在 `shuttle-storm-project` 与 `shuttle-storm-sim` 两个技能里，不直接改第三方 `SKILL.md`。
+维护说明：升级技能时替换对应目录并同步更新本表；项目专属约定写在 `shuttle-storm-project` 技能里，不直接改第三方 `SKILL.md`。
