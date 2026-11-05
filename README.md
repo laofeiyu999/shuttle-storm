@@ -78,7 +78,7 @@ shuttle-storm/
 │       │                                       5：真实国际赛场、进场烟花与球员投影大屏、低视角环绕运镜
 │       └── PureBadminton/                       1：实操与球路弹道、对战击球节奏（1080p）
 │
-├── .dsh/skills/                                 项目级 AI 技能根（1570 个文件，19 个技能 + 清单）
+├── .dsh/skills/                                 项目级 AI 技能根（1569 个文件，18 个技能 + 清单）
 │   ├── SKILLS.md                                技能清单：来源仓库、用途、前置条件、明确排除项
 │   ├── shuttle-storm-project/                   项目总纲：真源位置、硬约束、目录与协作约定
 │   ├── understand-anything/                     代码库知识图谱与可浏览看板（后续 Unity/C# 与 sim 架构梳理）
